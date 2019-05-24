@@ -1,6 +1,6 @@
-# 💻📖 hacker-laws
+# 💻📖 hacker-laws-tr
 
-Laws, Theories, Principles and Patterns that developers will find useful.
+Programcıların faydalı bulacağı yasalar, teoriler, ilkeler ve desenler.
 
 🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Xu](https://github.com/nusr)!
 
