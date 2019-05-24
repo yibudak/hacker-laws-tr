@@ -10,7 +10,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 * [Kanunlar](#kanunlar)
     * [Amdahl Kanunu](#amdahl-kanunu)
     * [Brooks Kanunu](#brooks-kanunu)
-    * [Conway's Law](#conways-law)
+    * [Conway Kanunu](#conway-kanunu)
     * [Hanlon's Razor](#hanlons-razor)
     * [Hofstadter's Law](#hofstadters-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
@@ -97,7 +97,7 @@ Conway kanunu der ki; üretilen sistemler kendilerini üreten organizasyonun tek
 
 Ek kaynaklar:
 
-- [The Spotify Model](#the-spotify-model)
+- [Spotify Modeli](#spotify-modeli)
 
 ### Hanlon's Razor
 
