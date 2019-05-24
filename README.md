@@ -74,7 +74,7 @@ Ek kaynaklar:
 
 ### Brooks Kanunu
 
-[Brooks' Law on Wikipedia](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
+[Wikipedia'da Brooks Kanunu](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
 
 > Gecikmesi kesinleşmiş projeye yeni insan kaynağı eklemek projeyi daha da geciktirir.
 
@@ -89,13 +89,13 @@ Ek kaynaklar:
 - [Death March](#todo)
 - [Reading List: The Mythical Man Month](#reading-list)
 
-### Conway's Law
+### Conway Kanunu
 
-[Conway's Law on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
+[Wikipedia'da Conway Kanunu](https://en.wikipedia.org/wiki/Conway%27s_law)
 
-This law suggests that the technical boundaries of a system will reflect the structure of the organisation. It is commonly referred to when looking at organisation improvements, Conway's Law suggests that if an organisation is structured into many small, disconnected units, the software it produces will be. If an organisation is built more around 'verticals' which are orientated around features or services, the software systems will also reflect this.
+Conway kanunu der ki; üretilen sistemler kendilerini üreten organizasyonun teknik sınırlarını yansıtır. Bu kanun daha çok organizasonel değişiklikler sırasında dikkate alınır. Eğer bir organizasyon birbirinden bağımsız küçük birimlerden oluşuyorsa üretilen yazılımlar da buna uygun olacaktır.  Eğer bu organizasyon servis odaklı dikey yapılandırılmışsa, yazılımlar bunu yansıtacaktır.
 
-See also:
+Ek kaynaklar:
 
 - [The Spotify Model](#the-spotify-model)
 
