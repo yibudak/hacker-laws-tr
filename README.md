@@ -7,10 +7,10 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 <!-- vim-markdown-toc GFM -->
 
 * [Giriş](#giriş)
-* [Kanunlar](#kanunlar)
-    * [Amdahl Kanunu](#amdahl-kanunu)
-    * [Brooks Kanunu](#brooks-kanunu)
-    * [Conway Kanunu](#conway-kanunu)
+* [Yasalar](#kanunlar)
+    * [Amdahl Yasası](#amdahl-yasasi)
+    * [Brooks Yasası](#brooks-yasasi)
+    * [Conway Yasası](#conway-yasasi)
     * [Hanlon's Razor](#hanlons-razor)
     * [Hofstadter's Law](#hofstadters-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
@@ -43,17 +43,17 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 
 İnsanların geliştirme hakkında konuşurken tartıştıkları birçok yasa var. Bu depo, en yaygın olanlardan bazılarının referanslarını ve özetini barındırır. Katkıda bulunmak için PR açıp gönderebilirsiniz!
 
-❗: Bu depo kanunların, prensiplerin ve modellerin bilgi vermek amaçlı açıklamalarını içerir ve hiçbirini savunma amacı gütmez. Bunların hangisinin uygulanıp uygulanmayacağı tamamen tartışma konusudur ve yapılan işe bağlıdır.
+❗: Bu depo yasaların, prensiplerin ve modellerin bilgi vermek amaçlı açıklamalarını içerir ve hiçbirini savunma amacı gütmez. Bunların hangisinin uygulanıp uygulanmayacağı tamamen tartışma konusudur ve yapılan işe bağlıdır.
 
-## Kanunlar
+## Yasalar
 
 Tek tek başlayalım!
 
-### Amdahl Kanunu
+### Amdahl Yasası
 
-[Wikipedia'da Amdahl Kanunu](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+[Wikipedia'da Amdahl Yasası](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 
-> Amdahl Kanunu kaynakları artırarak bir hesaplama işleminin _olası hızlanma miktarını_ hesaplayan bir formülü tanımlar. Genellikle paralel işleme hesaplarında kullanılır ve işlemci sayısının artırılmasının programın paralelleştirilebilme kapasitesine bağlı olarak etkisinin doğru şekilde saplanmasını sağlar.
+> Amdahl Yasası kaynakları artırarak bir hesaplama işleminin _olası hızlanma miktarını_ hesaplayan bir formülü tanımlar. Genellikle paralel işleme hesaplarında kullanılır ve işlemci sayısının artırılmasının programın paralelleştirilebilme kapasitesine bağlı olarak etkisinin doğru şekilde saplanmasını sağlar.
 
 En güzel şu örnekle anlatılabilir. Bir programın iki bölümden oluştuğunu düşünelim. Bölüm A sadece tek işlemci ile çalıştırılabilir. Bölüm B ise paralleştirilebilecek şekilde yazılmış. Bu durumda bu programı çok işlemci ile çalıştırdığımızda Bölüm B'de oluşacak kadar bir kazanım sağlayabiliriz. Bölüm A'da her hangi bir katkı olamaycaktır.
 
@@ -61,26 +61,26 @@ Aşağıdaki diyagram bazı olası hız geliştirmelerine örnekler içeriyor:
 
 ![Diyagram: Amdahl's Law](./images/amdahls_law.png)
 
-*(Diaygramın kaynağı: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
+*(Diyagramın kaynağı: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
 Diyagramdaki örneklerden görüldüğü üzere, eğer bir programın sadece %50'si paraleleştirilebiliyorsa 10 işlemciden sonra işlemci eklemek hızda gözle görünür bir artış sağlamıyor ama %95 paralelleştirilebilen bir programda 1000 işlemciden sonra bile işlemci eklemenin hızı artırdığı gözlenebilir.
 
-[Moore Kanununda](#moore-kanunu) söylenen artışın azalma eğiliminde olması ve aynı zamanda işlemci hızının artışında da ivme kaybı olması, paralelleştirilebilme özelliğini performans artışında anahtar duruma getirdi. Grafik programlama bu konuda en belirgin örnek. Shader tabanlı modern işleme ile pixel ve fragmanların paralel olarak render edilebilmesi sayesinde modern grafik kartlarında binlerce işlemci çekirdeği olabiliyor.
+[Moore Yasasında](#moore-yasasi) söylenen artışın azalma eğiliminde olması ve aynı zamanda işlemci hızının artışında da ivme kaybı olması, paralelleştirilebilme özelliğini performans artışında anahtar duruma getirdi. Grafik programlama bu konuda en belirgin örnek. Shader tabanlı modern işleme ile pixel ve fragmanların paralel olarak render edilebilmesi sayesinde modern grafik kartlarında binlerce işlemci çekirdeği olabiliyor.
 
 Ek kaynaklar:
 
-- [Brooks Kanunu](#brooks-kanunu)
-- [Moore Konunu](#moores-kanunu)
+- [Brooks Yasası](#brooks-yasasi)
+- [Moore Yasası](#moores-yasasi)
 
-### Brooks Kanunu
+### Brooks Yasası
 
-[Wikipedia'da Brooks Kanunu](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
+[Wikipedia'da Brooks Yasası](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
 
 > Gecikmesi kesinleşmiş projeye yeni insan kaynağı eklemek projeyi daha da geciktirir.
 
-Bu kanun, gecikmiş bir projeyi hızlandırmak için ek insan kaynağı koymanın projeyi daha geciktireceğini iddia ediyor. Brooks'a göre bunun gereksiz bir sadeleştirme olduğu kesin. Yeni katılanların adapte edilmesi ve iletişim karmaşası hemen etkisini göstererek hızın yavaşlamasına sebep olur. Ayrıca, yapılacak işlerin birçoğu genellikle daha küçük parçalara bölünemez ve birden fazla kaynak bu işlerin yapılması için kullanılmaz. Bu durum beklenen artışın sağlanmaması ile sonuçlanır.
+Bu yasa, gecikmiş bir projeyi hızlandırmak için ek insan kaynağı koymanın projeyi daha geciktireceğini iddia ediyor. Brook'a göre bunun gereksiz bir sadeleştirme olduğu kesin. Yeni katılanların adapte edilmesi ve iletişim karmaşası hemen etkisini göstererek hızın yavaşlamasına sebep olur. Ayrıca, yapılacak işlerin birçoğu genellikle daha küçük parçalara bölünemez ve birden fazla kaynak bu işlerin yapılması için kullanılmaz. Bu durum beklenen artışın sağlanmaması ile sonuçlanır.
 
-Meşhur "Dokuz kadın ile 1 ayda doğum sağlanamaz" deyimi bu kanunun en pratik anlatımıdır. Bazı işlerin bölünemediği veya paralelleştirilemediği gerçeğini unutmamak lazım.
+Meşhur "Dokuz kadın ile 1 ayda doğum sağlanamaz" deyimi bu yasanın en pratik anlatımıdır. Bazı işlerin bölünemediği veya paralelleştirilemediği gerçeğini unutmamak lazım.
 
 '[The Mythical Man Month](#reading-list)' adlı kitabın ana konularından biri budur.
 
@@ -89,11 +89,11 @@ Ek kaynaklar:
 - [Death March](#todo)
 - [Reading List: The Mythical Man Month](#reading-list)
 
-### Conway Kanunu
+### Conway Yasası
 
 [Wikipedia'da Conway Kanunu](https://en.wikipedia.org/wiki/Conway%27s_law)
 
-Conway kanunu der ki; üretilen sistemler kendilerini üreten organizasyonun teknik sınırlarını yansıtır. Bu kanun daha çok organizasonel değişiklikler sırasında dikkate alınır. Eğer bir organizasyon birbirinden bağımsız küçük birimlerden oluşuyorsa üretilen yazılımlar da buna uygun olacaktır.  Eğer bu organizasyon servis odaklı dikey yapılandırılmışsa, yazılımlar bunu yansıtacaktır.
+Conway yasasi der ki; üretilen sistemler kendilerini üreten organizasyonun teknik sınırlarını yansıtır. Bu yasa daha çok organizasonel değişiklikler sırasında dikkate alınır. Eğer bir organizasyon birbirinden bağımsız küçük birimlerden oluşuyorsa üretilen yazılımlar da buna uygun olacaktır.  Eğer bu organizasyon servis odaklı dikey yapılandırılmışsa, yazılımlar bunu yansıtacaktır.
 
 Ek kaynaklar:
 
