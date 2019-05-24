@@ -6,7 +6,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 
 <!-- vim-markdown-toc GFM -->
 
-* [Introduction](#introduction)
+* [Giriş](#giris)
 * [Laws](#laws)
     * [Amdahl's Law](#amdahls-law)
     * [Brooks' Law](#brooks-law)
@@ -39,9 +39,9 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 
 <!-- vim-markdown-toc -->
 
-## Introduction
+## Giriş
 
-There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
+İnsanların geliştirme hakkında konuşurken tartıştıkları birçok yasa var. Bu depo, en yaygın olanlardan bazılarının referanslarını ve özetini barındırır. Lütfen PR'ları paylaşın ve gönderin!
 
 ❗: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
 
