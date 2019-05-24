@@ -65,14 +65,14 @@ Aşağıdaki diyagram bazı olası hız geliştirmelerine örnekler içeriyor:
 
 Diyagramdaki örneklerden görüldüğü üzere, eğer bir programın sadece %50'si paraleleştirilebiliyorsa 10 işlemciden sonra işlemci eklemek hızda gözle görünür bir artış sağlamıyor ama %95 paralelleştirilebilen bir programda 1000 işlemciden sonra bile işlemci eklemenin hızı artırdığı gözlenebilir.
 
-As [Moore's Law](#moores-law) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
+[Moore Kanununda](#moore-kanunu) söylenen artış azalma eğiliminde olması ve aynı zamanda işlemci hızının artışında da ivme kaybı olması, paralelleştirilebilme özelliğini performans artışından anahtar duruma getirdi. Graphic programlama bu konuda en belirgin örnek. Shader tabanlı moder işleme ile pixel ve fragmanların paralel olarak render edilebilmesi sayesinde modern grafik kartlarında binlerce işlemci çekirdeği olabiliyor.
 
-See also:
+Ek kaynaklar:
 
-- [Brooks' Law](#brookss-law)
-- [Moore's Law](#moores-law)
+- [Brooks Kanunu](#brooks-kanunu)
+- [Moore Konunu](#moores-kanunu)
 
-### Brooks' Law
+### Brooks Kanunu
 
 [Brooks' Law on Wikipedia](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
 
