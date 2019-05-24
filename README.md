@@ -6,7 +6,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 
 <!-- vim-markdown-toc GFM -->
 
-* [Giriş](#giris)
+* [Giriş](#giriş)
 * [Laws](#laws)
     * [Amdahl's Law](#amdahls-law)
     * [Brooks' Law](#brooks-law)
