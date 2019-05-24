@@ -7,8 +7,8 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 <!-- vim-markdown-toc GFM -->
 
 * [Giriş](#giriş)
-* [Laws](#laws)
-    * [Amdahl's Law](#amdahls-law)
+* [Kanunlar](#kanunlar)
+    * [Amdahl Kanunu](#amdahl-kanunu)
     * [Brooks' Law](#brooks-law)
     * [Conway's Law](#conways-law)
     * [Hanlon's Razor](#hanlons-razor)
@@ -41,29 +41,29 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 
 ## Giriş
 
-İnsanların geliştirme hakkında konuşurken tartıştıkları birçok yasa var. Bu depo, en yaygın olanlardan bazılarının referanslarını ve özetini barındırır. Lütfen PR'ları paylaşın ve gönderin!
+İnsanların geliştirme hakkında konuşurken tartıştıkları birçok yasa var. Bu depo, en yaygın olanlardan bazılarının referanslarını ve özetini barındırır. Katkıda bulunmak için PR açıp gönderebilirsiniz!
 
-❗: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
+❗: Bu depo kanunların, prensiplerin ve modellerin bilgi vermek amaçlı açıklamalarını içerir ve hiçbirini savunma amacı gütmez. Bunların hangisinin uygulanıp uygulanmayacağı tamamen tartışma konusudur ve yapılan işe bağlıdır.
 
-## Laws
+## Kanunlar
 
-And here we go!
+Tek tek başlayalım!
 
-### Amdahl's Law
+### Amdahl Kanunu
 
-[Amdahl's Law on Wikipedia](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+[Wikipedia'da Amdahl Kanunu](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 
-> Amdahl's Law is a formula which shows the _potential speedup_ of a computational task which can be achieved by increasing the resources of a system. Normally used in parallel computing, it can predict the actual benefit of increasing the number of processors, which is limited by the parallelisability of the program.
+> Amdahl Kanunu kaynakları artırarak bir hesaplama işleminin _olası hızlanma miktarını_ hesaplayan bir formülü tanımlar. Genellikle paralel işleme hesaplarında kullanılır ve işlemci sayısının artırılmasının programın paralelleştirilebilme kapasitesine bağlı olarak etkisinin doğru şekilde saplanmasını sağlar.
 
-Best illustrated with an example. If a program is made up of two parts, part A, which must be executed by a single processor, and part B, which can be parallelised, then we see that adding multiple processors to the system executing the program can only have a limited benefit. It can potentially greatly improve the speed of part B - but the speed of part A will remain unchanged.
+En güzel şu örnekle anlatılabilir. Bir programın iki bölümden oluştuğunu düşünelim. Bölüm A sadece tek işlemci ile çalıştırılabilir. Bölüm B ise paralleştirilebilecek şekilde yazılmış. Bu durumda bu programı çok işlemci ile çalıştırdığımızda Bölüm B'de oluşacak kadar bir kazanım sağlayabiliriz. Bölüm A'da her hangi bir katkı olamaycaktır.
 
-The diagram below shows some examples of potential improvements in speed:
+Aşağıdaki diyagram bazı olası hız geliştirmelerine örnekler içeriyor:
 
-![Diagram: Amdahl's Law](./images/amdahls_law.png)
+![Diyagram: Amdahl's Law](./images/amdahls_law.png)
 
-*(Image Reference: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
+*(Diaygramın kaynağı: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
-As can be seen, even a program which is 50% parallelisable will benefit very little beyond 10 processing units, whereas a program which is 95% parallelisable can still achieve significant speed improvements with over a thousand processing units.
+Diyagramdaki örneklerden görüldüü üzere, eğer bir programın sadece %50'si paraleleştirilebiliyorsa 10 işlemciden sonra işlemci eklemek hızda gözle görünür bir artış sağlamıyor ama %95 paralelleştirilebilen bir programda bin işlemciden sonra bile işlemci eklemenin hızı artırdığı gözlenebilir.
 
 As [Moore's Law](#moores-law) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
 
