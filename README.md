@@ -9,7 +9,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 * [Giriş](#giriş)
 * [Kanunlar](#kanunlar)
     * [Amdahl Kanunu](#amdahl-kanunu)
-    * [Brooks' Law](#brooks-law)
+    * [Brooks Kanunu](#brooks-kanunu)
     * [Conway's Law](#conways-law)
     * [Hanlon's Razor](#hanlons-razor)
     * [Hofstadter's Law](#hofstadters-law)
@@ -76,15 +76,15 @@ Ek kaynaklar:
 
 [Brooks' Law on Wikipedia](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
 
-> Adding human resources to a late software development project makes it later.
+> Geçikmesi kesinleşmiş projeye yeni insan kaynağı eklemek projeyi daha da geciktirir.
 
-This law suggests that in many cases, attempting to accelerate the delivery of a project which is already late, by adding more people, will make the delivery even later. Brooks is clear that this is an over-simplification, however, the general reasoning is that given the ramp up time of new resources and the communication overheads, in the immediate short-term velocity decreases. Also, many tasks may not be divisible, i.e. easily distributed between more resources, meaning the potential velocity increase is also lower.
+Bu kanun, gecikmiş bir projeyi hızlandırmak için ek insan kaynağı koymanın projeyi daha geciktireceğini iddia ediyor. Brooks'a göre bunun gereksiz bir sadeleştirme olduğunu kesin. Yeni katılanların adapte edilmesi ve iletişim karmaşası hemen etkisini göstererek hızın yavaşlamasına sebep olur. Ayrıca, yapılacak işlerin birçoğu genellikle daha küçük parçalara bölünemez ve birden fazla kaynak bu işlerin yapılması için kullanılmaz. Bu durum beklenen artışın sağlanmaması ile sonuçlanır.
 
-The common phrase in delivery "Nine women can't make a baby in one month" relates to Brooks' Law, in particular, the fact that some kinds of work are not divisible or parallelisable.
+Meşhur "Dokuz kadın ile 1 ayda doğum sağlanamaz" deyimi bu kanunun en pratik anlatımıdır. Bazı işlerin bölünemediği veya paralelleştirilemediği gerçeğini unutmamk lazım.
 
-This is a central theme of the book '[The Mythical Man Month](#reading-list)'.
+'[The Mythical Man Month](#reading-list)' adlı kitabın ana konularından biri budur.
 
-See also:
+Ek kaynaklar:
 
 - [Death March](#todo)
 - [Reading List: The Mythical Man Month](#reading-list)
