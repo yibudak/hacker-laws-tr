@@ -11,7 +11,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, ilkeler ve desenler.
     * [Amdahl Yasası](#amdahl-yasasi)
     * [Brooks Yasası](#brooks-yasasi)
     * [Conway Yasası](#conway-yasasi)
-    * [Hanlon's Razor](#hanlons-razor)
+    * [Hanlon'un Usturası](#hanlonun-usturası)
     * [Hofstadter's Law](#hofstadters-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
@@ -99,15 +99,15 @@ Ek kaynaklar:
 
 - [Spotify Modeli](#spotify-modeli)
 
-### Hanlon's Razor
+### Hanlon'un Usturası
 
 [Hanlon's Razor on Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 
-> Never attribute to malice that which is adequately explained by stupidity.
+> Aptallıkla layıkıyla açıklanabilecek bir şeyi, asla kötü niyete bağlamayın.
 >
 > Robert J. Hanlon
 
-This principle suggests that actions resulting in a negative outcome were not a result of ill will. Instead the negative outcome is more likely attributed to those actions and/or the impact being not fully understood.
+Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin sonucu olmadığını savunmaktadır. Aksine, olumsuz sonuç daha büyük olasılıkla bu eylemlerin ve/veya etkinin tam olarak anlaşılamamasına bağlıdır..
 
 ### Hofstadter's Law
 
