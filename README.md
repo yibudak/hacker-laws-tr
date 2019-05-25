@@ -1,6 +1,6 @@
 # 💻📖 hacker-laws-tr
 
-Programcıların faydalı bulacağı yasalar, teoriler, ilkeler ve desenler.
+Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 
 🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Xu](https://github.com/nusr)!
 
@@ -12,7 +12,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, ilkeler ve desenler.
     * [Brooks Yasası](#brooks-yasasi)
     * [Conway Yasası](#conway-yasasi)
     * [Hanlon'un Usturası](#hanlonun-usturası)
-    * [Hofstadter's Law](#hofstadters-law)
+    * [Hofstadter Yasası](#hofstadter-yasasi)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Moore's Law](#moores-law)
@@ -101,7 +101,7 @@ Ek kaynaklar:
 
 ### Hanlon'un Usturası
 
-[Hanlon's Razor on Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
+[Wikipedia'da Hanlon'un Usturası](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 
 > Aptallıkla layıkıyla açıklanabilecek bir şeyi, asla kötü niyete bağlamayın.
 >
@@ -109,19 +109,19 @@ Ek kaynaklar:
 
 Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin sonucu olmadığını savunmaktadır. Aksine, olumsuz sonuç daha büyük olasılıkla bu eylemlerin ve/veya etkinin tam olarak anlaşılamamasına bağlıdır..
 
-### Hofstadter's Law
+### Hofstadter Yasası
 
-[Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
+[Wikipedia'da Hofstadter Yasası](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
-> It always takes longer than you expect, even when you take into account Hofstadter's Law.
+> Bir iş her zaman umduğundan daha uzun sürer, Hofstadter yasasını gözönünde bulundursan bile. 
 >
 > Douglas Hofstadter
 
-You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
+Bu yasayı bir işin ne kadar süreceğini tahminlenirken hatırlatıldığı için duymuş olabilirsiniz. Herkesin kabul bir gerçek var ki, yazılım geliştirmede en kötü olduğumuz alan işin ne kadar sürede biteceğini tahmin etmektir.
 
-This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)'.
+'[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)' adlı kitaptan alıntı.
 
-See also:
+Ek kaynaklar:
 
 - [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
 
