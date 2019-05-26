@@ -13,7 +13,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Conway Yasası](#conway-yasası)
     * [Hanlon'un Usturası](#hanlonun-usturası)
     * [Hofstadter Yasası](#hofstadter-yasası)
-    * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
+    * [Hype Döngüsü ve Amara Yasası](#hype-döngüsü--amara-yasası)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Moore's Law](#moores-law)
     * [Parkinson's Law](#parkinsons-law)
@@ -125,21 +125,21 @@ Ek kaynaklar:
 
 - [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
 
-### The Hype Cycle & Amara's Law
+### Hype Döngüsü ve Amara Yasası
 
-[The Hype Cycle on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
+[Wikipedia'da Hype Döngüsü](https://en.wikipedia.org/wiki/Hype_cycle)
 
-> We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.
+> Bir teknolojinin kısa vadede oluşacak etkisini abartıp, uzun vadede oluşacak etkisini hafife alıyoruz.
 >
 > (Roy Amara)
 
-The Hype Cycle is a visual representation of the excitement and development of technology over time, originally produced by Gartner. It is best shown with a visual:
+Hype Döngüsü bir teknolojinin zamanla yarattığı heyecan ve gelişiminin görsel olarak sunumudur ve Gartner tarafından ilk olarak oluşturulmuştur. En güzel anlatım aşağıdaki bir görsel ile yapılabilir:
 
-![The Hype Cycle](./images/gartner_hype_cycle.png)
+![Hype Döngüsü](./images/gartner_hype_cycle.png)
 
-*(Image Reference: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
+*(Resmin Kaynağı: Jeremykemp tarafından İngilizce Wikipeda'da, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 
-In short, this cycle suggests that there is typically a burst of excitement around new technology and its potential impact. Teams often jump into these technologies quickly, and sometimes find themselves disappointed with the results. This might be because the technology is not yet mature enough, or real-world applications are not yet fully realised. After a certain amount of time, the capabilities of the technology increase and practical opportunities to use it increase, and teams can finally become productive. Roy Amara's quote sums this up most succinctly - "We tend to overestimate the effect of a technology in the short run and underestimate in the long run".
+Kısaca anlatmak gerekirse, bu döngü her yeni teknolojinin ilk zamanlarında teknolojinin kendisi ve olası etkisi üzerinde bir heyecan dalgası oluştuğunu iddia ediyor. Ekipler yeni teknolojiler hemen kullanmaya çalışıyorlar ve genelde kendilerini sonuçtan memnun olmamış bir halde buluyorlar. Bu ya teknolojinin henüz olgunlaşmamış olmasından, ya da uygulamanın tam anlamıyla gerçekleşmemiş olmasından olabilir. Belirli bir süre geçtikten sonra, teknolojinin yeterliliği ve pratik kullanım alanları artar ve ekipler daha üretken olmaya başlar. Roy Amara'nın sözü bu durumu en özlü şekilde toparlıyor diyebiliriz - "Bir teknolojinin kısa vadede oluşacak etkisini abartıp, uzun vadede oluşacak etkisini hafife alıyoruz".
 
 ### Hyrum's Law (The Law of Implicit Interfaces)
 
