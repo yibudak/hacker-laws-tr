@@ -13,7 +13,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Conway Yasası](#conway-yasası)
     * [Hanlon'un Usturası](#hanlonun-usturası)
     * [Hofstadter Yasası](#hofstadter-yasası)
-    * [Hype Döngüsü ve Amara Yasası](#hype-döngüsü--amara-yasası)
+    * [Hype Döngüsü ve Amara Yasası](#hype-döngüsü-ve-amara-yasası)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Moore's Law](#moores-law)
     * [Parkinson's Law](#parkinsons-law)
