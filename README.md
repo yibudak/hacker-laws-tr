@@ -200,7 +200,7 @@ Bununla birlikte, bunun gibi yasaların çok büyük genellemeler olduğu ve baz
 Ek kaynaklar:
 
 - [Peter Prensibi](#TODO)
-- [Dilbert Yasası](#TODO).
+- [Dilbert Yasası](#TODO)
 
 
 ### The Law of Conservation of Complexity (Tesler's Law)
