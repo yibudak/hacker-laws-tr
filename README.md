@@ -17,7 +17,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Hofstadter Yasası](#hofstadter-yasası)
     * [Hype Döngüsü ve Amara Yasası](#hype-döngüsü-ve-amara-yasası)
     * [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrum-yasası-arabirimlerin-örtülü-hukuku)
-    * [Moore's Law](#moores-law)
+    * [Moore Yasası](#moore-yasası)
     * [Parkinson's Law](#parkinsons-law)
     * [Putt's Law](#putts-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
@@ -161,13 +161,13 @@ Ek kaynaklar:
 - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
 - [XKCD 1172](https://xkcd.com/1172/)
 
-### Moore's Law
+### Moore Yasası
 
-[Moore's Law on Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
+[Wikipedia'da Moore Yasası](https://en.wikipedia.org/wiki/Moore%27s_law)
 
-> The number of transistors in an integrated circuit doubles approximately every two years.
+> Entegre devre içerisindeki transistörlerin sayısı yaklaşık olarak iki yılda bir ikiye katlanır.
 
-Often used to illustrate the sheer speed at which semiconductor and chip technology has improved, Moore's prediction has proven to be highly accurate over from the 1970s to the late 2000s. In more recent years, the trend has changed slightly, partly due to [physical limitations on the degree to which components can be miniaturised](https://en.wikipedia.org/wiki/Quantum_tunnelling). However, advancements in parallelisation, and potentially revolutionary changes in semiconductor technology and quantum computing may mean that Moore's Law could continue to hold true for decades to come.
+Çoğu zaman yarı-iletken ve çip teknolojisinin gelişim hızını tahmin etmek için kullanılan Moore yasasının, 1970'lerden 2000'lerin sonlarına doğru oldukça doğru olduğu biliyoruz. Son yıllarda, [komponentlerin küçülmesinde fiziksel sınırlara ulaşıldığı için](https://en.wikipedia.org/wiki/Quantum_tunnelling) bu tahminlemenin tutmadığını da söyleyebiliriz. Ama paralleştirmede uzmanlaşılması ve yarı-iletken teknolojilerindeki devrim potensiyelindeki değişiklikler Moore Yasası'nın yakın zamanda tekrar doğrulanacağını tahminler yapabileceğini düşünebiliriz.
 
 ### Parkinson's Law
 
