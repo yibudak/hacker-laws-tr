@@ -19,7 +19,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrum-yasası-arabirimlerin-örtülü-hukuku)
     * [Moore Yasası](#moore-yasası)
     * [Parkinson Yasası](#parkinson-yasası)
-    * [Putt's Law](#putts-law)
+    * [Putt Yasası](#putt-yasası)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
     * [The Law of Triviality](#the-law-of-triviality)
@@ -183,24 +183,24 @@ Ek kaynaklar:
 
 - [Hofstadter Yasası](#hofstadter-yasası)
 
-### Putt's Law
+### Putt Yasası
 
-[Putt's Law on Wikipedia](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
+[Wikipedia'da Putt Yasası](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
 
-> Technology is dominated by two types of people, those who understand what they do not manage and those who manage what they do not understand.
+> Teknolojide iki tür insan egemendir, yönetmedikleri şeyleri anlayanlar ve anlamadıkları şeyleri yönetenler.
 
-Putt's Law is often followed by Putt's Corollary:
+Putt yasasını çoğunlukla Putt sonucu takip eder:
 
-> Every technical hierarchy, in time, develops a competence inversion.
+> Her teknik hiyerarşi, zaman içinde bir yetkinlik dönüşümü geliştirir.
 
-These statements suggest that due to various selection criteria and trends in how groups organise, there will be a number of skilled people at working levels of a technical organisations, and a number of people in managerial roles who are not aware of the complexities and challenges of the work they are managing. This can be due to phenomena such as [The Peter Principle](#TODO) or [Dilbert's Law](#TODO).
+Bu iki cümle, ekiplerin oluşturulmasında rol alan farklı seçim kriterleri ve eğilimlerden dolayı, bir organizasyonda çalışma katmanlarında çok sayıda yetenekli insan olduğu gibi yönetim katmanlarında da yapılan işin karmaşıklığından ve zorluklarından haberdar olmayan yöneticiler olacaktır. Bunun sebebi [Peter Prensibi](#TODO) or [Dilbert Yasası](#TODO) gibi olgular olabilir.
 
-However, it should be stressed that Laws such as this are vast generalisations and may apply to _some_ types of organisations, and not apply to others.
+Bununla birlikte, bunun gibi yasaların çok büyük genellemeler olduğu ve bazı organizasyon türleri için geçerli olabileceği gibi başkaları için geçerli olmayacağı unutulmamalıdır.
 
-See also:
+Ek kaynaklar:
 
-- [The Peter Principle](#TODO)
-- [Dilbert's Law](#TODO).
+- [Peter Prensibi](#TODO)
+- [Dilbert Yasası](#TODO).
 
 
 ### The Law of Conservation of Complexity (Tesler's Law)
