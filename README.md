@@ -18,7 +18,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Hype Döngüsü ve Amara Yasası](#hype-döngüsü-ve-amara-yasası)
     * [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrum-yasası-arabirimlerin-örtülü-hukuku)
     * [Moore Yasası](#moore-yasası)
-    * [Parkinson's Law](#parkinsons-law)
+    * [Parkinson Yasası](#parkinson-yasası)
     * [Putt's Law](#putts-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
