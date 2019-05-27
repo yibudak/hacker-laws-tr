@@ -16,7 +16,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Hanlon'un Usturası](#hanlonun-usturası)
     * [Hofstadter Yasası](#hofstadter-yasası)
     * [Hype Döngüsü ve Amara Yasası](#hype-döngüsü-ve-amara-yasası)
-    * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
+    * [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrum-yasası-arabirimlerin-örtülü-hukuku)
     * [Moore's Law](#moores-law)
     * [Parkinson's Law](#parkinsons-law)
     * [Putt's Law](#putts-law)
@@ -143,20 +143,20 @@ Hype Döngüsü bir teknolojinin zamanla yarattığı heyecan ve gelişiminin g�
 
 Kısaca anlatmak gerekirse, bu döngü her yeni teknolojinin ilk zamanlarında teknolojinin kendisi ve olası etkisi üzerinde bir heyecan dalgası oluştuğunu iddia ediyor. Ekipler yeni teknolojiler hemen kullanmaya çalışıyorlar ve genelde kendilerini sonuçtan memnun olmamış bir halde buluyorlar. Bu ya teknolojinin henüz olgunlaşmamış olmasından, ya da uygulamanın tam anlamıyla gerçekleşmemiş olmasından olabilir. Belirli bir süre geçtikten sonra, teknolojinin yeterliliği ve pratik kullanım alanları artar ve ekipler daha üretken olmaya başlar. Roy Amara'nın sözü bu durumu en özlü şekilde toparlıyor diyebiliriz - "Bir teknolojinin kısa vadede oluşacak etkisini abartıp, uzun vadede oluşacak etkisini hafife alıyoruz".
 
-### Hyrum's Law (The Law of Implicit Interfaces)
+### Hyrum Yasası (Arabirimlerin Örtülü Hukuku)
 
-[Hyrum's Law Online](http://www.hyrumslaw.com/)
+[Hyrum Yasası Web Sitesi](http://www.hyrumslaw.com/)
 
-> With a sufficient number of users of an API,
-> it does not matter what you promise in the contract:
-> all observable behaviours of your system
-> will be depended on by somebody.
+> Belli sayıda kullanıcıya ulaştığında,
+> servis sözleşmesinde ne demiş olduğunuzdan bağımsız olarak
+> ürününüzün ya da sisteminizin bütün gözlemlenebilir davranışları
+> artık üçüncü kişilere göre şekillenecektir.
 >
 > (Hyrum Wright)
 
-Hyrum's Law states that when you have a _large enough number of consumers_ of an API, all behaviours of the API (even those not defined as part of a public contract) will eventually come to be depended on by someone. A trivial example may be non-functional elements such as the response time of an API. A more subtle example might be consumers who are relying on applying a regex to an error message to determine the *type* of error of an API. Even if the public contract of the API states nothing about the contents of the message, indicating users should use an associated error code, _some_ users may use the message, and changing the message essentially breaks the API for those users.
+Hyrum Yasası göre, eğer bir API'nin _oldukça büyük sayılabilecek sayıda kullnıcısı_ olduğunda, artık bütün sonuçlar ve davranışlar (API sözleşmesinde belirtilmemiş olsalar bile) kullanıcılara göre şekillenecektir. Buna bir örnek olarak bir API'nin tepki süresi olabilir. Daha kapsamlı bir örnek olarak kullanıcıların bir regex ile dönen cevap metninin içinden hatanın tipini ayıkladıkları bir senaryoyu düşünelim. API sözleşmesinde bu cevap metinleri ile ilgili birşey belirtilmemiş olmasına ve kullanıcıların hata kodunu kullanmalarını belirtilmesine rağmen, cevap metnini değiştirmeniz _bazı_ kullanıcıların metni kullanmalarından dolayı hata ile karşılaşmalarına sebep olacaktır.
 
-See also:
+Ek kaynaklar:
 
 - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
 - [XKCD 1172](https://xkcd.com/1172/)
