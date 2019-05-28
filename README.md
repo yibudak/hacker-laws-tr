@@ -21,7 +21,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Parkinson Yasası](#parkinson-yasası)
     * [Putt Yasası](#putt-yasası)
     * [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#karmaşıklığın-korunması-yasası-tesler-yasası)
-    * [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamar-yasası)
+    * [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
     * [The Law of Triviality](#the-law-of-triviality)
     * [The Unix Philosophy](#the-unix-philosophy)
     * [The Spotify Model](#the-spotify-model)
