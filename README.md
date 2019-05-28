@@ -217,7 +217,7 @@ O yasanın farklı bir yansıması olarak şöyle düşünülebilir, eğer bir k
 
 [Sızdıran Soyutlamalar Yasası, Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
-> Önemsiz sayılmayacak bütün soyutlamar belli ölçüde açık barındırır.
+> Önemsiz sayılmayacak bütün soyutlamar belli ölçüde sızıntı içerir.
 >
 > (Joel Spolsky)
 
