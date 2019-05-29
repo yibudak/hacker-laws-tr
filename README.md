@@ -25,7 +25,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Önemsizlik Yasası](#önemsizlik-yasası)
     * [Unix Felsefesi](#unix-felsefesi)
     * [Spotify Modeli](#spotify-modeli)
-    * [Wadler's Law](#wadlers-law)
+    * [Wadler Yasası](#wadlers-yasası)
 * [Principles](#principles)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
@@ -263,24 +263,24 @@ Spotify Modeli Spotify'daki uygulamasından dolayı popüler olmuş ekip ve orga
 
 Spotify Modeli kabileler (Tribes), birlikler (Guilds) ve kısımlar (Chapter) gibi organizasyon yapısında kullanılacak öğeleri de yaygın hale getirdi.
 
-### Wadler's Law
+### Wadler Yasası
 
-[Wadler's Law on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
+[Wadler Yasası, wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
 
-> In any language design, the total time spent discussing a feature in this list is proportional to two raised to the power of its position.
+> Herhangi bir programlama dilini tasarlarken, aşağıdaki listedeki herhangi bir özelliği tartışmak için harcanan zaman iki üzeri özelliğin listeki sırası ile dopru orantılıdır.
 > 
-> 0. Semantics
-> 1. Syntax
-> 2. Lexical syntax
-> 3. Lexical syntax of comments
+> 0. Semantik
+> 1. Genel sözdizimi
+> 2. Sözcük sözdizimi
+> 3. Yorumlardaki sözcük sözdizimi
 > 
-> (In short, for every hour spent on semantics, 8 hours will be spent on the syntax of comments).
+> (Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır.)
 
-Similar to [The Law of Triviality](#the-law-of-triviality), Wadler's Law states what when designing a language, the amount of time spent on language structures is disproportionately high in comparison to the importance of those features.
+[Önemsizlik Yasasında](#önemsizlik-yasası) öne sürülene benzer olarak, Wadler Yasası yeni bir programlama dili tasarlanırken konunun önemi ile o konu için harcanan zaman ters orantılı olduğunu söylüyor.
 
-See also:
+Ek kaynaklar:
 
-- [The Law of Triviality](#the-law-of-triviality)
+- [Önemsizlik Yasası](#önemsizlik-yasası)
 
 ## Principles
 
