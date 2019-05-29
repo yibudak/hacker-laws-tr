@@ -25,7 +25,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Önemsizlik Yasası](#önemsizlik-yasası)
     * [Unix Felsefesi](#unix-felsefesi)
     * [Spotify Modeli](#spotify-modeli)
-    * [Wadler Yasası](#wadlers-yasası)
+    * [Wadler Yasası](#wadler-yasası)
 * [Principles](#principles)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
