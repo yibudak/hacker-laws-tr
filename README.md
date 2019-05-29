@@ -253,7 +253,7 @@ Bu kurgu örnek 'Bike Shedding' diye bir deyimin yaygınlaşmasına sebep olmuş
 
 Unix felsefesi şöyle özetlenebilir; Bir yazılım parçası olabildiğince küçük olmalı ve sadece bir işi yapmaya odaklanmalıdır. Bu felsefeye uymak sistemleri büyük, karmaşık ve çok amaçlı programlarla oluşturmak yerine küçük, basit ve iyi tanımlanmış parçalardan daha kolayca oluşturmayı sağlar.
 
-'Mikro-service Mimarisi' gibi modern yaklaşımlarda bu felesefenin uygulaması olarak düşünülebilir. Çünkü bu mimari servislerin küçük, amaç odaklı ve tek bir iş yapacak şekilde geliştirilmesini ve karmaşık yapıların küçük basit bloklar halinde geliştirilmesini hedefliyor.
+Modern yaklaşımlardan biri olan 'Mikro-service Mimarisi' de bu felesefenin uygulaması olarak düşünülebilir. Çünkü bu mimari ile servislerin küçük, amaç odaklı ve tek bir iş yapacak şekilde geliştirilmesi ve karmaşık yapıların küçük basit bloklar halinde oluşturulması hedefleniyor.
 
 ### The Spotify Model
 
