@@ -23,7 +23,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#karmaşıklığın-korunması-yasası-tesler-yasası)
     * [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
     * [Önemsizlik Yasası](#önemsizlik-yasası)
-    * [The Unix Philosophy](#the-unix-philosophy)
+    * [Unix Felsefesi](#unix-felsefesi)
     * [The Spotify Model](#the-spotify-model)
     * [Wadler's Law](#wadlers-law)
 * [Principles](#principles)
@@ -247,13 +247,13 @@ En çok kullanılan kurgu örnek nükleer enerji reaktörünü onaylayacak olan 
 
 Bu kurgu örnek 'Bike Shedding' diye bir deyimin yaygınlaşmasına sebep olmuştur. Türkçe'deki 'pire için yorgan yakmak' ya da 'attığın taş ürküttüğün kurbayağa değsin' gibi deyimlere benzer.
 
-### The Unix Philosophy
+### Unix Felsefesi
 
-[The Unix Philosophy on Wikipedia](https://en.wikipedia.org/wiki/Unix_philosophy)
+[Wikipedia'da Unix Felsefesi](https://en.wikipedia.org/wiki/Unix_philosophy)
 
-The Unix Philosophy is that software components should be small, and focused on doing one specific thing well. This can make it easier to build systems by composing together small, simple, well-defined units, rather than using large, complex, multi-purpose programs.
+Unix felsefesi şöyle özetlenebilir; Bir yazılım parçası olabildiğince küçük olmalı ve sadece bir işi yapmaya odaklanmalıdır. Bu felsefeye uymak sistemleri büyük, karmaşık ve çok amaçlı programlarla oluşturmak yerine küçük, basit ve iyi tanımlanmış parçalardan daha kolayca oluşturmayı sağlar.
 
-Modern practices like 'Microservice Architecture' can be thought of as an application of this law, where services are small, focused and do one specific thing, allowing complex behaviour to be composed of simple building blocks.
+'Mikro-service Mimarisi' gibi modern yaklaşımlarda bu felesefenin uygulaması olarak düşünülebilir. Çünkü bu mimari servislerin küçük, amaç odaklı ve tek bir iş yapacak şekilde geliştirilmesini ve karmaşık yapıların küçük basit bloklar halinde geliştirilmesini hedefliyor.
 
 ### The Spotify Model
 
