@@ -24,7 +24,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
     * [Önemsizlik Yasası](#önemsizlik-yasası)
     * [Unix Felsefesi](#unix-felsefesi)
-    * [The Spotify Model](#the-spotify-model)
+    * [Spotify Modeli](#spotify-modeli)
     * [Wadler's Law](#wadlers-law)
 * [Principles](#principles)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
@@ -255,13 +255,13 @@ Unix felsefesi şöyle özetlenebilir; Bir yazılım parçası olabildiğince k�
 
 Modern yaklaşımlardan biri olan 'Mikro-service Mimarisi' de bu felesefenin uygulaması olarak düşünülebilir. Çünkü bu mimari ile servislerin küçük, amaç odaklı ve tek bir iş yapacak şekilde geliştirilmesi ve karmaşık yapıların küçük basit bloklar halinde oluşturulması hedefleniyor.
 
-### The Spotify Model
+### Spotify Modeli
 
-[The Spotify Model on Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
+[Spotify Modeli, Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
 
-The Spotify Model is an approach to team and organisation structure which has been popularised by 'Spotify'. In this model, teams are organised around features, rather than technologies.
+Spotify Modeli Spotify'daki uygulamasından dolayı popüler olmuş ekip ve organizasyon yapıları için yeni bir yaklaşımdır. Model basitçe ekiplerin teknolojilere göre değil de özellikler etrafında organize edilmesidir.
 
-The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, which are other components of their organisation structure.
+Spotify Modeli kabileler (Tribes), birlikler (Guilds) ve kısımlar (Chapter) gibi organizasyon yapısında kullanılacak öğeleri de yaygın hale getirdi.
 
 ### Wadler's Law
 
