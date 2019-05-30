@@ -288,7 +288,7 @@ Prensiplerin genellikle tasarıma ilişkin rehberdir.
 
 ### Pareto Prensibi (80/20 Kuralı)
 
-[The Pareto Principle on Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
+[Wikipedia'da Pareto Prensibi](https://en.wikipedia.org/wiki/Pareto_principle)
 
 > Hayattaki çoğu şey eşit dağılmaz.
 
