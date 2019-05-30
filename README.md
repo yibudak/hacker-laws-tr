@@ -26,8 +26,8 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Unix Felsefesi](#unix-felsefesi)
     * [Spotify Modeli](#spotify-modeli)
     * [Wadler Yasası](#wadler-yasası)
-* [Principles](#principles)
-    * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
+* [Prensipler](#prensipler)
+    * [Pareto Prensibi (80/20 Kuralı)](#pareto-prensibi-8020-kuralı)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     * [SOLID](#solid)
     * [The Single Responsibility Principle](#the-single-responsibility-principle)
@@ -282,31 +282,31 @@ Ek kaynaklar:
 
 - [Önemsizlik Yasası](#önemsizlik-yasası)
 
-## Principles
+## Prensipler
 
-Principles are generally more likely to be guidelines relating to design.
+Prensiplerin genellikle tasarıma ilişkin rehberdir.
 
-### The Pareto Principle (The 80/20 Rule)
+### Pareto Prensibi (80/20 Kuralı)
 
 [The Pareto Principle on Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
 
-> Most things in life are not distributed evenly.
+> Hayattaki çoğu şey eşit dağılmaz.
 
-The Pareto Principle suggests that in some cases, the majority of results come from a minority of inputs:
+Pareto Prensibi der ki, çıktıların öenmli bir çoğunluğu girdilerin çok azı tarafından oluşturulur:
 
-- 80% of a certain piece of software can be written in 20% of the total allocated time (conversely, the hardest 20% of the code takes 80% of the time)
-- 20% of the effort produces 80% of the result
-- 20% of the work creates 80% of the revenue
-- 20% of the bugs cause 80% of the crashes
-- 20% of the features cause 80% of the usage
+- Bir yazılımın 80%'i harcanan zamanın %20'sinde yazılır (bir başka deyişle, kodun en zor %20'lik bölümü haracanan zamanın %80'inde yazılır)
+- Harcanan eforun %20'si sonucun %80'ini oluşturur
+- Yapılan işin %20'si gelirin %80'ini oluşturur
+- Koddaki hataların %20'si sistem sorunlarının %80'ini oluşturur
+- Özelliklerin %20'si hizmetin %80'ini oluşturur
 
-In the 1940s American-Romanian engineer Dr. Joseph Juran, who is widely credited with being the father of quality control, [began to apply the Pareto principle to quality issues](https://en.wikipedia.org/wiki/Joseph_M._Juran).
+1940'lı yıllarda Romanya kökenli Amerikalı mühendis Dr. Joseph Juran, kendisi kalite kontrolün babası olarak nitelendirilir, [kalite kontrol sorunlarında Pareto Prensibini kullanmaya başladı](https://en.wikipedia.org/wiki/Joseph_M._Juran).
 
-This principle is also known as: The 80/20 Rule, The Law of the Vital Few and The Principle of Factor Sparsity.
+Bu prensip aynı zamanda 80/20 Kuralı (The Law of the Vital Few and The Principle of Factor Sparsity) olarak da bilinir.
 
-Real-world examples:
+Gerçek dünyadan bir örnek:
 
-- In 2002 Microsoft reported that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in windows and office would become eliminated ([Reference](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
+- 2002'de Microsoft en çok rapor edilen hataların üstten %20'sini çözünce kullanıcıların yaşağı sorunların %80'inin çözüldüğünü gözlemlemiş ([Referans](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
 
 ### The Robustness Principle (Postel's Law)
 
