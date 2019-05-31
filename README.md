@@ -28,7 +28,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Wadler Yasası](#wadler-yasası)
 * [Prensipler](#prensipler)
     * [Pareto Prensibi (80/20 Kuralı)](#pareto-prensibi-8020-kuralı)
-    * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
+    * [Dayanıklılık Prensibi (Postel Yasası)](#dayanıklılık-prensibi-postel-yasası)
     * [SOLID](#solid)
     * [The Single Responsibility Principle](#the-single-responsibility-principle)
     * [The Open/Closed Principle](#the-openclosed-principle)
@@ -308,15 +308,15 @@ Gerçek dünyadan bir örnek:
 
 - 2002'de Microsoft en çok rapor edilen hataların üstten %20'sini çözünce kullanıcıların yaşağı sorunların %80'inin çözüldüğünü gözlemlemiş ([Referans](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
 
-### The Robustness Principle (Postel's Law)
+### Dayanıklılık Prensibi (Postel Yasası)
 
-[The Robustness Principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
+[Wikipedia'da Dayanıklılık Prensibi](https://en.wikipedia.org/wiki/Robustness_principle)
 
-> Be conservative in what you do, be liberal in what you accept from others.
+> Yaptıklarınızda muhafazakar olun, başkalarından kabul ettiğiniz şeyler konusunda liberal olun.
 
-Often applied in server application development, this principle states that what you send to others should be as minimal and conformant as possible, but you should be aim to allow non-conformant input if it can be processed.
+Genellikle sunucu uygulamaları geliştirirken uygulanabilir. Bu prensip der ki; kendi uygulamanızdan dışarıya veri gönderirken kılı kırk yararcasına dikkatli olun ama dışardan veri alırken mümkün olabilecek her durumda veriyi kabul etmeye çalışın.
 
-The goal of this principle is to build systems which are robust, as they can handle poorly formed input if the intent can still be understood. However, there are potentially security implications of accepting malformed input, particularly if the processing of such input is not well tested.
+Bu prensibin amacı dayanıklı sistemlere geliştirmektir ve bu sistemler kötü yapılandırılmış girdileri bile anlayabildikleri durumda işleyebilmeliler. Bunun güvenlik açısından kötü amaçlı ve yeterince kontrol edilmemiş girdileri kabul etmek anlamına gelebileceği için riskli olduğu düşünülebilir. Tabiki bu riskin de göz önünde bulundurulması gerekir.
 
 ### SOLID
 
