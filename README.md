@@ -320,29 +320,29 @@ Bu prensibin amacı dayanıklı sistemlere geliştirmektir ve bu sistemler köt�
 
 ### SOLID
 
-This is an acronym, which refers to:
+SOLID aşağıdaki beş prensibin baş harflerinden oluşan bir kısaltmadır:
 
-* S: [The Single Responsibility Principle](#the-single-responsibility-principle)
+* S: [Tek Sorumluluk Prensibi - The Single Responsibility Principle](#tek-sorumluluk-prensibi)
 * O: [The Open/Closed Principle](#the-openclosed-principle)
 * L: [The Liskov Substitution Principle](#the-liskov-substitution-principle)
 * I: [The Interface Segregation Principle](#the-interface-segregation-principle)
 * D: [The Dependency Inversion Principle](#the-dependency-inversion-principle)
 
-These are key principles in [Object-Oriented Programming](#todo). Design principles such as these should be able to aid developers build more maintainable systems.
+Bunları [Nesne Tabanlı Proglamlama](#todo)'nın temel prensipleri olarak değerlendirilebilir ve bu prensiplerin programcılara geliştirilebilir ve desteklenebilir sistemler geliştirmelerinde yardımcı oldukları kesindir.
 
-### The Single Responsibility Principle
+### Tek Sorumluluk Prensibi
 
-[The Single Responsibility Principle on Wikipedia](https://en.wikipedia.org/wiki/Single_responsibility_principle)
+[Wikipedia'da Tek Sorumluluk Prensibi](https://en.wikipedia.org/wiki/Single_responsibility_principle)
 
-> Every module or class should have a single responsibility only.
+> Her sistem parçasının ya da programlama sınıfının sadece bir sorumluluğu olmalı.
 
-The first of the '[SOLID](#solid)' principles. This principle suggests that modules or classes should do one thing and one thing only. In more practical terms, this means that a single, small change to a feature of a program should require a change in one component only. For example, changing how a password is validated for complexity should require a change in only one part of the program.
+Bu '[SOLID](#solid)' prensiplerinin ilkidir. Bu prensip der ki her bir sistem parçasının yada programlama sınıfının sadece ama sadece bir sorumluluğu olması gerekir. Daha sade anlatmak gerekirse, bir programdaki sadece bir özelliği etkileyen bir değişiklik sadece o özelliği ilgilendiren parça ya da sınıfta yapılmalı. Örneğin, şifrelerin doğruluğunun kontrolünde bir değiştirme yapılacaksa sadece programın o bölümünde değişiklik yapılmalı.
 
-Theoretically, this should make the code more robust, and easier to change. Knowing that a component which is being changed has a single responsibility only means that _testing_ that change should be easier. Using the earlier example, changing the password complexity component should only be able to affect the features which relate to password complexity. It can be much more difficult to reason about the impact of a change to a component which has many responsibilities.
+Teorik olarak, bu prensibe uygun yazılmış kodlar daha sağlam ve değiştirilmesi kolaydır. Sadece tek bir parçanın değiştirildiğine emin olunduğunda değişimi _tesk etmek_ de kolay olacaktır. Önceki şifre örneğini düşünürsek, şifrenin zorluk seviyesi değiştirildiğinde sadece şifre ilgili bölümlerin etkilenecektir. Birden fazla sorumluluğu olan bir bölümde olan değişikliğin nereleri etkileceğini hesaplamak daha zordur..
 
-See also:
+Ek Kaynaklar:
 
-- [Object-Oriented Programming](#todo)
+- [Nesne Tabanlı Programlama](#todo)
 - [SOLID](#solid)
 
 ### The Open/Closed Principle
