@@ -325,7 +325,7 @@ SOLID aşağıdaki beş prensibin baş harflerinden oluşan bir kısaltmadır:
 * S: [Tek Sorumluluk Prensibi - The Single Responsibility Principle](#tek-sorumluluk-prensibi)
 * O: [Açık/Kapalı Prensibi - The Open/Closed Principle](#açıkkapalı-prensibi)
 * L: [Liskov Yerine Geçme Prensibi - The Liskov Substitution Principle](#liskov-yerine-geçme-prensibi)
-* I: [The Interface Segregation Principle](#the-interface-segregation-principle)
+* I: [Arayüz Ayrım Prensibi - The Interface Segregation Principle](#arayüz-ayrım-prensibi)
 * D: [The Dependency Inversion Principle](#the-dependency-inversion-principle)
 
 Bunları [Nesne Tabanlı Proglamlama](#todo)'nın temel prensipleri olarak değerlendirilebilir ve bu prensiplerin programcılara geliştirilebilir ve desteklenebilir sistemler geliştirmelerinde yardımcı oldukları kesindir.
@@ -359,7 +359,7 @@ Bu prensip nesne-tabanlı programlamaya tam uygundur. Şöyle ki, kendi nesne ve
 
 Ek kaynaklar:
 
-- [Object-Oriented Programming](#todo)
+- [Nesne-tabanlı Programlama](#todo)
 - [SOLID](#solid)
 
 ### Liskov Yerine Geçme Prensibi
@@ -376,27 +376,27 @@ Bu prensip nesne-tabanlı programlamanın bağlı olduğu prensiplerden biridir 
 
 Ek kaynaklar:
 
-- [Object-Oriented Programming](#todo)
+- [Nesne-tabanlı Programlama](#todo)
 - [SOLID](#solid)
 
-### The Interface Segregation Principle
+### Arayüz Ayrım Prensibi
 
-[The Interface Segregation Principle on Wikipedia](https://en.wikipedia.org/wiki/Interface_segregation_principle)
+[Wikipedia'da Arayüz Ayrım Prensibi](https://en.wikipedia.org/wiki/Interface_segregation_principle)
 
-> No client should be forced to depend on methods it does not use.
+> Hiçbir kullanıcı/müşteri/istemci, kullanmadığı yöntemlere bağlı kalmamalıdır.
 
-The fourth of the '[SOLID](#solid)' principles. This principle states that consumers of a component should not depend on functions of that component which it doesn't actually use.
+'[SOLID](#solid)' prensiplerinin dördüncüsüdür ve bir bileşenin kullanıcılarının, kullanmadığı bir bileşenin işlevlerine bağımlı olmaması gerektiğini belirtir.
 
-As an example, imagine we have a method which reads an XML document from a structure which represents a file. It only needs to read bytes, move forwards or move backwards in the file. If this method needs to be updated because an unrelated feature of the file structure changes (such as an update to the permissions model used to represent file security), then the principle has been invalidated. It would be better for the file to implement a 'seekable-stream' interface, and for the XML reader to use that.
+Örnek olarak dosyayı temsil eden bir yapıdan XML verisi okuyan bir metod düşünelim. Bu metod sadece dosyadan byte byte veri okumalı ve dosya içinde ileri ya da geri hareket etmeli. Eğer bu method dosya okuma dışında (dosya izinleri değişimi gibi) herhangi bir özellik değişiminden dolayı güncellenmek zorunda kalınıyorsa bu prensip ihlal edilmiş demektir.
 
-This principle has particular relevance for object-oriented programming, where interfaces, hierarchies and abstract types are used to [minimise the coupling](#todo) between different components. [Duck typing](#todo) is a methodology which enforces this principle by eliminating explicit interfaces.
+Bı prensip de nesne-tabanlı programlama ile direk ilişkilidir. 'interface' yapıları, sınıf hiyerarşileri ve soyut türler farklı bileşenler arası [bağımlığı en aza indirmek](#todo) için kullanılır. [Duck typing](#todo) de bu prensibi uygulamaya yardımcı olur.
 
-See also:
+Ek kaynaklar:
 
-- [Object-Oriented Programming](#todo)
+- [Nesne-tabanlı Programlama](#todo)
 - [SOLID](#solid)
 - [Duck Typing](#todo)
-- [Decoupling](#todo)
+- [Ayrışma - Decoupling](#todo)
 
 ### The Dependency Inversion Principle
 
