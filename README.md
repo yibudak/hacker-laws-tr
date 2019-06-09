@@ -32,7 +32,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [SOLID](#solid)
     * [Tek Sorumluluk Prensibi - The Single Responsibility Principle](#tek-sorumluluk-prensibi)
     * [Açık/Kapalı Prensibi - The Open/Closed Principle](#açıkkapalı-prensibi)
-    * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
+    * [Liskov Yerine Geçme Prensibi - The Liskov Substitution Principle](#liskov-yerine-geçme-prensibi)
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
     * [The DRY Principle](#the-dry-principle)
@@ -324,7 +324,7 @@ SOLID aşağıdaki beş prensibin baş harflerinden oluşan bir kısaltmadır:
 
 * S: [Tek Sorumluluk Prensibi - The Single Responsibility Principle](#tek-sorumluluk-prensibi)
 * O: [Açık/Kapalı Prensibi - The Open/Closed Principle](#açıkkapalı-prensibi)
-* L: [The Liskov Substitution Principle](#the-liskov-substitution-principle)
+* L: [Liskov Yerine Geçme Prensibi - The Liskov Substitution Principle](#liskov-yerine-geçme-prensibi)
 * I: [The Interface Segregation Principle](#the-interface-segregation-principle)
 * D: [The Dependency Inversion Principle](#the-dependency-inversion-principle)
 
@@ -362,19 +362,19 @@ Ek kaynaklar:
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 
-### The Liskov Substitution Principle
+### Liskov Yerine Geçme Prensibi
 
-[The Liskov Substitution Principle on Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+[Wikipedia'da Liskov Yerine Geçme Prensibi](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
 
-> It should be possible to replace a type with a subtype, without breaking the system.
+> Bir sistemde var olan bir özellik kendinden türetilmiş türetilmiş bir özellikle herhangi bir sistemsel soruna sebep olmadan yer değiştirilebilmeli.
 
-The third of the '[SOLID](#solid)' principles. This principle states that if a component relies on a type, then it should be able to use subtypes of that type, without the system failing or having to know the details of what that subtype is.
+'[SOLID](#solid)' prensiplerinin üçüncüsüdür. Bu prensibe göre herhangi bir bileşenin üzerine dayandığı bir özelliği (sınıf vs) o özelliklikten türetilmiş alt özellikle değiştirebilmeliyiz ve bu durumda bir sistem sorununa neden olunmaz ya da alt özelliğin bütün detaylarını bilmeye gerek kalmaz.
 
-As an example, imagine we have a method which reads an XML document from a structure which represents a file. If the method uses a base type 'file', then anything which derives from 'file' should be able to be used in the function. If 'file' supports seeking in reverse, and the XML parser uses that function, but the derived type 'network file' fails when reverse seeking is attempted, then the 'network file' would be violating the principle.
+Örneğin dosyayı temsil eden bir yapıdan XML verisi okuyan bir metod düşünelim. Eğer bu metod 'dosya' tipini kullanıyorsa, 'dosya' tipinden türeyen bütün tipleri de kullanabilmelidir. Eğer 'dosya' tipi geriye dönük aramayı destekliyorsa ama 'dosya' tipinden türetilmiş 'ağ dosyası' tipi bunu desteklemiyorsa o zaman 'ağ dosyası' tipi bu prensibi ihlal ediyor demektir.
 
-This principle has particular relevance for object-oriented programming, where type hierarchies must be modeled carefully to avoid confusing users of a system.
+Bu prensip nesne-tabanlı programlamanın bağlı olduğu prensiplerden biridir ve geliştiricilerin kafasını karıştırmamak için sınıf hiyerarşisinin dikkatli tarasarlanması gerektiğini söyler.
 
-See also:
+Ek kaynaklar:
 
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
