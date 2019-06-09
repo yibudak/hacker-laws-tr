@@ -30,7 +30,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Pareto Prensibi (80/20 Kuralı)](#pareto-prensibi-8020-kuralı)
     * [Dayanıklılık Prensibi (Postel Yasası)](#dayanıklılık-prensibi-postel-yasası)
     * [SOLID](#solid)
-    * [The Single Responsibility Principle](#the-single-responsibility-principle)
+    * [Tek Sorumluluk Prensibi - The Single Responsibility Principle](#tek-sorumluluk-prensibi)
     * [The Open/Closed Principle](#the-openclosed-principle)
     * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
@@ -323,7 +323,7 @@ Bu prensibin amacı dayanıklı sistemlere geliştirmektir ve bu sistemler köt�
 SOLID aşağıdaki beş prensibin baş harflerinden oluşan bir kısaltmadır:
 
 * S: [Tek Sorumluluk Prensibi - The Single Responsibility Principle](#tek-sorumluluk-prensibi)
-* O: [The Open/Closed Principle](#the-openclosed-principle)
+* O: [Açık/Kapalı Prensibi - The Open/Closed Principle](#açıkkapalı-prensibi)
 * L: [The Liskov Substitution Principle](#the-liskov-substitution-principle)
 * I: [The Interface Segregation Principle](#the-interface-segregation-principle)
 * D: [The Dependency Inversion Principle](#the-dependency-inversion-principle)
@@ -345,19 +345,19 @@ Ek Kaynaklar:
 - [Nesne Tabanlı Programlama](#todo)
 - [SOLID](#solid)
 
-### The Open/Closed Principle
+### Açık/Kapalı Prensibi
 
-[The Open/Closed Principle on Wikipedia](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
+[Wikipedia'da Açık/Kapalı Prensibi](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
 
-> Entities should be open for extension and closed for modification.
+> Her sistem parçası (sınıf, modül, fonksiyon vs) genişletilmeye (türev alınmaya, miras alınma vs) açık olmalı ama değiştirilmeye (modifiye etme) kapalı olmalı.
 
-The second of the '[SOLID](#solid)' principles. This principle states that entities (which could be classes, modules, functions and so on) should be able to have their behaviour _extended_, but that their _existing_ behaviour should not be able to be modified.
+Bu '[SOLID](#solid)' prensiplerinin ikincisidir ve herhangi bir sistem parçasının _mevcut_ davranışının değiştirilememesini ama kullanılarak/türetilerek _genişletilebilmesinin_ gerekliliğini savunur.
 
-As a hypothetical example, imagine a module which is able to turn a Markdown document into HTML. If the module could be extended to handle a newly proposed markdown feature, without modifying the module internals, then it would be open for extension. If the module could _not_ be modified by a consumer so that how existing Markdown features are handled, then it would be _closed_ for modification.
+Örneğin Markdown formatındaki belgeleri HTML formatına çeviren bir modülü düşünelim. Eğer bu modül kendisi değiştirilmeden yeni bir Markdown formatını da işlemesi sağlanacak şekilde geliştirilebiliyorsa, bu modül genişletilmeye açık demektir. Eğer sonradan değiştirilip Markdown formatı işlemesi ile ilgili geliştirme yapılamıyorsa, bu modül değiştirilmeye kapalı demektir.
 
-This principle has particular relevance for object-oriented programming, where we may design objects to be easily extended, but would avoid designing objects which can have their existing behaviour changed in unexpected ways.
+Bu prensip nesne-tabanlı programlamaya tam uygundur. Şöyle ki, kendi nesne ve sınıflarımızı miras alınarak geliştirmeye uygun ve değiştirmeye ihtiyaç duymayacak şekilde tasarlarsak ve yazarsak nesne-tabanlı programlamaya tam uygun kod yazmış oluruz.
 
-See also:
+Ek kaynaklar:
 
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
