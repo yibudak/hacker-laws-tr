@@ -33,7 +33,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Tek Sorumluluk Prensibi - The Single Responsibility Principle](#tek-sorumluluk-prensibi)
     * [Açık/Kapalı Prensibi - The Open/Closed Principle](#açıkkapalı-prensibi)
     * [Liskov Yerine Geçme Prensibi - The Liskov Substitution Principle](#liskov-yerine-geçme-prensibi)
-    * [The Interface Segregation Principle](#the-interface-segregation-principle)
+    * [Arayüz Ayrım Prensibi - The Interface Segregation Principle](#arayüz-ayrım-prensibi)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
     * [The DRY Principle](#the-dry-principle)
 * [Reading List](#reading-list)
