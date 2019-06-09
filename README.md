@@ -31,7 +31,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Dayanıklılık Prensibi (Postel Yasası)](#dayanıklılık-prensibi-postel-yasası)
     * [SOLID](#solid)
     * [Tek Sorumluluk Prensibi - The Single Responsibility Principle](#tek-sorumluluk-prensibi)
-    * [The Open/Closed Principle](#the-openclosed-principle)
+    * [Açık/Kapalı Prensibi - The Open/Closed Principle](#açıkkapalı-prensibi)
     * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
