@@ -34,7 +34,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Açık/Kapalı Prensibi - The Open/Closed Principle](#açıkkapalı-prensibi)
     * [Liskov Yerine Geçme Prensibi - The Liskov Substitution Principle](#liskov-yerine-geçme-prensibi)
     * [Arayüz Ayrım Prensibi - The Interface Segregation Principle](#arayüz-ayrım-prensibi)
-    * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
+    * [Bağımlılığın Ters Çevrilmesi - The Dependency Inversion Principle](#bağımlılığın-ters-çevirilmesi)
     * [The DRY Principle](#the-dry-principle)
 * [Reading List](#reading-list)
 * [TODO](#todo)
@@ -398,24 +398,24 @@ Ek kaynaklar:
 - [Duck Typing](#todo)
 - [Ayrışma - Decoupling](#todo)
 
-### The Dependency Inversion Principle
+### Bağımlılığın Ters Çevrilmesi
 
-[The Dependency Inversion Principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+[Wikipedia'da Bağımlılığın Ters Çevrilmesi](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 
-> High-level modules should not be dependent on low-level implementations.
+> Yüksek seviye modülleri, düşük seviye uygulamalarına bağlı olmamalıdır.
 
-The fifth of the '[SOLID](#solid)' principles. This principle states that higher level orchestrating components should not have to know the details of their dependencies.
+'[SOLID](#solid)' prensiplerin beşincisidir. Bu ilke, daha üst seviye bileşenlerinin bağımlılıklarının ayrıntılarını bilmek zorunda olmadıklarını belirtir.
 
-As an example, imagine we have a program which read metadata from a website. We would assume that the main component would have to know about a component to download the webpage content, then a component which can read the metadata. If we were to take dependency inversion into account, the main component would depend only on an abstract component which can fetch byte data, and then an abstract component which would be able to read metadata from a byte stream. The main component would not know about TCP/IP, HTTP, HTML, etc.
+Örnek olarak bir web sitesinden metadata okuyan bir program düşünelim. Bu programın ana bileşeninin web sitesinden içeriği indiren ve metadayı okuyan bileşenlerinden ne yaptığından haberdar olması gerekir. Eğer bu prensibe uyarsak ana bileşenin byte verisi okuyan ve byte verisinden metada çıkaran soyutlamalara bağımlı olması lazım. Ana bileşenin TCP/IP, HTTP ya da HTML hakında bir detaya hakim olmasına gerek yoktur.
 
-This principle is complex, as it can seem to 'invert' the expected dependencies of a system (hence the name). In practice, it also means that a separate orchestrating component must ensure the correct implementations of abstract types are used (e.g. in the previous example, _something_ must still provide the metadata reader component a HTTP file downloader and HTML meta tag reader). This then touches on patterns such as [Inversion of Control](#todo) and [Dependency Injection](#todo).
+Bu prensip olması gereken bağımlığı tersine çevirdiği düşünebileceğinden (isminden dolayı) biraz karmaşık gelebilir. Pratikte, ayrı bir düzenleme bileşeninin, soyut türlerin doğru uygulamalarının kullanılmasını sağlaması gerektiği anlamına gelir (önceki örnekte, bir _şey_ hala meta veri okuyucu bileşenine bir HTTP dosyası indiricisi ve HTML meta etiketi okuyucu sağlamalıdır). Bu prensip aynı zamanda [Kontrolün Ters Çevirilmesi](#todo) ve [Bağımlık Enjeksiyonu](#todo) gibi konularla da bağlantılıdır.
 
-See also:
+Ek kaynaklar:
 
-- [Object-Oriented Programming](#todo)
+- [Nesne-tabanlı Programlama](#todo)
 - [SOLID](#solid)
-- [Inversion of Control](#todo)
-- [Dependency Injection](#todo)
+- [Kontrolün Ters Çevirilmesi](#todo)
+- [Bağımlık Enjeksiyonu](#todo)
 
 ### The DRY Principle
 
