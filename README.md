@@ -35,7 +35,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Liskov Yerine Geçme Prensibi - The Liskov Substitution Principle](#liskov-yerine-geçme-prensibi)
     * [Arayüz Ayrım Prensibi - The Interface Segregation Principle](#arayüz-ayrım-prensibi)
     * [Bağımlılığın Ters Çevrilmesi - The Dependency Inversion Principle](#bağımlılığın-ters-çevrilmesi)
-    * [The DRY Principle](#the-dry-principle)
+    * [DRY Prensibi - The DRY Principle](#dry-prensibi)
 * [Reading List](#reading-list)
 * [TODO](#todo)
 
@@ -417,19 +417,19 @@ Ek kaynaklar:
 - [Kontrolün Ters Çevirilmesi](#todo)
 - [Bağımlık Enjeksiyonu](#todo)
 
-### The DRY Principle
+### DRY Prensibi
 
-[The DRY Principle on Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+[Wikipedia'da DRY Prensibi](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
-> Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+> Her bilgi parçasının bir sistem içinde tek, açık ve net bir temsiline sahip olması gerekir.
 
-DRY is an acronym for _Don't Repeat Yourself_. This principle aims to help developers reducing the repetition of code and keep the information in a single place and was cited in 1999 by Andrew Hunt and Dave Thomas in the book [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+DRY _Don't Repeat Yourself_ yani _Kendini Tekrar Etme_ deyimin kısaltılmasıdır. İlk olarak Andrew Hunt ve Dave Thomas tarafından [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer) kitabında bahsedilmiştir.  Bu ilke, geliştiricilere kod tekrarını azaltma ve bilgileri tek bir yerde tutmalarına yardımcı olmayı amaçlamaktadır.
 
-> The opposite of DRY would be _WET_ (Write Everything Twice or We Enjoy Typing).
+> DRY'nin tam tersi _WET_ olacaktır (Write Everything Twice (Her Şeyi İki Kez Yaz) We Enjoy Typing (Yazmayı Seviyoruz)).
 
-In practice, if you have the same piece of information in two (or more) different places, you can use DRY to merge them into a single one and reuse it wherever you want/need.
+Uygulamada, aynı bilgi parçasını iki (veya daha fazla) farklı yerde kullanıyorsanız, DRY'yi bunları tek bir tanede birleştirmek ve istediğiniz / ihtiyaç duyduğunuz yerde tekrar kullanmak için kullanabilirsiniz.
 
-See also:
+Ek kaynaklar:
 
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
