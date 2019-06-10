@@ -34,7 +34,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Açık/Kapalı Prensibi - The Open/Closed Principle](#açıkkapalı-prensibi)
     * [Liskov Yerine Geçme Prensibi - The Liskov Substitution Principle](#liskov-yerine-geçme-prensibi)
     * [Arayüz Ayrım Prensibi - The Interface Segregation Principle](#arayüz-ayrım-prensibi)
-    * [Bağımlılığın Ters Çevrilmesi - The Dependency Inversion Principle](#bağımlılığın-ters-çevirilmesi)
+    * [Bağımlılığın Ters Çevrilmesi - The Dependency Inversion Principle](#bağımlılığın-ters-çevrilmesi)
     * [The DRY Principle](#the-dry-principle)
 * [Reading List](#reading-list)
 * [TODO](#todo)
@@ -326,7 +326,7 @@ SOLID aşağıdaki beş prensibin baş harflerinden oluşan bir kısaltmadır:
 * O: [Açık/Kapalı Prensibi - The Open/Closed Principle](#açıkkapalı-prensibi)
 * L: [Liskov Yerine Geçme Prensibi - The Liskov Substitution Principle](#liskov-yerine-geçme-prensibi)
 * I: [Arayüz Ayrım Prensibi - The Interface Segregation Principle](#arayüz-ayrım-prensibi)
-* D: [The Dependency Inversion Principle](#the-dependency-inversion-principle)
+* D: [Bağımlılığın Ters Çevrilmesi - The Dependency Inversion Principle](#bağımlılığın-ters-çevrilmesi)
 
 Bunları [Nesne Tabanlı Proglamlama](#todo)'nın temel prensipleri olarak değerlendirilebilir ve bu prensiplerin programcılara geliştirilebilir ve desteklenebilir sistemler geliştirmelerinde yardımcı oldukları kesindir.
 
