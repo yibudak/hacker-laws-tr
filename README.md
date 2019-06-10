@@ -433,15 +433,15 @@ Ek kaynaklar:
 
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
-## Reading List
+## Ek Kaynaklar
 
-If you have found these concepts interesting, you may enjoy the following books.
+Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabilirsiniz.
 
 - [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks's Law](#brookss-law) is a central theme of the book.
 - [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
 
 ## TODO
 
-Hi! If you land here, you've clicked on a link to a topic I've not written up yet, sorry about this - this is work in progress!
+Selam!. Buraya ulaştıysanız, henüz yazmadığım bir konunun bağlantısını tıkladınız, bunun için üzgünüm - ve en kısa zamanda tamamlamaya çalışacağım!
 
-Feel free to [Raise an Issue](https://github.com/dwmkerr/hacker-laws/issues) requesting more details, or [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) to submit your proposed definition of the topic. 
+Soru ve önerileriniz için [issue](https://github.com/umutphp/hacker-laws-tr/issues) açabilirsiniz, ya da katkıda bulunmak isterseniz [Pull Request](https://github.com/umutphp/hacker-laws-tr/pulls) açabilirsiniz. 
