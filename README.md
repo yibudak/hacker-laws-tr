@@ -36,7 +36,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     * [Arayüz Ayrım Prensibi - The Interface Segregation Principle](#arayüz-ayrım-prensibi)
     * [Bağımlılığın Ters Çevrilmesi - The Dependency Inversion Principle](#bağımlılığın-ters-çevrilmesi)
     * [DRY Prensibi - The DRY Principle](#dry-prensibi)
-* [Reading List](#reading-list)
+* [Ek Kaynaklar](#ek-kaynaklar)
 * [TODO](#todo)
 
 <!-- vim-markdown-toc -->
