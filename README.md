@@ -2,9 +2,11 @@
 
 Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 
-🇬🇧 [English / İngilizce İçin](https://github.com/dwmkerr/hacker-laws) - Teşekkürler [Dave Kerr](https://github.com/dwmkerr)!
+- 🇬🇧 [English / İngilizce İçin](https://github.com/dwmkerr/hacker-laws) - Teşekkürler [Dave Kerr](https://github.com/dwmkerr)!
+- 🇨🇳 [中文 / Çince İçin](https://github.com/nusr/hacker-laws-zh) - Teşekkürler [Steve Xu](https://github.com/nusr)!
+- 🇷🇺 [Русская версия / Rusça İçin](https://github.com/solarrust/hacker-laws) - Teşekkürler [Alena Batitskaya](https://github.com/solarrust)!
 
-🇨🇳 [中文 / Çince İçin](https://github.com/nusr/hacker-laws-zh) - Teşekkürler [Steve Xu](https://github.com/nusr)!
+---
 
 <!-- vim-markdown-toc GFM -->
 
