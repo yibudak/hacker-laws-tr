@@ -302,7 +302,7 @@ Pareto Prensibi der ki, çıktıların önemli bir çoğunluğu girdilerin çok 
 - Koddaki hataların %20'si sistem sorunlarının %80'ini oluşturur
 - Özelliklerin %20'si hizmetin %80'ini oluşturur
 
-1940'lı yıllarda Romanya kökenli Amerikalı mühendis Dr. Joseph Juran, kendisi kalite kontrolün babası olarak nitelendirilir, [kalite kontrol sorunlarında Pareto Prensibini kullanmaya başladı](https://en.wikipedia.org/wiki/Joseph_M._Juran).
+1940'lı yıllarda Romanya kökenli Amerikalı mühendis [Dr. Joseph Juran](https://en.wikipedia.org/wiki/Joseph_M._Juran), kendisi kalite kontrolün babası olarak nitelendirilir, kalite kontrol sorunlarında Pareto Prensibini kullanmaya başladı.
 
 Bu prensip aynı zamanda 80/20 Kuralı (The Law of the Vital Few and The Principle of Factor Sparsity) olarak da bilinir.
 
