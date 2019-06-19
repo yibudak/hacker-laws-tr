@@ -294,7 +294,7 @@ Prensiplerin genellikle tasarıma ilişkin rehberdir.
 
 > Hayattaki çoğu şey eşit dağılmaz.
 
-Pareto Prensibi der ki, çıktıların öenmli bir çoğunluğu girdilerin çok azı tarafından oluşturulur:
+Pareto Prensibi der ki, çıktıların önemli bir çoğunluğu girdilerin çok azı tarafından oluşturulur:
 
 - Bir yazılımın 80%'i harcanan zamanın %20'sinde yazılır (bir başka deyişle, kodun en zor %20'lik bölümü haracanan zamanın %80'inde yazılır)
 - Harcanan eforun %20'si sonucun %80'ini oluşturur
