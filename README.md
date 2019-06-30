@@ -68,7 +68,7 @@ En güzel şu örnekle anlatılabilir. Bir programın iki bölümden oluştuğun
 
 Aşağıdaki diyagram bazı olası hız geliştirmelerine örnekler içeriyor:
 
-![Diagram: Amdahl's Law](../images/amdahls_law.png)
+![Diagram: Amdahl's Law](./images/amdahls_law.png)
 
 *(Diyagramın kaynağı: Daniels220 tarafından İngilizce Wikipedia'da, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
