@@ -60,7 +60,7 @@ Tek tek başlayalım!
 
 ### Amdahl Yasası
 
-[Wikipedia Amdahl Yasası](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+[Wikipedia'da Amdahl Yasası](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 
 > Amdahl Yasası kaynakları artırarak bir hesaplama işleminin *olası* hızlanma miktarını hesaplayan bir formülü tanımlar. Genellikle paralel işleme hesaplarında kullanılır ve işlemci sayısının artırılmasının programın paralelleştirilebilme kapasitesine bağlı olarak etkisinin doğru şekilde saplanmasını sağlar.
 
