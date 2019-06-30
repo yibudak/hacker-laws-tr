@@ -13,37 +13,37 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 
 - [Giriş](#introduction)
 - [Yasalar](#laws)
-    - [Amdahl Yasası](#amdahls-law)
-    - [Brooks Yasası](#brooks-law)
-    - [Conway Yasası](#conways-law)
-    - [Dunbar Sayısı](#dunbars-number)
-    - [Hanlon'un Usturası](#hanlons-razor)
-    - [Hofstadter Yasası](#hofstadters-law)
-    - [Hutber Yasası](#hutbers-law)
-    - [Hype Döngüsü ve Amara Yasası](#the-hype-cycle--amaras-law)
-    - [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrums-law-the-law-of-implicit-interfaces)
-    - [Moore Yasası](#moores-law)
-    - [Parkinson Yasası](#parkinsons-law)
-    - [Olgunlaşmamış Optimizasyon Etkisi](#premature-optimization-effect)
-    - [Putt Yasası](#putts-law)
-    - [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#the-law-of-conservation-of-complexity-teslers-law)
-    - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
-    - [Önemsizlik Yasası](#the-law-of-triviality)
-    - [Unix Felsefesi](#the-unix-philosophy)
-    - [Spotify Modeli](#the-spotify-model)
-    - [Wadler Yasası](#wadlers-law)
-- [Prensipler](#principles)
-    - [Pareto Prensibi (80/20 Kuralı)](#the-pareto-principle-the-8020-rule)
-    - [Dayanıklılık Prensibi (Postel Yasası)](#the-robustness-principle-postels-law)
+    - [Amdahl Yasası](#amdahl-yasası)
+    - [Brooks Yasası](#brooks-yasası)
+    - [Conway Yasası](#conway-yasası)
+    - [Dunbar Sayısı](#dunbar-number)
+    - [Hanlon'un Usturası](#hanlonun-usturası)
+    - [Hofstadter Yasası](#hofstadter-yasası)
+    - [Hutber Yasası](#hutber-yasası)
+    - [Hype Döngüsü ve Amara Yasası](#hype-döngüsü-ve-amara-yasası)
+    - [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrum-yasası-arabirimlerin-örtülü-hukuku)
+    - [Moore Yasası](#moore-yasası)
+    - [Parkinson Yasası](#parkinson-yasası)
+    - [Olgunlaşmamış Optimizasyon Etkisi](#olgunlaşmamış-optimizasyon-etkisi)
+    - [Putt Yasası](#putt-yasası)
+    - [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#karmaşıklığın-korunması-yasası-tesler-yasası)
+    - [The Law of Leaky Abstractions](#sızdıran-soyutlamalar-yasası)
+    - [Önemsizlik Yasası](#önemsizlik-yasası)
+    - [Unix Felsefesi](#unix-felsefesi)
+    - [Spotify Modeli](#spotify-modeli)
+    - [Wadler Yasası](#wadler-yasası)
+- [Prensipler](#principler)
+    - [Pareto Prensibi (80/20 Kuralı)](#pareto-prensibi-8020-kuralı)
+    - [Dayanıklılık Prensibi (Postel Yasası)](#dayanıklılık-prensibi-postel-yasası)
     - [SOLID](#solid)
-    - [Tek Sorumluluk Prensibi](#the-single-responsibility-principle)
-    - [Açık/Kapalı Prensibi](#the-openclosed-principle)
-    - [Liskov Yerine Geçme Prensibi](#the-liskov-substitution-principle)
-    - [Arayüz Ayrım Prensibi](#the-interface-segregation-principle)
-    - [Bağımlılığın Ters Çevrilmesi](#the-dependency-inversion-principle)
-    - [DRY Prensibi](#the-dry-principle)
+    - [Tek Sorumluluk Prensibi](#tek-sorumluluk-prensibi)
+    - [Açık/Kapalı Prensibi](#açıkkapalı-prensibi)
+    - [Liskov Yerine Geçme Prensibi](#liskov-yerine-geçme-prensibi)
+    - [Arayüz Ayrım Prensibi](#arayüz-ayrım-prensibi)
+    - [Bağımlılığın Ters Çevrilmesi](#bağımlılığın-ters-çevrilmesi)
+    - [DRY Prensibi](#dry-prensibi)
     - [YAGNI](#yagni)
-- [Ek Kaynaklar](#reading-list)
+- [Ek Kaynaklar](#ek-kaynaklar)
 - [TODO](#todo)
 
 <!-- vim-markdown-toc -->
@@ -74,12 +74,12 @@ Aşağıdaki diyagram bazı olası hız geliştirmelerine örnekler içeriyor:
 
 Diyagramdaki örneklerden görüldüğü üzere, eğer bir programın sadece %50'si paralelleştirilebiliyorsa 10 işlemciden sonra işlemci eklemek hızda gözle görünür bir artış sağlamıyor ama %95 paralelleştirilebilen bir programda 1000 işlemciden sonra bile işlemci eklemenin hızı artırdığı gözlenebilir.
 
-[Moore Yasasında](#moores-law) söylenen artışın azalma eğiliminde olması ve aynı zamanda işlemci hızının artışında da ivme kaybı olması, paralelleştirilebilme özelliğini performans artışında anahtar duruma getirdi. Grafik programlama bu konuda en belirgin örnek. Shader tabanlı modern işleme ile pixel ve fragmanların paralel olarak render edilebilmesi sayesinde modern grafik kartlarında binlerce işlemci çekirdeği olabiliyor.
+[Moore Yasasında](#moores-yasası) söylenen artışın azalma eğiliminde olması ve aynı zamanda işlemci hızının artışında da ivme kaybı olması, paralelleştirilebilme özelliğini performans artışında anahtar duruma getirdi. Grafik programlama bu konuda en belirgin örnek. Shader tabanlı modern işleme ile pixel ve fragmanların paralel olarak render edilebilmesi sayesinde modern grafik kartlarında binlerce işlemci çekirdeği olabiliyor.
 
 Ek kaynaklar:
 
-- [Brooks Yasası](#brooks-law)
-- [Moore Yasası ](#moores-law)
+- [Brooks Yasası](#brooks-yasası)
+- [Moore Yasası ](#moores-yasası)
 
 ### Brooks Yasası
 
@@ -118,7 +118,7 @@ Kişiler arası insani ilişkilerde olduğu gibi, insanlarla kod arasındaki ili
 
 Ek kaynaklar:
 
-- [Conway Yasası](#conways-law)
+- [Conway Yasası](#conways-yasası)
 
 ### Hanlon'un Usturası
 
@@ -200,11 +200,11 @@ Ek kaynaklar:
 
 Orijinal bağlamında, bu kanun bürokrasi alanındaki çalışmalara dayanıyordu. Kötümser bir bakış açısıyla yazılım geliştirme girişimleri için de söylenebilir. Şöyle ki ekipler genelde proje bitiş tarihi yaklaşana kadar düşük verimde çalışırlar, bitiş tarihi yaklaştıkça bitirmek için yoğun bir çaba içine girerler ve sonuç olarak aslında bitiş tarihini tutturmuş olurlar.
 
-Bu yasa ile [Hofstadter Yasası](#hofstadters-law) birleştirilirse, daha kötümser bir yasaya ulaşılır. Bir iş bitirilmesi için harcanması gereken zamanı kapsar ve *her zaman gecikir*.
+Bu yasa ile [Hofstadter Yasası](#hofstadters-yasası) birleştirilirse, daha kötümser bir yasaya ulaşılır. Bir iş bitirilmesi için harcanması gereken zamanı kapsar ve *her zaman gecikir*.
 
 Ek kaynaklar:
 
-- [Hofstadter's Law](#hofstadters-law)
+- [Hofstadter's Law](#hofstadters-yasası)
 
 ### Olgunlaşmamış Optimizasyon Etkisi
 
@@ -494,8 +494,8 @@ Ek kaynaklar:
 Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabilirsiniz.
 
 - [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834) - Covers the core principles of Extreme Programming.
-- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-law) is a central theme of the book.
-- [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
+- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-yasası) is a central theme of the book.
+- [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-yasası) is from the book.
 
 ## TODO
 
