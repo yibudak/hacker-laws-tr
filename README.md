@@ -17,6 +17,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Brooks Yasası](#brooks-yasası)
     - [Conway Yasası](#conway-yasası)
     - [Dunbar Sayısı](#dunbar-number)
+    - [Gall Yasası](#Gall-yasası)
     - [Hanlon'un Usturası](#hanlonun-usturası)
     - [Hofstadter Yasası](#hofstadter-yasası)
     - [Hutber Yasası](#hutber-yasası)
@@ -119,6 +120,21 @@ Kişiler arası insani ilişkilerde olduğu gibi, insanlarla kod arasındaki ili
 Ek kaynaklar:
 
 - [Conway Yasası](#conways-yasası)
+
+### Gall Yasası
+
+[Wikipedia'da Gall Yasası](https://en.m.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
+
+> Çalışan karmaşık bir sistemin her zaman işe yarayan daha basit bir sistemden evrimleştiği kesinlikle söylenebilir. Başlangıçtan itibaren karmaşık tasarlanmış bir sistemin asla çalışmayacağı ve sonradan da düzeltilemeyeceği kesindir. Çalışsan daha basit bir sistem ile başlamanız gerekir.
+> ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
+
+Gall Yasası der ki, çok karmaşık sistemleri {em0}tasarlamaya{/em0} çalışmak her zaman başarısızlıkla sonuçlanır. Bu tür sistemlerin ilk denemede başarılı olmaları çok nadir görülür ama genellikle basit sistemlerden evrilirler.
+
+En klasik örnek günümüzdeki internettir.  Şu an çok karmaşık bir sistemdir.  Aslında başlangıçta sadece akademik kurumlar arası içerik paylaşımı olarak tanımlanmıştı. Bu tanımı karşılamada çok başarılı oldu ve zamanla gelişerek bugünkü karmaşık halini aldı.
+
+Ek kaynaklar:
+
+- KISS (Keep It Simple, Stupid)
 
 ### Hanlon'un Usturası
 
