@@ -209,6 +209,25 @@ Ek kaynaklar:
 
 Çoğu zaman yarı-iletken ve çip teknolojisinin gelişim hızını tahmin etmek için kullanılan Moore yasasının, 1970'lerden 2000'lerin sonlarına doğru oldukça doğru olduğu biliyoruz. Son yıllarda, [komponentlerin küçülmesinde fiziksel sınırlara](https://en.wikipedia.org/wiki/Quantum_tunnelling) ulaşıldığı için bu tahminlemenin tutmadığını da söyleyebiliriz. Ama paralelleştirmede uzmanlaşılması ve yarı-iletken teknolojilerindeki devrim potansiyelindeki değişiklikler Moore Yasası'nın yakın zamanda tekrar doğrulanacağını tahminler yapabileceğini düşünebiliriz.
 
+### Murphy Yasası / Sod Yasası
+
+[Wikipedia'da Murphy Yasası](https://en.wikipedia.org/wiki/Murphy%27s_law)
+
+> Eğer bir işin kötü gitme ihtimali varsa mutlaka kötü gider.
+
+İsmini [Edward A. Murphy, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.)'dan alan Murphy Yasası der ki eğer bir işin kötü gitme ihtimali varsa mutlaka kötü gider.
+
+Bu programcılar arasında çok kullanılan bir atasözüdür. Geliştirme yaparken, test ederken ya da canlı sistemlerde çoğunlukla hep beklenmedik sorunlar olur. Bu durum  (İngiltere'de yaygın kullanılan) Sod Yasası ile de ilişkilendirilebilir:
+
+> Eğer bir işin kötü gitme ihtimali varsa, olabilecek en kötü zamanda kötüye gidecektir.
+
+Bu iki 'yasa' daha çok espri amaçlı kullanılır. Bunun yanında, [Doğrulama Önyargısı](https://github.com/dwmkerr/hacker-laws#TODO) ve [Seçim Tarafgirliği](https://github.com/dwmkerr/hacker-laws#TODO) gibi olgular bu yasaların insanlar tarafında çok fazla vurgulanmasına sebep olabilir (işler yolundayken hiçbirşeye dikkat etmeyiz, ama bunun yanında sorunlar yaşanınca herşey göze batmaya başlar ve tartışılır).
+
+Ek kaynaklar:
+
+- [Doğrulama Önyargısı](https://github.com/dwmkerr/hacker-laws#TODO)
+- [Seçim Tarafgirliği](https://github.com/dwmkerr/hacker-laws#TODO)
+
 ### Parkinson Yasası
 
 [Wikipedia'da Parkinson Yasası](https://en.wikipedia.org/wiki/Parkinson%27s_law)
