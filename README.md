@@ -24,6 +24,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Hype Döngüsü ve Amara Yasası](#hype-döngüsü-ve-amara-yasası)
     - [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrum-yasası-arabirimlerin-örtülü-hukuku)
     - [Moore Yasası](#moore-yasası)
+    - [Murphy Yasası / Sod Yasası](#murphy-yasas%C4%B1--sod-yasas%C4%B1)
     - [Parkinson Yasası](#parkinson-yasası)
     - [Olgunlaşmamış Optimizasyon Etkisi](#olgunlaşmamış-optimizasyon-etkisi)
     - [Putt Yasası](#putt-yasası)
