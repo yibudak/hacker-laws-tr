@@ -130,13 +130,13 @@ Ek kaynaklar:
 > 
 > ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
 
-Gall Yasası der ki, çok karmaşık sistemleri {em0}tasarlamaya{/em0} çalışmak her zaman başarısızlıkla sonuçlanır. Bu tür sistemlerin ilk denemede başarılı olmaları çok nadir görülür ama genellikle basit sistemlerden evrilirler.
+Gall Yasası der ki, çok karmaşık sistemleri _tasarlamaya_ çalışmak her zaman başarısızlıkla sonuçlanır. Bu tür sistemlerin ilk denemede başarılı olmaları çok nadir görülür ama genellikle basit sistemlerden evrilirler.
 
 En klasik örnek günümüzdeki internettir.  Şu an çok karmaşık bir sistemdir.  Aslında başlangıçta sadece akademik kurumlar arası içerik paylaşımı olarak tanımlanmıştı. Bu tanımı karşılamada çok başarılı oldu ve zamanla gelişerek bugünkü karmaşık halini aldı.
 
 Ek kaynaklar:
 
-- KISS (Keep It Simple, Stupid)
+- [KISS (Keep It Simple, Stupid)](#TODO)
 
 ### Hanlon'un Usturası
 
@@ -154,7 +154,7 @@ Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin
 > Bir iş her zaman umduğundan daha uzun sürer, Hofstadter yasasını göz önünde bulundursan bile.
 > (Douglas Hofstadter)
 
-Bu yasayı bir işin ne kadar süreceğini tahminlenirken hatırlatıldığı için duymuş olabilirsiniz. Herkesin kabul bir gerçek var ki, yazılım geliştirmede en kötü olduğumuz alan işin ne kadar sürede biteceğini tahmin etmektir.
+Bu yasayı bir işin ne kadar süreceğini tahminlenirken hatırlatıldığı için duymuş olabilirsiniz. Herkesin kabul ettiği bir gerçek var ki, yazılım geliştirmede en kötü olduğumuz alan işin ne kadar sürede biteceğini tahmin etmektir.
 
 '[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)' adlı kitaptan bir alıntı.
 
@@ -222,12 +222,12 @@ Bu programcılar arasında çok kullanılan bir atasözüdür. Geliştirme yapar
 
 > Eğer bir işin kötü gitme ihtimali varsa, olabilecek en kötü zamanda kötüye gidecektir.
 
-Bu iki 'yasa' daha çok espri amaçlı kullanılır. Bunun yanında, [Doğrulama Önyargısı](https://github.com/dwmkerr/hacker-laws#TODO) ve [Seçim Tarafgirliği](https://github.com/dwmkerr/hacker-laws#TODO) gibi olgular bu yasaların insanlar tarafında çok fazla vurgulanmasına sebep olabilir (işler yolundayken hiçbirşeye dikkat etmeyiz, ama bunun yanında sorunlar yaşanınca herşey göze batmaya başlar ve tartışılır).
+Bu iki 'yasa' daha çok espri amaçlı kullanılır. Bunun yanında, [Doğrulama Önyargısı](#TODO) ve [Seçim Tarafgirliği](#TODO) gibi olgular bu yasaların insanlar tarafında çok fazla vurgulanmasına sebep olabilir (işler yolundayken hiçbirşeye dikkat etmeyiz, ama bunun yanında sorunlar yaşanınca herşey göze batmaya başlar ve tartışılır).
 
 Ek kaynaklar:
 
-- [Doğrulama Önyargısı](https://github.com/dwmkerr/hacker-laws#TODO)
-- [Seçim Tarafgirliği](https://github.com/dwmkerr/hacker-laws#TODO)
+- [Doğrulama Önyargısı](#TODO)
+- [Seçim Tarafgirliği](#TODO)
 
 ### Parkinson Yasası
 
@@ -538,4 +538,4 @@ Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabi
 
 Selam!. Buraya ulaştıysanız, henüz yazmadığım bir konunun bağlantısını tıkladınız, bunun için üzgünüm - ve en kısa zamanda tamamlamaya çalışacağım!
 
-Soru ve önerileriniz için [issue](https://github.com/dwmkerr/hacker-laws/issues) açabilirsiniz, ya da katkıda bulunmak isterseniz [Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) açabilirsiniz.
+Soru ve önerileriniz için [issue](/issues) açabilirsiniz, ya da katkıda bulunmak isterseniz [Pull Request](/pulls) açabilirsiniz.
