@@ -538,4 +538,4 @@ Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabi
 
 Selam!. Buraya ulaştıysanız, henüz yazmadığım bir konunun bağlantısını tıkladınız, bunun için üzgünüm - ve en kısa zamanda tamamlamaya çalışacağım!
 
-Soru ve önerileriniz için [issue](/issues) açabilirsiniz, ya da katkıda bulunmak isterseniz [Pull Request](/pulls) açabilirsiniz.
+Soru ve önerileriniz için [issue](https://github.com/umutphp/hacker-laws-tr/issues) açabilirsiniz, ya da katkıda bulunmak isterseniz [Pull Request](https://github.com/umutphp/hacker-laws-tr/pulls) açabilirsiniz.
