@@ -14,39 +14,41 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 
 - [Giriş](#introduction)
 - [Yasalar](#laws)
-    - [Amdahl Yasası](#amdahl-yasası)
-    - [Brooks Yasası](#brooks-yasası)
-    - [Conway Yasası](#conway-yasası)
-    - [Dunbar Sayısı](#dunbar-number)
-    - [Gall Yasası](#Gall-yasası)
-    - [Hanlon'un Usturası](#hanlonun-usturası)
-    - [Hofstadter Yasası](#hofstadter-yasası)
-    - [Hutber Yasası](#hutber-yasası)
-    - [Hype Döngüsü ve Amara Yasası](#hype-döngüsü-ve-amara-yasası)
-    - [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrum-yasası-arabirimlerin-örtülü-hukuku)
-    - [Moore Yasası](#moore-yasası)
-    - [Murphy Yasası / Sod Yasası](#murphy-yasas%C4%B1--sod-yasas%C4%B1)
-    - [Parkinson Yasası](#parkinson-yasası)
-    - [Olgunlaşmamış Optimizasyon Etkisi](#olgunlaşmamış-optimizasyon-etkisi)
-    - [Putt Yasası](#putt-yasası)
-    - [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#karmaşıklığın-korunması-yasası-tesler-yasası)
-    - [The Law of Leaky Abstractions](#sızdıran-soyutlamalar-yasası)
-    - [Önemsizlik Yasası](#önemsizlik-yasası)
-    - [Unix Felsefesi](#unix-felsefesi)
-    - [Spotify Modeli](#spotify-modeli)
-    - [Wadler Yasası](#wadler-yasası)
-- [Prensipler](#principler)
-    - [Pareto Prensibi (80/20 Kuralı)](#pareto-prensibi-8020-kuralı)
-    - [Dayanıklılık Prensibi (Postel Yasası)](#dayanıklılık-prensibi-postel-yasası)
+    - [Amdahl Yasası](#amdahls-law)
+    - [Brooks Yasası](#brooks-law)
+    - [Conway Yasası](#conways-law)
+    - [Dunbar Sayısı](#dunbars-number)
+    - [Gall Yasası](#galls-law)
+    - [Hanlon'un Usturası](#hanlons-razor)
+    - [Hofstadter Yasası](#hofstadters-law)
+    - [Hutber Yasası](#hutbers-law)
+    - [Hype Döngüsü ve Amara Yasası](#the-hype-cycle--amaras-law)
+    - [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrums-law-the-law-of-implicit-interfaces)
+    - [Moore Yasası](#moores-law)
+    - [Murphy Yasası / Sod  Yasası](#murphys-law--sods-law)
+    - [Parkinson Yasası](#parkinsons-law)
+    - [Olgunlaşmamış Optimizasyon Etkisi](#premature-optimization-effect)
+    - [Putt Yasası](#putts-law)
+    - [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#the-law-of-conservation-of-complexity-teslers-law)
+    - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
+    - [Önemsizlik Yasası](#the-law-of-triviality)
+    - [Unix Felsefesi](#the-unix-philosophy)
+    - [Spotify Modeli](#the-spotify-model)
+    - [Wadler Yasası](#wadlers-law)
+- [Prensipler](#principles)
+    - [Dilbert Prensibi](#the-dilbert-principle)
+    - [Pareto Prensibi (80/20 Kuralı)](#the-pareto-principle-the-8020-rule)
+    - [Peter Prensibi](#the-peter-principle)
+    - [Dayanıklılık Prensibi (Postel Yasası)](#the-robustness-principle-postels-law)
     - [SOLID](#solid)
-    - [Tek Sorumluluk Prensibi](#tek-sorumluluk-prensibi)
-    - [Açık/Kapalı Prensibi](#açıkkapalı-prensibi)
-    - [Liskov Yerine Geçme Prensibi](#liskov-yerine-geçme-prensibi)
-    - [Arayüz Ayrım Prensibi](#arayüz-ayrım-prensibi)
-    - [Bağımlılığın Ters Çevrilmesi](#bağımlılığın-ters-çevrilmesi)
-    - [DRY Prensibi](#dry-prensibi)
+    - [Tek Sorumluluk Prensibi](#the-single-responsibility-principle)
+    - [Açık/Kapalı Prensibi](#the-openclosed-principle)
+    - [Liskov Yerine Geçme Prensibi](#the-liskov-substitution-principle)
+    - [Arayüz Ayrım Prensibi](#the-interface-segregation-principle)
+    - [Bağımlılığın Ters Çevrilmesi](#the-dependency-inversion-principle)
+    - [DRY Prensibi](#the-dry-principle)
     - [YAGNI](#yagni)
-- [Ek Kaynaklar](#ek-kaynaklar)
+- [Ek Kaynaklar](#reading-list)
 - [TODO](#todo)
 
 <!-- vim-markdown-toc -->
@@ -63,7 +65,7 @@ Tek tek başlayalım!
 
 ### Amdahl Yasası
 
-[Wikipedia'da Amdahl Yasası](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+[Wikipedia Amdahl Yasası](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 
 > Amdahl Yasası kaynakları artırarak bir hesaplama işleminin *olası* hızlanma miktarını hesaplayan bir formülü tanımlar. Genellikle paralel işleme hesaplarında kullanılır ve işlemci sayısının artırılmasının programın paralelleştirilebilme kapasitesine bağlı olarak etkisinin doğru şekilde saplanmasını sağlar.
 
@@ -77,16 +79,16 @@ Aşağıdaki diyagram bazı olası hız geliştirmelerine örnekler içeriyor:
 
 Diyagramdaki örneklerden görüldüğü üzere, eğer bir programın sadece %50'si paralelleştirilebiliyorsa 10 işlemciden sonra işlemci eklemek hızda gözle görünür bir artış sağlamıyor ama %95 paralelleştirilebilen bir programda 1000 işlemciden sonra bile işlemci eklemenin hızı artırdığı gözlenebilir.
 
-[Moore Yasasında](#moores-yasası) söylenen artışın azalma eğiliminde olması ve aynı zamanda işlemci hızının artışında da ivme kaybı olması, paralelleştirilebilme özelliğini performans artışında anahtar duruma getirdi. Grafik programlama bu konuda en belirgin örnek. Shader tabanlı modern işleme ile pixel ve fragmanların paralel olarak render edilebilmesi sayesinde modern grafik kartlarında binlerce işlemci çekirdeği olabiliyor.
+[Moore Yasasında](#moores-law) söylenen artışın azalma eğiliminde olması ve aynı zamanda işlemci hızının artışında da ivme kaybı olması, paralelleştirilebilme özelliğini performans artışında anahtar duruma getirdi. Grafik programlama bu konuda en belirgin örnek. Shader tabanlı modern işleme ile pixel ve fragmanların paralel olarak render edilebilmesi sayesinde modern grafik kartlarında binlerce işlemci çekirdeği olabiliyor.
 
 Ek kaynaklar:
 
-- [Brooks Yasası](#brooks-yasası)
-- [Moore Yasası ](#moores-yasası)
+- [Brooks Yasası](#brooks-law)
+- [Moore Yasası ](#moores-law)
 
 ### Brooks Yasası
 
-[Wikipedia'da Brooks Yasası](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
+[Wikipedia'da Brooks Yasası](https://en.wikipedia.org/wiki/Brooks%27s_law)
 
 > Gecikmesi kesinleşmiş projeye yeni insan kaynağı eklemek projeyi daha da geciktirir.
 
@@ -121,17 +123,16 @@ Kişiler arası insani ilişkilerde olduğu gibi, insanlarla kod arasındaki ili
 
 Ek kaynaklar:
 
-- [Conway Yasası](#conways-yasası)
+- [Conway Yasası](#conways-law)
 
 ### Gall Yasası
 
-[Wikipedia'da Gall Yasası](https://en.m.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
+[Wikipedia'da Gall Yasası](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
 > Çalışan karmaşık bir sistemin her zaman işe yarayan daha basit bir sistemden evrimleştiği kesinlikle söylenebilir. Başlangıçtan itibaren karmaşık tasarlanmış bir sistemin asla çalışmayacağı ve sonradan da düzeltilemeyeceği kesindir. Çalışsan daha basit bir sistem ile başlamanız gerekir.
-> 
 > ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
 
-Gall Yasası der ki, çok karmaşık sistemleri _tasarlamaya_ çalışmak her zaman başarısızlıkla sonuçlanır. Bu tür sistemlerin ilk denemede başarılı olmaları çok nadir görülür ama genellikle basit sistemlerden evrilirler.
+Gall Yasası der ki, çok karmaşık sistemleri *tasarlamaya* çalışmak her zaman başarısızlıkla sonuçlanır. Bu tür sistemlerin ilk denemede başarılı olmaları çok nadir görülür ama genellikle basit sistemlerden evrilirler.
 
 En klasik örnek günümüzdeki internettir.  Şu an çok karmaşık bir sistemdir.  Aslında başlangıçta sadece akademik kurumlar arası içerik paylaşımı olarak tanımlanmıştı. Bu tanımı karşılamada çok başarılı oldu ve zamanla gelişerek bugünkü karmaşık halini aldı.
 
@@ -217,13 +218,13 @@ Ek kaynaklar:
 
 > Eğer bir işin kötü gitme ihtimali varsa mutlaka kötü gider.
 
-İsmini [Edward A. Murphy, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.)'dan alan Murphy Yasası der ki eğer bir işin kötü gitme ihtimali varsa mutlaka kötü gider.
+İsmini [Edward A. Murphy, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.)'dan alan *Murphy Yasası* der ki eğer bir işin kötü gitme ihtimali varsa mutlaka kötü gider.
 
-Bu programcılar arasında çok kullanılan bir atasözüdür. Geliştirme yaparken, test ederken ya da canlı sistemlerde çoğunlukla hep beklenmedik sorunlar olur. Bu durum  (İngiltere'de yaygın kullanılan) Sod Yasası ile de ilişkilendirilebilir:
+Bu programcılar arasında çok kullanılan bir atasözüdür. Geliştirme yaparken, test ederken ya da canlı sistemlerde çoğunlukla hep beklenmedik sorunlar olur. Bu durum  (İngiltere'de yaygın kullanılan) *Sod Yasası* ile de ilişkilendirilebilir:
 
 > Eğer bir işin kötü gitme ihtimali varsa, olabilecek en kötü zamanda kötüye gidecektir.
 
-Bu iki 'yasa' daha çok espri amaçlı kullanılır. Bunun yanında, [Doğrulama Önyargısı](#TODO) ve [Seçim Tarafgirliği](#TODO) gibi olgular bu yasaların insanlar tarafında çok fazla vurgulanmasına sebep olabilir (işler yolundayken hiçbirşeye dikkat etmeyiz, ama bunun yanında sorunlar yaşanınca herşey göze batmaya başlar ve tartışılır).
+Bu iki 'yasa' daha çok espri amaçlı kullanılır. Bunun yanında, [*Doğrulama Önyargısı*](#TODO) ve [*Seçim Tarafgirliği*](#TODO) gibi olgular bu yasaların insanlar tarafında çok fazla vurgulanmasına sebep olabilir (işler yolundayken hiçbirşeye dikkat etmeyiz, ama bunun yanında sorunlar yaşanınca herşey göze batmaya başlar ve tartışılır).
 
 Ek kaynaklar:
 
@@ -238,11 +239,11 @@ Ek kaynaklar:
 
 Orijinal bağlamında, bu kanun bürokrasi alanındaki çalışmalara dayanıyordu. Kötümser bir bakış açısıyla yazılım geliştirme girişimleri için de söylenebilir. Şöyle ki ekipler genelde proje bitiş tarihi yaklaşana kadar düşük verimde çalışırlar, bitiş tarihi yaklaştıkça bitirmek için yoğun bir çaba içine girerler ve sonuç olarak aslında bitiş tarihini tutturmuş olurlar.
 
-Bu yasa ile [Hofstadter Yasası](#hofstadters-yasası) birleştirilirse, daha kötümser bir yasaya ulaşılır. Bir iş bitirilmesi için harcanması gereken zamanı kapsar ve *her zaman gecikir*.
+Bu yasa ile [Hofstadter Yasası](#hofstadters-law) birleştirilirse, daha kötümser bir yasaya ulaşılır. Bir iş bitirilmesi için harcanması gereken zamanı kapsar ve *her zaman gecikir*.
 
 Ek kaynaklar:
 
-- [Hofstadter's Law](#hofstadters-yasası)
+- [Hofstadter Yasası](#hofstadters-law)
 
 ### Olgunlaşmamış Optimizasyon Etkisi
 
@@ -265,14 +266,14 @@ Putt yasasını çoğunlukla Putt sonucu takip eder:
 
 > Her teknik hiyerarşi, zaman içinde bir yetkinlik dönüşümü geliştirir.
 
-Bu iki cümle, ekiplerin oluşturulmasında rol alan farklı seçim kriterleri ve eğilimlerden dolayı, bir organizasyonda çalışma katmanlarında çok sayıda yetenekli insan olduğu gibi yönetim katmanlarında da yapılan işin karmaşıklığından ve zorluklarından haberdar olmayan yöneticiler olacaktır. Bunun sebebi [Peter Prensibi](#TODO) or [Dilbert Yasası](#TODO) gibi olgular olabilir.
+Bu iki cümle der ki grupların organiza olma şekillerindeki seçim kıstasları ve eğilimleri yüzünden bir zaman sonra teknik organizasyonun çalışma seviyelerinde bir grup yetenekli insan varken yönettikleri işin karmaşıklığından ve zorluklarından bihaber bir grup insan da yönetim kademelerini işgal edecektir. Bu durum [Peter Prensibi](#the-peter-principle) ya da [Dilbert Prensibi](#the-dilbert-principle) ile de açıklanabilir.
 
 Bununla birlikte, bunun gibi yasaların çok büyük genellemeler olduğu ve *bazı* organizasyon türleri için geçerli olabileceği gibi başkaları için geçerli olmayacağı unutulmamalıdır.
 
 Ek kaynaklar:
 
-- [Peter Prensibi](#TODO)
-- [Dilbert Yasası](#TODO).
+- [Peter Prensibi](#the-peter-principle)
+- [Dilbert Prensibi](#the-dilbert-principle)
 
 ### Karmaşıklığın Korunması Yasası (Tesler Yasası)
 
@@ -341,7 +342,7 @@ Spotify Modeli kabileler (Tribes), birlikler (Guilds) ve kısımlar (Chapter) gi
 > 1. Semantik
 > 2. Genel sözdizimi
 > 3. Sözcük sözdizimi
-> 4. Yorumlardaki sözcük sözdizimi
+> 4. Yorumlardaki sözcük sözdizimi(Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır.)
 > (Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır.)
 
 [Önemsizlik Yasasında](#the-law-of-triviality) öne sürülene benzer olarak, Wadler Yasası yeni bir programlama dili tasarlanırken konunun önemi ile o konu için harcanan zaman ters orantılı olduğunu söylüyor.
@@ -353,6 +354,20 @@ Ek kaynaklar:
 ## Prensipler
 
 Prensiplerin genellikle tasarıma ilişkin rehberlerdir.
+
+### Dilbert Prensibi
+
+[Wikipedia'da Dilbert Prensibi](https://en.wikipedia.org/wiki/Dilbert_principle)
+
+> Şirketler, yetersiz çalışanları, iş akışından uzaklaştırmak için sistematik olarak yönetici olmaya teşvik etme eğilimindedir.
+> *Scott Adams*
+
+Scot Adams (Dilbert çizgi dizisinin yazarı) [Peter prensibinden](#the-peter-principle) esinlenerek ortaya atılmış bir yönetim kavramıdır. Dilbert prensibine göre yetenekli olmayan çalışanlar yönetim kadorlarına dopru yükseltilirler ki üretime verecekleri zarar aza indirilsin. Adams bunu ilk olarak 1995'te Wall Street Journal'da yazdığı bir makalede açıkladı daha sonra ise 1996'da yazdığı [Dilbert Prensibi](#reading-list) adlı kitabında detaylandırdı.
+
+Ek kaynaklar:
+
+- [Peter Prensibi](#the-peter-principle)
+- [Putt Yasası](#putts-law)
 
 ### Pareto Prensibi (80/20 Kuralı)
 
@@ -370,12 +385,27 @@ Pareto Prensibi der ki, çıktıların önemli bir çoğunluğu girdilerin çok 
 
 1940'lı yıllarda Romanya kökenli Amerikalı mühendis Dr. Joseph Juran, kendisi kalite kontrolün babası olarak nitelendirilir, [kalite kontrol sorunlarında Pareto Prensibini kullanmaya başladı](https://en.wikipedia.org/wiki/Joseph_M._Juran).
 
-
 Bu prensip aynı zamanda 80/20 Kuralı (The Law of the Vital Few and The Principle of Factor Sparsity) olarak da bilinir.
 
-Real-world examples:
+Gerçek dünyadan örnekler:
 
 - 2002'de Microsoft en çok rapor edilen hataların üstten %20'sini çözünce kullanıcıların yaşadığı sorunların %80'inin çözüldüğünü gözlemlemiş ([Referans](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
+
+### Peter Prensibi
+
+[Wikipedia'da Peter Prensibi](https://en.wikipedia.org/wiki/Peter_principle)
+
+> Hiyerarşideki insanlar “yetersizlik seviyelerine” göre yükselme eğilimindedir.
+> *Laurence J. Peter*
+
+Laurence J. Peter tarafından geliştirilen bir yönetim konsepti olan Peter Prensibi, işlerinde iyi olan kişilerin, artık başarılı olamadıkları bir seviyeye (kendi "yetersizlik seviyelerine") ulaşana kadar terfi ettiğini gözlemlemektedir. Bu durumda şirket içinde çok tecrübeli olduklarından organizasyondan (çok aykırı birşey yapmadıkları sürece) dışlanmazlar ve az sayıda temel beceriye sahip olacakları bir rolde kalmaya devam edecekler, çünkü onları başarılı kılan orijinal becerileri mutlaka bu yeni rolleri için gereken beceriler değildir.
+
+Bu, temelde farklı bir beceri kümesi gerektirdiğinden özellikle mühendislerle - kariyerine teknik rollerle başlayan ama sonra kariyer değiştirip diğer mühendisleri *yönetmeye* başlayan -  alakalıdır.
+
+Ek kaynaklar:
+
+- [Dilbert Prensibi](#the-dilbert-principle)
+- [Putt Yasası](#putts-law)
 
 ### Dayanıklılık Prensibi (Postel Yasası)
 
@@ -399,7 +429,6 @@ SOLID aşağıdaki beş prensibin baş harflerinden oluşan bir kısaltmadır;
 
 Bunları [Nesne Tabanlı Proglamlama'nın](#todo) temel prensipleri olarak değerlendirilebilir ve bu prensiplerin programcılara geliştirilebilir ve desteklenebilir sistemler geliştirmelerinde yardımcı oldukları kesindir.
 
-
 ### Tek Sorumluluk Prensibi
 
 [Wikipedia'da Tek Sorumluluk Prensibi](https://en.wikipedia.org/wiki/Single_responsibility_principle)
@@ -409,7 +438,6 @@ Bunları [Nesne Tabanlı Proglamlama'nın](#todo) temel prensipleri olarak değe
 Bu '[SOLID](#solid)' prensiplerinin ilkidir. Bu prensip der ki her bir sistem parçasının yada programlama sınıfının sadece ama sadece bir sorumluluğu olması gerekir. Daha sade anlatmak gerekirse, bir programdaki sadece bir özelliği etkileyen bir değişiklik sadece o özelliği ilgilendiren parça ya da sınıfta yapılmalı. Örneğin, şifrelerin doğruluğunun kontrolünde bir değiştirme yapılacaksa sadece programın o bölümünde değişiklik yapılmalı.
 
 Teorik olarak, bu prensibe uygun yazılmış kodlar daha sağlam ve değiştirilmesi kolaydır. Sadece tek bir parçanın değiştirildiğine emin olunduğunda değişimi *tesk etmek* de kolay olacaktır. Önceki şifre örneğini düşünürsek, şifrenin zorluk seviyesi değiştirildiğinde sadece şifre ilgili bölümlerin etkilenecektir. Birden fazla sorumluluğu olan bir bölümde olan değişikliğin nereleri etkileceğini hesaplamak daha zordur.
-
 
 Ek kaynaklar:
 
@@ -424,15 +452,13 @@ Ek kaynaklar:
 
 Bu '[SOLID](#solid)' prensiplerinin ikincisidir ve herhangi bir sistem parçasının *mevcut* davranışının değiştirilememesini ama kullanılarak/türetilerek *genişletilebilmesinin* gerekliliğini savunur.
 
-
 Örneğin Markdown formatındaki belgeleri HTML formatına çeviren bir modülü düşünelim. Eğer bu modül kendisi değiştirilmeden yeni bir Markdown formatını da işlemesi sağlanacak şekilde geliştirilebiliyorsa, bu modül genişletilmeye açık demektir. Eğer sonradan değiştirilip Markdown formatı işlemesi ile ilgili geliştirme *yapılamıyorsa*, bu modül değiştirilmeye *kapalı* demektir.
-
 
 Bu prensip nesne-tabanlı programlamaya tam uygundur. Şöyle ki, kendi nesne ve sınıflarımızı miras alınarak geliştirmeye uygun ve değiştirmeye ihtiyaç duymayacak şekilde tasarlarsak ve yazarsak nesne-tabanlı programlamaya tam uygun kod yazmış oluruz.
 
-See also:
+Ek kaynaklar:
 
-- [Object-Oriented Programming](#todo)
+- [Nesne Tabanlı Programlama](#todo)
 - [SOLID](#solid)
 
 ### Liskov Yerine Geçme Prensibi
@@ -463,9 +489,9 @@ Ek kaynaklar:
 
 Örnek olarak dosyayı temsil eden bir yapıdan XML verisi okuyan bir metod düşünelim. Bu metod sadece dosyadan byte byte veri okumalı ve dosya içinde ileri ya da geri hareket etmeli. Eğer bu method dosya okuma dışında (dosya izinleri değişimi gibi) herhangi bir özellik değişiminden dolayı güncellenmek zorunda kalınıyorsa bu prensip ihlal edilmiş demektir.
 
-Bı prensip de nesne-tabanlı programlama ile direk ilişkilidir. 'interface' yapıları, sınıf hiyerarşileri ve soyut türler farklı bileşenler arası bağımlığı [en aza indirmek](#todo) için kullanılır. [Duck typing](#todo) de bu prensibi uygulamaya yardımcı olur.
+Bu prensip de nesne-tabanlı programlama ile direk ilişkilidir. 'interface' yapıları, sınıf hiyerarşileri ve soyut türler farklı bileşenler arası bağımlığı en aza indirmek için kullanılır. Duck typing de bu prensibi uygulamaya yardımcı olur.
 
-See also:
+Ek kaynaklar:
 
 - [Nesne Tabanlı Programlama](#todo)
 - [SOLID](#solid)
@@ -484,7 +510,6 @@ See also:
 
 Bu prensip olması gereken bağımlığı tersine çevirdiği düşünebileceğinden (isminden dolayı) biraz karmaşık gelebilir. Pratikte, ayrı bir düzenleme bileşeninin, soyut türlerin doğru uygulamalarının kullanılmasını sağlaması gerektiği anlamına gelir (önceki örnekte, *bir şey* hala meta veri okuyucu bileşenine bir HTTP dosyası indiricisi ve HTML meta etiketi okuyucu sağlamalıdır). Bu prensip aynı zamanda [Kontrolün Ters Çevirilmesi](#todo) ve [Bağımlık Enjeksiyonu](#todo) gibi konularla da bağlantılıdır.
 
-
 Ek kaynaklar:
 
 - [Nesne Tabanlı Programlama](#todo)
@@ -500,9 +525,7 @@ Ek kaynaklar:
 
 *DRY Don't Repeat Yourself* yani Kendini Tekrar Etme deyimin kısaltılmasıdır. İlk olarak Andrew Hunt ve Dave Thomas tarafından [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer) kitabında bahsedilmiştir. Bu ilke, geliştiricilere kod tekrarını azaltma ve bilgileri tek bir yerde tutmalarına yardımcı olmayı amaçlamaktadır.
 
-
 > DRY'nin tam tersi *WET* olacaktır (Write Everything Twice (Her Şeyi İki Kez Yaz) We Enjoy Typing (Yazmayı Seviyoruz)).
-> 
 
 Uygulamada, aynı bilgi parçasını iki (veya daha fazla) farklı yerde kullanıyorsanız, DRY'yi bunları tek bir tanede birleştirmek ve istediğiniz / ihtiyaç duyduğunuz yerde tekrar kullanmak için kullanabilirsiniz.
 
@@ -531,12 +554,14 @@ Ek kaynaklar:
 
 Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabilirsiniz.
 
-- [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834) - Covers the core principles of Extreme Programming.
-- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-yasası) is a central theme of the book.
-- [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-yasası) is from the book.
+- Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson - Extreme Programming kavramının temel prensiplerini içerir.
+- The Mythical Man Month - Frederick P. Brooks Jr. - Yazılım mühendisliği klasiği sayılabilir. Brooks Yasası bu kitabın ana temasıdır.
+- Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter. - Sınıflandırması zor bir kitap. Hofstadter Yasası bu kitaptan alıntıdır.
+- [Dilbert Prensibi - Adam Scott](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - Amerikadaki kurumsal hayata mizahi bir yaklaşım,  [Dilbert Prensibinin](#the-dilbert-principl) sahibinden.
+- [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Another comic look at the challenges of larger organisations and people management, the source of [The Peter Principle](#the-peter-principle).
 
 ## TODO
 
 Selam!. Buraya ulaştıysanız, henüz yazmadığım bir konunun bağlantısını tıkladınız, bunun için üzgünüm - ve en kısa zamanda tamamlamaya çalışacağım!
 
-Soru ve önerileriniz için [issue](https://github.com/umutphp/hacker-laws-tr/issues) açabilirsiniz, ya da katkıda bulunmak isterseniz [Pull Request](https://github.com/umutphp/hacker-laws-tr/pulls) açabilirsiniz.
+Soru ve önerileriniz için [issue](https://github.com/dwmkerr/hacker-laws/issues) açabilirsiniz, ya da katkıda bulunmak isterseniz [Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) açabilirsiniz.
