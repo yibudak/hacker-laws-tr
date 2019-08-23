@@ -13,7 +13,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 <!-- vim-markdown-toc GFM -->
 
 - [Giriş](#giriş)
-- [Yasalar](#laws)
+- [Yasalar](#yasalar)
     - [Amdahl Yasası](#amdahl-yasası)
     - [Brooks Yasası](#brooks-yasası)
     - [Conway Yasası](#conway-yasası)
