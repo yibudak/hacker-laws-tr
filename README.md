@@ -130,6 +130,7 @@ Ek kaynaklar:
 [Wikipedia'da Gall Yasası](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
 > Çalışan karmaşık bir sistemin her zaman işe yarayan daha basit bir sistemden evrimleştiği kesinlikle söylenebilir. Başlangıçtan itibaren karmaşık tasarlanmış bir sistemin asla çalışmayacağı ve sonradan da düzeltilemeyeceği kesindir. Çalışsan daha basit bir sistem ile başlamanız gerekir.
+>
 > ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
 
 Gall Yasası der ki, çok karmaşık sistemleri *tasarlamaya* çalışmak her zaman başarısızlıkla sonuçlanır. Bu tür sistemlerin ilk denemede başarılı olmaları çok nadir görülür ama genellikle basit sistemlerden evrilirler.
