@@ -83,8 +83,8 @@ Diyagramdaki örneklerden görüldüğü üzere, eğer bir programın sadece %50
 
 Ek kaynaklar:
 
-- [Brooks Yasası](#brooks-law)
-- [Moore Yasası ](#moores-law)
+- [Brooks Yasası](#brooks-yasası)
+- [Moore Yasası ](#moore-yasası)
 
 ### Brooks Yasası
 
@@ -101,7 +101,7 @@ Meşhur "Dokuz kadın ile 1 ayda doğum sağlanamaz" deyimi bu yasanın en prati
 Ek kaynaklar:
 
 - [Death March](#todo)
-- [Reading List: The Mythical Man Month](#reading-list)
+- [Reading List: The Mythical Man Month](#ek-kaynaklar)
 
 ### Conway Yasası
 
@@ -111,7 +111,7 @@ Conway yasası der ki; üretilen sistemler kendilerini üreten organizasyonun te
 
 Ek kaynaklar:
 
-- [Spotify Modeli](#the-spotify-model)
+- [Spotify Modeli](#spotify-modeli)
 
 ### Dunbar Sayısı
 
@@ -123,7 +123,7 @@ Kişiler arası insani ilişkilerde olduğu gibi, insanlarla kod arasındaki ili
 
 Ek kaynaklar:
 
-- [Conway Yasası](#conways-law)
+- [Conway Yasası](#conway-yasası)
 
 ### Gall Yasası
 
@@ -162,7 +162,7 @@ Bu yasayı bir işin ne kadar süreceğini tahminlenirken hatırlatıldığı i�
 
 Ek kaynaklar:
 
-- [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
+- [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#ek-kaynaklar)
 
 ### Hutber Yasası
 
@@ -201,7 +201,7 @@ Hyrum Yasası göre, eğer bir API'nin *oldukça büyük sayılabilecek sayıda 
 
 Ek kaynaklar:
 
-- [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
+- [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
 - [XKCD 1172](https://xkcd.com/1172/)
 
 ### Moore Yasası
@@ -243,7 +243,7 @@ Bu yasa ile [Hofstadter Yasası](#hofstadters-law) birleştirilirse, daha kötü
 
 Ek kaynaklar:
 
-- [Hofstadter Yasası](#hofstadters-law)
+- [Hofstadter Yasası](#hofstadter-yasası)
 
 ### Olgunlaşmamış Optimizasyon Etkisi
 
@@ -272,8 +272,8 @@ Bununla birlikte, bunun gibi yasaların çok büyük genellemeler olduğu ve *ba
 
 Ek kaynaklar:
 
-- [Peter Prensibi](#the-peter-principle)
-- [Dilbert Prensibi](#the-dilbert-principle)
+- [Peter Prensibi](#peter-prensibi)
+- [Dilbert Prensibi](#dilbert-prensibi)
 
 ### Karmaşıklığın Korunması Yasası (Tesler Yasası)
 
@@ -302,7 +302,7 @@ Yasa savunmaya çalıştığı durum, herhangi bir soyutlamaya çok fazla güven
 
 Ek kaynaklar:
 
-- [Hyrum Yasası](#hyrums-law-the-law-of-implicit-interfaces)
+- [Hyrum Yasası](#hyrum-yasası)
 
 Gerçek dünyadan örnekler:
 
@@ -349,7 +349,7 @@ Spotify Modeli kabileler (Tribes), birlikler (Guilds) ve kısımlar (Chapter) gi
 
 Ek kaynaklar:
 
-- [Önemsizlik Yasası](#the-law-of-triviality)
+- [Önemsizlik Yasası](#önemsizlik-yasası)
 
 ## Prensipler
 
@@ -366,8 +366,8 @@ Scot Adams (Dilbert çizgi dizisinin yazarı) [Peter prensibinden](#the-peter-pr
 
 Ek kaynaklar:
 
-- [Peter Prensibi](#the-peter-principle)
-- [Putt Yasası](#putts-law)
+- [Peter Prensibi](#peter-prensibi)
+- [Putt Yasası](#putt-yasası)
 
 ### Pareto Prensibi (80/20 Kuralı)
 
@@ -404,8 +404,8 @@ Bu, temelde farklı bir beceri kümesi gerektirdiğinden özellikle mühendisler
 
 Ek kaynaklar:
 
-- [Dilbert Prensibi](#the-dilbert-principle)
-- [Putt Yasası](#putts-law)
+- [Dilbert Prensibi](#dilbert-prensibi)
+- [Putt Yasası](#putt-yasası)
 
 ### Dayanıklılık Prensibi (Postel Yasası)
 
@@ -421,11 +421,11 @@ Bu prensibin amacı dayanıklı sistemlere geliştirmektir ve bu sistemler köt�
 
 SOLID aşağıdaki beş prensibin baş harflerinden oluşan bir kısaltmadır;
 
-- S: [Tek Sorumluluk Prensibi - The Single Responsibility Principle](#the-single-responsibility-principle)
-- O: [Açık/Kapalı Prensibi - The Open/Closed Principle](#the-openclosed-principle)
-- L: [Liskov Yerine Geçme Prensibi - The Liskov Substitution Principle](#the-liskov-substitution-principle)
-- I: [Arayüz Ayrım Prensibi - The Interface Segregation Principle](#the-interface-segregation-principle)
-- D: [Bağımlılığın Ters Çevrilmesi - The Dependency Inversion Principle](#the-dependency-inversion-principle)
+- S: [Tek Sorumluluk Prensibi - The Single Responsibility Principle](#tek-sorumluluk-prensibi)
+- O: [Açık/Kapalı Prensibi - The Open/Closed Principle](#açıkkapalı-prensibi)
+- L: [Liskov Yerine Geçme Prensibi - The Liskov Substitution Principle](#liskov-yerine-geçme-prensibi)
+- I: [Arayüz Ayrım Prensibi - The Interface Segregation Principle](#arayüz-ayrım-prensibi)
+- D: [Bağımlılığın Ters Çevrilmesi - The Dependency Inversion Principle](#bağımlılığın-ters-çevrilmesi)
 
 Bunları [Nesne Tabanlı Proglamlama'nın](#todo) temel prensipleri olarak değerlendirilebilir ve bu prensiplerin programcılara geliştirilebilir ve desteklenebilir sistemler geliştirmelerinde yardımcı oldukları kesindir.
 
