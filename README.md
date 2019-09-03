@@ -33,7 +33,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
     - [Önemsizlik Yasası](#önemsizlik-yasası)
     - [Unix Felsefesi](#unix-felsefesi)
-    - [Spotify Modeli](#potify-modeli)
+    - [Spotify Modeli](#spotify-modeli)
     - [Wadler Yasası](#wadler-yasası)
 - [Prensipler](#prensipler)
     - [Dilbert Prensibi](#dilbert-prensibi)
