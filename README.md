@@ -29,7 +29,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Parkinson Yasası](#parkinson-yasası)
     - [Olgunlaşmamış Optimizasyon Etkisi](#olgunlaşmamış-optimizasyon-etkisi)
     - [Putt Yasası](#putt-yasası)
-    - [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#karmaşılığın-korunması-yasası-tesler-yasası)
+    - [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#karmaşıklığın-korunması-yasası-tesler-yasası)
     - [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
     - [Önemsizlik Yasası](#önemsizlik-yasası)
     - [Unix Felsefesi](#unix-felsefesi)
