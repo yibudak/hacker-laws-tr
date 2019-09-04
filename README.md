@@ -273,7 +273,7 @@ Putt yasasını çoğunlukla Putt sonucu takip eder:
 
 > Her teknik hiyerarşi, zaman içinde bir yetkinlik dönüşümü geliştirir.
 
-Bu iki cümle der ki grupların organiza olma şekillerindeki seçim kıstasları ve eğilimleri yüzünden bir zaman sonra teknik organizasyonun çalışma seviyelerinde bir grup yetenekli insan varken yönettikleri işin karmaşıklığından ve zorluklarından bihaber bir grup insan da yönetim kademelerini işgal edecektir. Bu durum [Peter Prensibi](#the-peter-principle) ya da [Dilbert Prensibi](#the-dilbert-principle) ile de açıklanabilir.
+Bu iki cümle der ki grupların organize olma şekillerindeki seçim kıstasları ve eğilimleri yüzünden bir zaman sonra teknik organizasyonun çalışma seviyelerinde bir grup yetenekli insan varken yönettikleri işin karmaşıklığından ve zorluklarından bihaber bir grup insan da yönetim kademelerini işgal edecektir. Bu durum [Peter Prensibi](#the-peter-principle) ya da [Dilbert Prensibi](#the-dilbert-principle) ile de açıklanabilir.
 
 Bununla birlikte, bunun gibi yasaların çok büyük genellemeler olduğu ve *bazı* organizasyon türleri için geçerli olabileceği gibi başkaları için geçerli olmayacağı unutulmamalıdır.
 
