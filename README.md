@@ -273,7 +273,7 @@ Putt yasasını çoğunlukla Putt sonucu takip eder:
 
 > Her teknik hiyerarşi, zaman içinde bir yetkinlik dönüşümü geliştirir.
 
-Bu iki cümle der ki grupların organize olma şekillerindeki seçim kıstasları ve eğilimleri yüzünden bir zaman sonra teknik organizasyonun çalışma seviyelerinde bir grup yetenekli insan varken yönettikleri işin karmaşıklığından ve zorluklarından bihaber bir grup insan da yönetim kademelerini işgal edecektir. Bu durum [Peter Prensibi](#the-peter-principle) ya da [Dilbert Prensibi](#the-dilbert-principle) ile de açıklanabilir.
+Bu iki cümle der ki grupların organize olma şekillerindeki seçim kıstasları ve eğilimleri yüzünden bir zaman sonra teknik organizasyonun çalışma seviyelerinde bir grup yetenekli insan varken yönettikleri işin karmaşıklığından ve zorluklarından bihaber bir grup insan da yönetim kademelerini işgal edecektir. Bu durum [Peter Prensibi](#peter-prensibi) ya da [Dilbert Prensibi](#dilbert-prensibi) ile de açıklanabilir.
 
 Bununla birlikte, bunun gibi yasaların çok büyük genellemeler olduğu ve *bazı* organizasyon türleri için geçerli olabileceği gibi başkaları için geçerli olmayacağı unutulmamalıdır.
 
@@ -296,7 +296,7 @@ O yasanın farklı bir yansıması olarak şöyle düşünülebilir, eğer bir k
 
 [Sızdıran Soyutlamalar Yasası, Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
-> Önemsiz sayılmayacak bütün soyutlamar belli ölçüde sızıntı içerir.
+> Önemsiz sayılmayacak bütün soyutlamalar belli ölçüde sızıntı içerir.
 >
 > ([Joel Spolsky](https://twitter.com/spolsky))
 
