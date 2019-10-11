@@ -48,6 +48,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Arayüz Ayrım Prensibi](#arayüz-ayrım-prensibi)
     - [Bağımlılığın Ters Çevrilmesi](#bağımlılığın-ters-çevrilmesi)
     - [DRY Prensibi](#dry-prensibi)
+    - [KISS Prensibi](#kiss-prensibi)
     - [YAGNI](#yagni)
 - [Ek Kaynaklar](#ek-kaynaklar)
 - [TODO](#todo)
@@ -553,6 +554,21 @@ Uygulamada, aynı bilgi parçasını iki (veya daha fazla) farklı yerde kullan�
 Ek kaynaklar:
 
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+
+### KISS Prensibi
+
+[Wikipedia'da KISS Prensibi](https://en.wikipedia.org/wiki/KISS_principle)
+
+> Olabildiğince basit ve aptal (Keep it simple, stupid)
+
+KISS prensibi, çoğu sistemin karmaşıklaştırılmak yerine basit tutulması durumunda en iyi şekilde çalışacağını belirtir; bu nedenle sadelik tasarımda kilit bir amaç olmalı ve gereksiz karmaşıklıktan kaçınılmalıdır. Bu 1960’da ABD Donanması’nda çalışan uçak mühendisi Kelly Johnson ile ilişkilendirilen bir cümle.
+
+Prensip, Johnson'ın bir tasarım mühendisleri ekibine bir avuç el aleti teslim etmesinin öyküsüyle en iyi örneklenmiştir, tasarladıkları jet uçağının sahadaki ortalama bir tamirci tarafından yalnızca bu aletlerle mücadele koşullarında tamir edilebilir olması zorunluluğu ile karşı karşıyadır. Bu nedenle, "aptal" kelimesi mühendislerin kendi yeteneklerini değil, işlerin kırılma şekli ile onları tamir etmek için mevcut araçların karmaşıklığı arasındaki ilişkiyi ifade eder.
+
+Ek kaynaklar:
+
+- [Gall Yasası](#gall-yasası)
+
 
 ### YAGNI
 
