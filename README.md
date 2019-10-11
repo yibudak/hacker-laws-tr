@@ -151,7 +151,7 @@ En klasik örnek günümüzdeki internettir.  Şu an çok karmaşık bir sistemd
 
 Ek kaynaklar:
 
-- [KISS (Keep It Simple, Stupid)](#TODO)
+- [KISS (Keep It Simple, Stupid)](#kiss-prensibi)
 
 ### Hanlon'un Usturası
 
