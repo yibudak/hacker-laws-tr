@@ -38,7 +38,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Wadler Yasası](#wadler-yasası)
 - [Prensipler](#prensipler)
     - [Dilbert Prensibi](#dilbert-prensibi)
-    - [Pareto Prensibi (80/20 Kuralı)](#the-pareto-prensibi-8020-kuralı)
+    - [Pareto Prensibi (80/20 Kuralı)](#pareto-prensibi-8020-kuralı)
     - [Peter Prensibi](#peter-prensibi)
     - [Dayanıklılık Prensibi (Postel Yasası)](#dayanıklılık-prensibi-postel-yasası)
     - [SOLID](#solid)
