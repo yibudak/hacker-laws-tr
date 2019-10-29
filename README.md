@@ -25,11 +25,13 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Hutber Yasası](#hutber-yasası)
     - [Hype Döngüsü ve Amara Yasası](#hype-döngüsü-ve-amara-yasası)
     - [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrum-yasası-arabirimlerin-örtülü-hukuku)
+    - [Metcalfe Yasası](#metcalfe-yasası)
     - [Moore Yasası](#moore-yasası)
     - [Murphy Yasası / Sod  Yasası](#murphy-yasası--sod-yasası)
     - [Parkinson Yasası](#parkinson-yasası)
     - [Olgunlaşmamış Optimizasyon Etkisi](#olgunlaşmamış-optimizasyon-etkisi)
     - [Putt Yasası](#putt-yasası)
+    - [Reed Yasası](#reed-yasası)
     - [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#karmaşıklığın-korunması-yasası-tesler-yasası)
     - [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
     - [Önemsizlik Yasası](#önemsizlik-yasası)
@@ -222,6 +224,19 @@ Ek kaynaklar:
 - [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
 - [XKCD 1172](https://xkcd.com/1172/)
 
+### Metcalfe Yasası
+
+[Wikipedia'da Metcalfe Yasası](https://en.wikipedia.org/wiki/Metcalfe's_law)
+
+> Ağ teorisinde, bir sistemin değeri yaklaşık olarak sistemin kullanıcı sayısının karesi ile orantılı olarak büyür.
+
+Bu yasa, bir sistem içindeki muhtemel çift bağlantıların sayısına dayanmaktadır ve [Reed Yasası](#reed-yasası) ile yakından ilgilidir. Odlyzko ve diğerleri, hem Reed Yasası hem de Metcalfe Yasası'nın, insan bilişinin ağ etkileri üzerindeki sınırlarını hesaba katmayarak sistemin değerini abarttığını öne sürerler; [Dunbar Sayısı'na](#dunbar-sayısı) bakınız.
+
+Ek kaynaklar;
+
+- [Reed Yasası](#reed-yasası)
+- [Dunbar Sayısı'na](#dunbar-sayısı)
+
 ### Moore Yasası
 
 [Wikipedia'da Moore Yasası](https://en.wikipedia.org/wiki/Moore%27s_law)
@@ -293,6 +308,19 @@ Ek kaynaklar:
 
 - [Peter Prensibi](#peter-prensibi)
 - [Dilbert Prensibi](#dilbert-prensibi)
+
+### Reed Yasası
+
+[Wikipedia'da Reed Yasası](https://en.wikipedia.org/wiki/Reed's_law)
+
+> Büyük ağların, özellikle sosyal ağların kullanımı, ağın boyutuna katlanarak ölçeklenir.
+
+Bu yasa, programın faydasının olası katılımcı veya ikili bağlantı sayısından daha hızlı olan olası alt grup sayısı olarak ölçeklendiği grafik teorisine dayanmaktadır. Odlyzko ve diğerleri, Reed Yasası'nın, insan bilişinin ağ etkileri üzerindeki sınırlarını hesaba katarak sistemin yararını abarttığını öne sürerler; [Dunbar Sayısı](#dunbar-sayısı)'na bakınız.
+
+Ek kaynaklar;
+
+- [Metcalfe Yasası](#metcalfe-yasası)
+- [Dunbar Sayısı](#dunbar-sayısı)
 
 ### Karmaşıklığın Korunması Yasası (Tesler Yasası)
 
