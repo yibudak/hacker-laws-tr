@@ -230,12 +230,12 @@ Ek kaynaklar:
 
 > Ağ teorisinde, bir sistemin değeri yaklaşık olarak sistemin kullanıcı sayısının karesi ile orantılı olarak büyür.
 
-Bu yasa, bir sistem içindeki muhtemel çift bağlantıların sayısına dayanmaktadır ve [Reed Yasası](#reed-yasası) ile yakından ilgilidir. Odlyzko ve diğerleri, hem Reed Yasası hem de Metcalfe Yasası'nın, insan bilişinin ağ etkileri üzerindeki sınırlarını hesaba katmayarak sistemin değerini abarttığını öne sürerler; [Dunbar Sayısı'na](#dunbar-sayısı) bakınız.
+Bu yasa, bir sistem içindeki muhtemel çift bağlantıların sayısına dayanmaktadır ve [Reed Yasası](#reed-yasası) ile yakından ilgilidir. Odlyzko ve diğerleri hem Reed Yasası hem de Metcalfe Yasası'nın insan bilişinin ağ etkileri üzerindeki sınırlarını hesaba katmayarak sistemin değerini abarttığını öne sürerler ([Dunbar Sayısı'na](#dunbar-sayısı) bakınız).
 
 Ek kaynaklar;
 
 - [Reed Yasası](#reed-yasası)
-- [Dunbar Sayısı'na](#dunbar-sayısı)
+- [Dunbar Sayısı](#dunbar-sayısı)
 
 ### Moore Yasası
 
