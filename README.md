@@ -53,6 +53,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [DRY Prensibi](#dry-prensibi)
     - [KISS Prensibi](#kiss-prensibi)
     - [YAGNI](#yagni)
+    - [Dağıtık Sistemlerin Yanılgıları](#dağıtık-sistemlerin-yanılgıları)
 - [Ek Kaynaklar](#ek-kaynaklar)
 - [TODO](#todo)
 
@@ -627,6 +628,32 @@ Bu ilkeye bağlı kalmak, kod tabanındaki kullanılmayan kod miktarının ve hi
 Ek kaynaklar:
 
 - [Reading List: Extreme Programming Installed](#reading-list)
+
+### Dağıtık Sistemlerin Yanılgıları
+
+[Wikipedia'da Dağıtık Sistemlerin Yanılgıları](https://en.wikipedia.org/wiki/You_aren%https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+
+*Ağ Tabanlı Sistemlerin Yanılgıları* olarak da bilinen yanılgılar dağıtık sistemleri geliştirme sırasında başarısızlıklara yol açabilecek varsayımların (veya inançların) bir listesidir. Varsayımlar:
+
+- Ağ güvenilirdir.
+- Gecikme yoktur.
+- Bant genişliği sonsuzdur.
+- Ağ güvenlidir.
+- Topoloji değişmez.
+- Sadece bir tane yönetici vardır.
+- Taşıma maaliyeti sıfırdır.
+- Ağ homojendir.
+
+İlk dört madde 1991'de [Bill Joy](https://en.wikipedia.org/wiki/Bill_Joy) ve [Tom Lyon](https://twitter.com/aka_pugs) tarafından listelenmiştir ve ilk önce [James Gosling](https://en.wikipedia.org/wiki/James_Gosling) tarafından "Ağ Tabanlı Sistemlerin Yanılgıları" olarak sınıflandırılmıştır. [L. Peter Deutsch](https://en.wikipedia.org/wiki/L._Peter_Deutsch) 5., 6. ve 7. yanılgıları ekledi. 90'lı yılların sonlarında Gosling 8. yanılgıyı ekledi.
+
+Grup [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems) içinde başlarına gelen olaydan ilham aldı.
+
+Dayanıklı sistemler tasarlarken bu yanılgılar dikkatlice ele alınmalı; bu yanılgılardan herhangi birinin varsayılması, dağıtılmış sistemlerin gerçeklikleri ve karmaşıklıkları ile başa çıkamayan hatalı bir mantığa yol açabilir.
+
+Ek kaynaklar;
+
+- [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
+- [Deutsch's Fallacies, 10 Years After](http://java.sys-con.com/node/38665)
 
 ## Ek Kaynaklar
 
