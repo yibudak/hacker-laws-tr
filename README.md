@@ -38,6 +38,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Unix Felsefesi](#unix-felsefesi)
     - [Spotify Modeli](#spotify-modeli)
     - [Wadler Yasası](#wadler-yasası)
+    - [Wheaton Yasası](#wheaton-yasası)
 - [Prensipler](#prensipler)
     - [Dilbert Prensibi](#dilbert-prensibi)
     - [Pareto Prensibi (80/20 Kuralı)](#pareto-prensibi-8020-kuralı)
@@ -398,6 +399,18 @@ Spotify Modeli kabileler (Tribes), birlikler (Guilds) ve kısımlar (Chapter) gi
 Ek kaynaklar:
 
 - [Önemsizlik Yasası](#önemsizlik-yasası)
+
+### Wheaton Yasası
+
+[Link](http://www.wheatonslaw.com/)
+
+[Resmi Gün](https://dontbeadickday.com/)
+
+> Öküzlük yapmayın.
+> 
+> Wil Wheaton
+
+Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory) tarafından oluşturulan bu basit, özlü ve güçlü yasa, profesyonel bir organizasyon içinde uyum ve saygının artmasını amaçlamaktadır. İş arkadaşlarınızla konuşurken, kod incelemeleri yaparken, diğer bakış açılarını öne sürerken, insanları eleştirirken ve genel olarak insanların birbirleriyle olan profesyonel etkileşimlerinin çoğunda uygulanabilir.
 
 ## Prensipler
 
