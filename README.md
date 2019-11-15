@@ -464,7 +464,7 @@ Gerçek dünyadan örnekler:
 
 Laurence J. Peter tarafından geliştirilen bir yönetim konsepti olan Peter Prensibi, işlerinde iyi olan kişilerin, artık başarılı olamadıkları bir seviyeye (kendi "yetersizlik seviyelerine") ulaşana kadar terfi ettiğini gözlemlemektedir. Bu durumda şirket içinde çok tecrübeli olduklarından organizasyondan (çok aykırı birşey yapmadıkları sürece) dışlanmazlar ve az sayıda temel beceriye sahip olacakları bir rolde kalmaya devam edecekler, çünkü onları başarılı kılan orijinal becerileri mutlaka bu yeni rolleri için gereken beceriler değildir.
 
-Bu, temelde farklı bir beceri kümesi gerektirdiğinden özellikle mühendislerle - kariyerine teknik rollerle başlayan ama sonra kariyer değiştirip diğer mühendisleri *yönetmeye* başlayanlarla alakalıdır.
+Bu, temelde farklı bir beceri kümesi gerektirdiğinden özellikle kariyerine teknik rollerle başlayan ama sonra kariyer değiştirip diğer mühendisleri *yönetmeye* başlayan mühendislerle alakalıdır.
 
 Ek kaynaklar:
 
