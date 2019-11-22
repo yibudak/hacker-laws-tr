@@ -20,6 +20,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Cunningham Yasası](#cunningham-yasası)
     - [Dunbar Sayısı](#dunbar-sayısı)
     - [Gall Yasası](#gall-yasası)
+    - [Goodhart Yasası](#goodhart-yasasi)
     - [Hanlon'un Usturası](#hanlonun-usturası)
     - [Hofstadter Yasası](#hofstadter-yasası)
     - [Hutber Yasası](#hutber-yasası)
@@ -156,6 +157,12 @@ En klasik örnek günümüzdeki internettir.  Şu an çok karmaşık bir sistemd
 Ek kaynaklar:
 
 - [KISS (Keep It Simple, Stupid)](#kiss-prensibi)
+
+### Goodhart Yasası
+
+[Wikipedia'da Goodhart Yasası](https://en.wikipedia.org/wiki/Goodhart's_law)
+
+
 
 ### Hanlon'un Usturası
 
