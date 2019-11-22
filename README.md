@@ -20,7 +20,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Cunningham Yasası](#cunningham-yasası)
     - [Dunbar Sayısı](#dunbar-sayısı)
     - [Gall Yasası](#gall-yasası)
-    - [Goodhart Yasası](#goodhart-yasasi)
+    - [Goodhart Yasası](#goodhart-yasası)
     - [Hanlon'un Usturası](#hanlonun-usturası)
     - [Hofstadter Yasası](#hofstadter-yasası)
     - [Hutber Yasası](#hutber-yasası)
@@ -162,7 +162,27 @@ Ek kaynaklar:
 
 [Wikipedia'da Goodhart Yasası](https://en.wikipedia.org/wiki/Goodhart's_law)
 
+> Gözlemlenen herhangi bir istatistiksel düzenlilik, kontrol amaçları için üzerine baskı uygulandığında çökme eğiliminde olacaktır.
+>
+> Charles Goodhart
 
+Ayrıca şu şekilde de ifade edilir:
+
+> Bir ölçüm hedef haline geldiğinde, iyi bir ölçüm olmaktan çıkar.
+> 
+> Marilyn Strathern
+
+Bu yasa, ölçüme dayalı optimizasyonların, ölçüm sonucunun kendisinin anlamsızlaşmasına yol açabileceğini belirtmektedir. Bir prosese kör bir şekilde uygulanan aşırı seçici tedbirler ([KPI'ler](https://en.wikipedia.org/wiki/Performance_indicator)) çarpık bir etkiye neden olur. İnsanlar, eylemlerinin bütünsel sonuçlarına dikkat etmek yerine belirli metrikleri tatmin etmek için sistemle "oynayarak" yerel olarak optimize etme eğilimindedir.
+
+Gerçek dünyadan örnekler:
+
+- "Asert" olmadan yazılan testler, ölçümün amacının iyi test edilmiş bir yazılım oluşturmak olmasına rağmen sadece kod kapsamı beklentisini karşılar.
+- Yazılan satır sayısının gösterdiği geliştirici performans puanı haksız yere şişirilmiş kod tabanına yol açar.
+
+Ek kaynaklar:
+
+- [Goodhart Yasası: Yanlış Şeyleri Ölçmek Ahlaksız Davranışları Nasıl Yönlendirir?](https://coffeeandjunk.com/goodharts-campbells-law/)
+- [Sorunsuz bir yazılım dünyasında Dilbert](https://dilbert.com/strip/1995-11-13)
 
 ### Hanlon'un Usturası
 
