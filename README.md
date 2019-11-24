@@ -689,7 +689,7 @@ Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabi
 - Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson - Extreme Programming kavramının temel prensiplerini içerir.
 - The Mythical Man Month - Frederick P. Brooks Jr. - Yazılım mühendisliği klasiği sayılabilir. Brooks Yasası bu kitabın ana temasıdır.
 - Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter. - Sınıflandırması zor bir kitap. [Hofstadter Yasası](#hofstadter-yasası) bu kitaptan alıntıdır.
-- [Dilbert Prensibi - Adam Scott](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - Amerikadaki kurumsal hayata mizahi bir yaklaşım,  [Dilbert Prensibi'nin](#dilbert-prensibi) sahibinden.
+- [Dilbert Prensibi - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - Amerikadaki kurumsal hayata mizahi bir yaklaşım,  [Dilbert Prensibi'nin](#dilbert-prensibi) sahibinden.
 - [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Daha büyük organizasyonlar ve insan yönetimi zorluklarına mizahi bakış, [Peter Prinsibi'nin](#peter-prensibi) kaynağı.
 
 ## TODO
