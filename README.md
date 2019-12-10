@@ -17,6 +17,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 - [Giriş](#giriş)
 - [Yasalar](#yasalar)
     - [Amdahl Yasası](#amdahl-yasası)
+    - [Kırık Camlar Teorisi](#kırık-camlar-teorisi)
     - [Brooks Yasası](#brooks-yasası)
     - [Conway Yasası](#conway-yasası)
     - [Cunningham Yasası](#cunningham-yasası)
@@ -58,6 +59,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [YAGNI](#yagni)
     - [Dağıtık Sistemlerin Yanılgıları](#dağıtık-sistemlerin-yanılgıları)
 - [Ek Kaynaklar](#ek-kaynaklar)
+- [Katkıda Bulunmak İçin](#katkıda-bulunmak-için)
 - [TODO](#todo)
 
 <!-- vim-markdown-toc -->
@@ -94,6 +96,24 @@ Ek kaynaklar:
 
 - [Brooks Yasası](#brooks-yasası)
 - [Moore Yasası ](#moore-yasası)
+
+### Kırık Camlar Teorisi
+
+[Wikipedia'da Kırık Camlar Teorisi](https://en.wikipedia.org/wiki/Broken_windows_theory)
+
+Kırık Camlar Teorisi, gözle görülebilir suç belirtilerinin (ya da ortamın  bakımsızlığının) daha ciddi suçlara (ya da ortamın daha da bozulmasına) yol açtığını göstermektedir.
+
+Bu teori, yazılım geliştirmeye şu şekilde uygulanabilir; düşük kalite kodun (veya [Teknik Borcun](https://gitlocalize.com/repo/2513/tr/README.md#TODO)) varlığı kaliteyi geliştirme çabalarının göz ardı edilebileceği veya önemsenmeyeceği algısına yol açabileceği ve dolayısıyla düşük kalite koda sebep olabileceğidir. Bu etki zamanla kalitenin daha çok azalmasına neden olur.
+
+Ek kaynaklar:
+
+- [Teknik Borç](https://github.com/dwmkerr/hacker-laws#TODO)
+
+Örnekler:
+
+- [Pragmatik Programlama: Yazılım Entropisi](https://pragprog.com/the-pragmatic-programmer/extracts/software-entropy)
+- [Kodlama Kabusu: Kırık Camlar Teorisi](https://blog.codinghorror.com/the-broken-window-theory/)
+- [Açık Kaynak: Eğlenceli Programlama - Kırık Camlar Teorisi](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
 
 ### Brooks Yasası
 
@@ -693,6 +713,12 @@ Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabi
 - Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter. - Sınıflandırması zor bir kitap. [Hofstadter Yasası](#hofstadter-yasası) bu kitaptan alıntıdır.
 - [Dilbert Prensibi - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - Amerikadaki kurumsal hayata mizahi bir yaklaşım,  [Dilbert Prensibi'nin](#dilbert-prensibi) sahibinden.
 - [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Daha büyük organizasyonlar ve insan yönetimi zorluklarına mizahi bakış, [Peter Prinsibi'nin](#peter-prensibi) kaynağı.
+
+## Katkıda Bulunmak İçin
+
+Lütfen katkıda bulunun! Bir ekleme veya değişiklik önermek istiyorsanız [bir sorun oluşturun](https://github.com/dwmkerr/hacker-laws/issues/new) veya kendi değişikliklerinizi önermek için [bir PR açın](https://github.com/dwmkerr/hacker-laws/compare).
+
+Lütfen metin, stil ve benzeri gereksinimler için [Katkıda Bulunma Kılavuzu](https://github.com/dwmkerr/hacker-laws/blob/master/.github/contributing.md)'nu okuduğunuzdan emin olun. Lütfen projeyle ilgili tartışmalarda [Davranış Kurallarına](https://github.com/dwmkerr/hacker-laws/blob/master/.github/CODE_OF_CONDUCT.md) dikkat edin.
 
 ## TODO
 
