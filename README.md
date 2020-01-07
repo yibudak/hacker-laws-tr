@@ -32,6 +32,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Metcalfe Yasası](#metcalfe-yasası)
     - [Moore Yasası](#moore-yasası)
     - [Murphy Yasası / Sod  Yasası](#murphy-yasası--sod-yasası)
+    - [Occam'ın Usturası](#occamın-usturası)
     - [Parkinson Yasası](#parkinson-yasası)
     - [Olgunlaşmamış Optimizasyon Etkisi](#olgunlaşmamış-optimizasyon-etkisi)
     - [Putt Yasası](#putt-yasası)
@@ -314,6 +315,25 @@ Ek kaynaklar:
 
 - [Doğrulama Önyargısı](#TODO)
 - [Seçim Tarafgirliği](#TODO)
+
+### Occam'ın Usturası
+
+[Wikipedia'da Occam'ın Usturası](https://en.wikipedia.org/wiki/Occam's_razor)
+
+> Çözümün elemanları sebep olmaksızın çoğaltılmamalıdır.
+>
+> William of Ockham
+
+Occam'ın usturası, birkaç olası çözüm arasında en olası çözümün, en az sayıda kavram ve varsayımı olan çözüm olduğunu söylüyor. Bu çözüm en basit olandır ve yanlışlıkla ortaya çıkan karmaşıklığa ve olası olumsuz sonuçlara sebep olmadan sadece verilen sorunu çözer.
+
+Ek kaynaklar;
+
+- [YAGNI](#yagni)
+- [Gümüş Bir Mermi Yok: Kazara Oluşan Karmaşıklık ve Gerekli Karmaşıklık](https://en.wikipedia.org/wiki/No_Silver_Bullet)
+
+Örneğin;
+
+- [Yalın Yazılım Geliştirme: Çöpü Boşaltın](https://en.wikipedia.org/wiki/No_Silver_Bullet)
 
 ### Parkinson Yasası
 
