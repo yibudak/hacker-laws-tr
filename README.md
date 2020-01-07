@@ -324,7 +324,7 @@ Ek kaynaklar:
 >
 > William of Ockham
 
-Occam'ın usturası, birkaç olası çözüm arasında en olası çözümün, en az sayıda kavram ve varsayımı olan çözüm olduğunu söylüyor. Bu çözüm en basit olandır ve yanlışlıkla ortaya çıkan karmaşıklığa ve olası olumsuz sonuçlara sebep olmadan sadece verilen sorunu çözer.
+Occam'ın usturası, birkaç olası çözüm arasında en olası çözümün, en az sayıda kavram ve varsayımı olan çözüm olduğunu söylüyor. Bu çözüm en basit olandır ve yanlışlıkla ortaya çıkan karmaşıklığa ya da olası olumsuz sonuçlara sebep olmadan sadece verilen sorunu çözer.
 
 Ek kaynaklar;
 
