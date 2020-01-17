@@ -550,6 +550,12 @@ Genellikle sunucu uygulamaları geliştirirken uygulanabilir. Bu prensip der ki;
 
 Bu prensibin amacı dayanıklı sistemlere geliştirmektir ve bu sistemler kötü yapılandırılmış girdileri bile anlayabildikleri durumda işleyebilmeliler. Bunun güvenlik açısından kötü amaçlı ve yeterince kontrol edilmemiş girdileri kabul etmek anlamına gelebileceği için riskli olduğu düşünülebilir. Tabiki bu riskin de göz önünde bulundurulması gerekir.
 
+Uygun olmayan girdilere zaman içinde izin verilmesi, uygulayıcıların  yeni özellikler oluştururken bu serbestliğe güvenmesini sağlayacağından en sonunda protokollerin evrimleşme yeteneğini zayıflatabilir.
+
+Ek kaynaklar:
+
+- [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrum-yasası-arabirimlerin-örtülü-hukuku)
+
 ### SOLID
 
 SOLID aşağıdaki beş prensibin baş harflerinden oluşan bir kısaltmadır;
