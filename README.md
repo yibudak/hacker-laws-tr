@@ -285,7 +285,7 @@ Ek kaynaklar:
 
 Kernighan Yasası adını Brian Kernighan'dan almıştır ve "The Elements of Programming Style" adlı Kernighan ve Plauger tarafından yazılan kitaptaki bir cümleden türetilmiştir:
 
-> Herkes bir hata ayıklamanın kodu sıfırdan yazmaktan iki katı daha zor olduğunu bilir. Dolayısıyla, kodu yazarken bütün zekanızı kullanıp elinizden gelenin en iyisini yaptığınızda o koddaki hatayı daha sonra nasıl ayıklayabilirsiniz?
+> Herkes hata ayıklamanın kodu sıfırdan yazmaktan iki katı daha zor olduğunu bilir. Dolayısıyla, kodu yazarken bütün zekanızı kullanıp elinizden gelenin en iyisini yaptığınızda o koddaki hatayı daha sonra nasıl ayıklayabilirsiniz?
 
 Abartılı olmakla birlikte, Kernighan Yasası karmaşık kod yerine basit kodun tercih edileceği iddiasını ortaya koymaktadır, çünkü karmaşık kodda ortaya çıkan herhangi bir sorunu ayıklamak maliyetli veya hatta mümkün olmayabilir.
 
