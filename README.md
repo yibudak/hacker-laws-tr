@@ -29,6 +29,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Hutber Yasası](#hutber-yasası)
     - [Hype Döngüsü ve Amara Yasası](#hype-döngüsü-ve-amara-yasası)
     - [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrum-yasası-arabirimlerin-örtülü-hukuku)
+    - [Kernighan Yasası](#kernighan-yasası)
     - [Metcalfe Yasası](#metcalfe-yasası)
     - [Moore Yasası](#moore-yasası)
     - [Murphy Yasası / Sod  Yasası](#murphy-yasası--sod-yasası)
@@ -275,6 +276,24 @@ Ek kaynaklar:
 
 - [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
 - [XKCD 1172](https://xkcd.com/1172/)
+
+### Kernighan Yasası
+
+> Bir koddaki hatayı ayıklamak, o kodun sıfırdan yazılmasından iki katı daha zordur. Dolayısıyla, yazdığınız bir kodu hatasız yazdığınızı düşünüyorsanız, tanım olarak o koddaki hatayı ayıklayacak kadar zeki değilsiniz demektir.
+>
+> (Brian Kernighan)
+
+Kernighan Yasası adını Brian Kernighan'dan almıştır ve "The Elements of Programming Style" adlı Kernighan ve Plauger tarafından yazılan kitaptaki bir cümleden türetilmiştir:
+
+> Herkes bir hata ayıklamanın kodu sıfırdan yazmaktan iki katı daha zor olduğunu bilir. Dolayısıyla, kodu yazarken bütün zekanızı kullanıp elinizden gelenin en iyisini yaptığınızda o koddaki hatayı daha sonra nasıl ayıklayabilirsiniz?
+
+Abartılı olmakla birlikte, Kernighan Yasası karmaşık kod yerine basit kodun tercih edileceği iddiasını ortaya koymaktadır, çünkü karmaşık kodda ortaya çıkan herhangi bir sorunu ayıklamak maliyetli veya hatta mümkün olmayabilir.
+
+Ek kaynaklar:
+
+- [KISS Prensibi](#kiss-prensibi)
+- [Unix Felsefesi](##unix-felsefesi)
+- [Occam'ın Usturası](#occamın-usturası)
 
 ### Metcalfe Yasası
 
