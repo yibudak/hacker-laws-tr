@@ -279,7 +279,7 @@ Ek kaynaklar:
 
 ### Kernighan Yasası
 
-> Bir koddaki hatayı ayıklamak, o kodun sıfırdan yazılmasından iki katı daha zordur. Dolayısıyla, yazdığınız bir kodu hatasız yazdığınızı düşünüyorsanız, tanım olarak o koddaki hatayı ayıklayacak kadar zeki değilsiniz demektir.
+> Kodda hata ayıklama yapmak, o kodun sıfırdan yazılmasından iki kat daha zordur. Dolayısıyla, yazdığın bir kodu hatasız yazdığını düşünüyorsan, tanım olarak o koddaki hatayı ayıklayacak kadar zeki değilsin demektir.
 >
 > (Brian Kernighan)
 
