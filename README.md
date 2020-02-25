@@ -2,13 +2,9 @@
 
 Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 
-- 🇨🇳 [中文 / Çince İçin](https://github.com/nusr/hacker-laws-zh) - Teşekkürler [Steve Xu](https://github.com/nusr)!
-- 🇮🇹 [Italiano / Italyanca için](https://github.com/csparpa/hacker-laws-it) - Teşekkürler [Claudio Sparpaglione](https://github.com/csparpa)!
-- 🇰🇷 [한국어 / Korece için](https://github.com/codeanddonuts/hacker-laws-kr) - Teşekkürler [Doughnut](https://github.com/codeanddonuts)!
-- 🇷🇺 [Русская версия / Rusça için](https://github.com/solarrust/hacker-laws) - Teşekkürler [Alena Batitskaya](https://github.com/solarrust)!
-- 🇹🇷 [Türkçe / Türkçe için](https://github.com/umutphp/hacker-laws-tr) - Teşekkürler [Umut Işık](https://github.com/umutphp)
-- 🇧🇷 [Brasileiro / Brezilya Portekizcesi için](./translations/pt-BR.md) - Teşekkürler [Leonardo Costa](https://github.com/LeoFC97)
-- 🇪🇸 [Castellano / İspanyolca için](./translations/es-ES.md) - Teşekkürler [Manuel Rubio](https://github.com/manuel-rubio)
+[Çeviriler](#çeviriler): [🇧🇷](https://github.com/dwmkerr/hacker-laws/blob/master/translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇩🇪](https://github.com/dwmkerr/hacker-laws/blob/master/translations/de.md) [🇫🇷](https://github.com/dwmkerr/hacker-laws/blob/master/translations/fr.md) [🇬🇷](https://github.com/dwmkerr/hacker-laws/blob/master/translations/el.md) [🇮🇹](https://github.com/csparpa/hacker-laws-it) [🇱🇻](https://github.com/dwmkerr/hacker-laws/blob/master/translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](https://github.com/dwmkerr/hacker-laws/blob/master/translations/es-ES.md) [🇹🇷](https://github.com/umutphp/hacker-laws-tr)
+
+Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.com/sponsors/dwmkerr) olabilirsiniz ya da [çeviri yapanlara](#translations) sponsor olabilirsiniz.
 
 ---
 
@@ -758,6 +754,30 @@ Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabi
 - Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter. - Sınıflandırması zor bir kitap. [Hofstadter Yasası](#hofstadter-yasası) bu kitaptan alıntıdır.
 - [Dilbert Prensibi - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - Amerikadaki kurumsal hayata mizahi bir yaklaşım,  [Dilbert Prensibi'nin](#dilbert-prensibi) sahibinden.
 - [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Daha büyük organizasyonlar ve insan yönetimi zorluklarına mizahi bakış, [Peter Prinsibi'nin](#peter-prensibi) kaynağı.
+
+## Çeviriler
+
+Katkıda bulunan harika insanlar sayesinde Hacker Laws birçok dilde mevcuttur. Lütfen çeviri sahiplerine de sponsor olmayı düşünün!
+
+| Dil | Moderator | Durum |
+|----------|-----------|--------|
+| [🇧🇷 Brasileiro / Brazilian](./translations/pt-BR.md) | [Leonardo Costa](https://github.com/leofc97) | [![gitlocalized ](https://gitlocalize.com/repo/2513/pt-BR/badge.svg)](https://gitlocalize.com/repo/2513/pt-BR?utm_source=badge) |
+| [🇨🇳 中文 / Chinese](https://github.com/nusr/hacker-laws-zh) | [Steve Xu](https://github.com/nusr) | Partially complete |
+| [🇩🇪 Deutsch / German](./translations/de.md) | [Vikto](https://github.com/viktodergunov) | [![gitlocalized ](https://gitlocalize.com/repo/2513/de/badge.svg)](https://gitlocalize.com/repo/2513/de?utm_source=badge) |
+| [🇫🇷 Français / French](./translationis/fr.md) | [Kevin Bockelandt](https://github.com/KevinBockelandt) | [![gitlocalized ](https://gitlocalize.com/repo/2513/fr/badge.svg)](https://gitlocalize.com/repo/2513/fr?utm_source=badge) |
+| [🇬🇷 ελληνικά / Greek](./translations/el.md) | [Panagiotis Gourgaris](https://github.com/0gap) | [![gitlocalized ](https://gitlocalize.com/repo/2513/el/badge.svg)](https://gitlocalize.com/repo/2513/el?utm_source=badge) |
+| [🇮🇹 Italiano / Italian](https://github.com/csparpa/hacker-laws-it) | [Claudio Sparpaglione](https://github.com/csparpa) | Partially complete |
+| [🇰🇷 한국어 / Korean](https://github.com/codeanddonuts/hacker-laws-kr) | [Doughnut](https://github.com/codeanddonuts) | Partially complete |
+| [🇱🇻 Latviešu Valoda / Latvian](./translations/lv.md) | [Arturs Jansons](https://github.com/iegik) | [![gitlocalized ](https://gitlocalize.com/repo/2513/lv/badge.svg)](https://gitlocalize.com/repo/2513/lv?utm_source=badge) |
+| [🇷🇺 Русская версия / Russian](https://github.com/solarrust/hacker-laws) | [Alena Batitskaya](https://github.com/solarrust) | Partially complete |
+| [🇪🇸 Castellano / Spanish](./translations/es-ES.md) | [Manuel Rubio](https://github.com/manuel-rubio) ([Sponsor](https://github.com/sponsors/manuel-rubio)) | Partially complete |
+| [🇹🇷 Türkçe / Turkish](https://github.com/umutphp/hacker-laws-tr) | [Umut Işık](https://github.com/umutphp) | [![gitlocalized ](https://gitlocalize.com/repo/2513/tr/badge.svg)](https://gitlocalize.com/repo/2513/tr?utm_source=badge) |
+
+Eğer var olan birçeviriyi güncellemek istiyorsanoz, bir [pull request](https://github.com/dwmkerr/hacker-laws/pulls) açmanız yeterli. Eğer yeni bir dil eklemek istiyorsanız, [GitLocalize](https://gitlocalize.com/)'a giriş yapın ve bir hesap oluşturun, daha sonra o dile yetki istemek için ana repo'da bir [issue](https://github.com/dwmkerr/hacker-laws/issues) açın. En kısa zamanda size yetki verilecektir. Çeviri bitince yukarıdaki tabloya da gerekli eklemeyi yapıp pull request açarsanız çok yardımcı olursunuz.
+
+## İlgili Projeler
+
+- [Tip of the Day](https://tips.darekkay.com/html/hacker-laws-en.html) - Hergün bir hacker yasası ya da prensibi
 
 ## Katkıda Bulunmak İçin
 
