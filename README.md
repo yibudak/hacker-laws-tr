@@ -10,55 +10,57 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
 
 <!-- vim-markdown-toc GFM -->
 
-- [Giriş](#giriş)
-- [Yasalar](#yasalar)
-    - [Amdahl Yasası](#amdahl-yasası)
-    - [Kırık Camlar Teorisi](#kırık-camlar-teorisi)
-    - [Brooks Yasası](#brooks-yasası)
-    - [Conway Yasası](#conway-yasası)
-    - [Cunningham Yasası](#cunningham-yasası)
-    - [Dunbar Sayısı](#dunbar-sayısı)
-    - [Gall Yasası](#gall-yasası)
-    - [Goodhart Yasası](#goodhart-yasası)
-    - [Hanlon'un Usturası](#hanlonun-usturası)
-    - [Hofstadter Yasası](#hofstadter-yasası)
-    - [Hutber Yasası](#hutber-yasası)
-    - [Hype Döngüsü ve Amara Yasası](#hype-döngüsü-ve-amara-yasası)
-    - [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrum-yasası-arabirimlerin-örtülü-hukuku)
-    - [Kernighan Yasası](#kernighan-yasası)
-    - [Metcalfe Yasası](#metcalfe-yasası)
-    - [Moore Yasası](#moore-yasası)
-    - [Murphy Yasası / Sod  Yasası](#murphy-yasası--sod-yasası)
-    - [Occam'ın Usturası](#occamın-usturası)
-    - [Parkinson Yasası](#parkinson-yasası)
-    - [Olgunlaşmamış Optimizasyon Etkisi](#olgunlaşmamış-optimizasyon-etkisi)
-    - [Putt Yasası](#putt-yasası)
-    - [Reed Yasası](#reed-yasası)
-    - [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#karmaşıklığın-korunması-yasası-tesler-yasası)
-    - [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
-    - [Önemsizlik Yasası](#önemsizlik-yasası)
-    - [Unix Felsefesi](#unix-felsefesi)
-    - [Spotify Modeli](#spotify-modeli)
-    - [Wadler Yasası](#wadler-yasası)
-    - [Wheaton Yasası](#wheaton-yasası)
-- [Prensipler](#prensipler)
-    - [Dilbert Prensibi](#dilbert-prensibi)
-    - [Pareto Prensibi (80/20 Kuralı)](#pareto-prensibi-8020-kuralı)
-    - [Peter Prensibi](#peter-prensibi)
-    - [Dayanıklılık Prensibi (Postel Yasası)](#dayanıklılık-prensibi-postel-yasası)
-    - [SOLID](#solid)
-    - [Tek Sorumluluk Prensibi](#tek-sorumluluk-prensibi)
-    - [Açık/Kapalı Prensibi](#açıkkapalı-prensibi)
-    - [Liskov Yerine Geçme Prensibi](#liskov-yerine-geçme-prensibi)
-    - [Arayüz Ayrım Prensibi](#arayüz-ayrım-prensibi)
-    - [Bağımlılığın Ters Çevrilmesi](#bağımlılığın-ters-çevrilmesi)
-    - [DRY Prensibi](#dry-prensibi)
-    - [KISS Prensibi](#kiss-prensibi)
-    - [YAGNI](#yagni)
-    - [Dağıtık Sistemlerin Yanılgıları](#dağıtık-sistemlerin-yanılgıları)
-- [Ek Kaynaklar](#ek-kaynaklar)
-- [Katkıda Bulunmak İçin](#katkıda-bulunmak-için)
-- [TODO](#todo)
+* [Giriş](#giriş)
+* [Yasalar](#yasalar)
+    * [Amdahl Yasası](#amdahl-yasası)
+    * [Kırık Camlar Teorisi](#kırık-camlar-teorisi)
+    * [Brooks Yasası](#brooks-yasası)
+    * [Conway Yasası](#conway-yasası)
+    * [Cunningham Yasası](#cunningham-yasası)
+    * [Dunbar Sayısı](#dunbar-sayısı)
+    * [Gall Yasası](#gall-yasası)
+    * [Goodhart Yasası](#goodhart-yasası)
+    * [Hanlon'un Usturası](#hanlonun-usturası)
+    * [Hofstadter Yasası](#hofstadter-yasası)
+    * [Hutber Yasası](#hutber-yasası)
+    * [Hype Döngüsü ve Amara Yasası](#hype-döngüsü-ve-amara-yasası)
+    * [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrum-yasası-arabirimlerin-örtülü-hukuku)
+    * [Kernighan Yasası](#kernighan-yasası)
+    * [Metcalfe Yasası](#metcalfe-yasası)
+    * [Moore Yasası](#moore-yasası)
+    * [Murphy Yasası / Sod  Yasası](#murphy-yasası--sod-yasası)
+    * [Occam'ın Usturası](#occamın-usturası)
+    * [Parkinson Yasası](#parkinson-yasası)
+    * [Olgunlaşmamış Optimizasyon Etkisi](#olgunlaşmamış-optimizasyon-etkisi)
+    * [Putt Yasası](#putt-yasası)
+    * [Reed Yasası](#reed-yasası)
+    * [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#karmaşıklığın-korunması-yasası-tesler-yasası)
+    * [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
+    * [Önemsizlik Yasası](#önemsizlik-yasası)
+    * [Unix Felsefesi](#unix-felsefesi)
+    * [Spotify Modeli](#spotify-modeli)
+    * [Wadler Yasası](#wadler-yasası)
+    * [Wheaton Yasası](#wheaton-yasası)
+* [Prensipler](#prensipler)
+    * [Dilbert Prensibi](#dilbert-prensibi)
+    * [Pareto Prensibi (80/20 Kuralı)](#pareto-prensibi-8020-kuralı)
+    * [Peter Prensibi](#peter-prensibi)
+    * [Dayanıklılık Prensibi (Postel Yasası)](#dayanıklılık-prensibi-postel-yasası)
+    * [SOLID](#solid)
+    * [Tek Sorumluluk Prensibi](#tek-sorumluluk-prensibi)
+    * [Açık/Kapalı Prensibi](#açıkkapalı-prensibi)
+    * [Liskov Yerine Geçme Prensibi](#liskov-yerine-geçme-prensibi)
+    * [Arayüz Ayrım Prensibi](#arayüz-ayrım-prensibi)
+    * [Bağımlılığın Ters Çevrilmesi](#bağımlılığın-ters-çevrilmesi)
+    * [DRY Prensibi](#dry-prensibi)
+    * [KISS Prensibi](#kiss-prensibi)
+    * [YAGNI](#yagni)
+    * [Dağıtık Sistemlerin Yanılgıları](#dağıtık-sistemlerin-yanılgıları)
+* [Ek Kaynaklar](#ek-kaynaklar)
+* [Translations](#translations)
+* [Related Projects](#related-projects)
+* [Katkıda Bulunmak İçin](#katkıda-bulunmak-için)
+* [TODO](#todo)
 
 <!-- vim-markdown-toc -->
 
@@ -144,6 +146,8 @@ Ek kaynaklar:
 
 [Wikipedia'da Cunningham Yasası](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
 
+> İnternette doğru cevabı almanın en iyi yolu bir soru sormak değil, yanlış cevabı kullanarak aramaktır.
+
 Steven McGeady, Ward Cunningham'ın 1980'lerin başında kendisine tavsiye olarak "İnternette doğru cevabı almanın en iyi yolu, soru sormak değil, yanlış olan cevabı yazmaktır" dediğini aktarıyor. McGeady bunu Cunningham kanunu olarak adlandırdı, ancak Cunningham bu sahipliği bunun "yanlış bir alıntı" olduğunu nitelendirerek reddetti. Her ne kadar orjinalinde Usenet'teki etkileşimlerle ilgili olsa da, yasa diğer çevrimiçi toplulukların nasıl çalıştığını açıklamak için kullanılmıştır (örneğin, Wikipedia, Reddit, Twitter, Facebook).
 
 Ek kaynaklar:
@@ -195,12 +199,10 @@ Ayrıca şu şekilde de ifade edilir:
 Bu yasa, ölçüme dayalı optimizasyonların, ölçüm sonucunun kendisinin anlamsızlaşmasına yol açabileceğini belirtmektedir. Bir prosese kör bir şekilde uygulanan aşırı seçici tedbirler ([KPI'ler](https://en.wikipedia.org/wiki/Performance_indicator)) çarpık bir etkiye neden olur. İnsanlar, eylemlerinin bütünsel sonuçlarına dikkat etmek yerine belirli metrikleri tatmin etmek için sistemle "oynayarak" yerel olarak optimize etme eğilimindedir.
 
 Gerçek dünyadan örnekler:
-
 - "Asert" olmadan yazılan testler, ölçümün amacının iyi test edilmiş bir yazılım oluşturmak olmasına rağmen sadece kod kapsamı beklentisini karşılar.
 - Yazılan satır sayısının gösterdiği geliştirici performans puanı haksız yere şişirilmiş kod tabanına yol açar.
 
 Ek kaynaklar:
-
 - [Goodhart Yasası: Yanlış Şeyleri Ölçmek Ahlaksız Davranışları Nasıl Yönlendirir?](https://coffeeandjunk.com/goodharts-campbells-law/)
 - [Sorunsuz bir yazılım dünyasında Dilbert](https://dilbert.com/strip/1995-11-13)
 
