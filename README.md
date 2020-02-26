@@ -57,8 +57,8 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [YAGNI](#yagni)
     * [Dağıtık Sistemlerin Yanılgıları](#dağıtık-sistemlerin-yanılgıları)
 * [Ek Kaynaklar](#ek-kaynaklar)
-* [Translations](#translations)
-* [Related Projects](#related-projects)
+* [Çeviriler](#çeviriler)
+* [İlgili Projeler](#ilgili-projeler)
 * [Katkıda Bulunmak İçin](#katkıda-bulunmak-için)
 * [TODO](#todo)
 
