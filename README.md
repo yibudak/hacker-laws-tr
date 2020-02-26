@@ -58,8 +58,8 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Dağıtık Sistemlerin Yanılgıları](#dağıtık-sistemlerin-yanılgıları)
 * [Ek Kaynaklar](#ek-kaynaklar)
 * [Çeviriler](#çeviriler)
-* [İlgili Projeler](#ilgili-projeler)
-* [Katkıda Bulunmak İçin](#katkıda-bulunmak-için)
+* [İlgili Projeler](#i̇lgili-projeler)
+* [Katkıda Bulunmak İçin](#katkıda-bulunmak-i̇çin)
 * [TODO](#todo)
 
 <!-- vim-markdown-toc -->
