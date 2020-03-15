@@ -775,7 +775,7 @@ Katkıda bulunan harika insanlar sayesinde Hacker Laws birçok dilde mevcuttur. 
 | [🇪🇸 Castellano / Spanish](./translations/es-ES.md) | [Manuel Rubio](https://github.com/manuel-rubio) ([Sponsor](https://github.com/sponsors/manuel-rubio)) | Partially complete |
 | [🇹🇷 Türkçe / Turkish](https://github.com/umutphp/hacker-laws-tr) | [Umut Işık](https://github.com/umutphp) | [![gitlocalized ](https://gitlocalize.com/repo/2513/tr/badge.svg)](https://gitlocalize.com/repo/2513/tr?utm_source=badge) |
 
-Eğer var olan birçeviriyi güncellemek istiyorsanoz, bir [pull request](https://github.com/dwmkerr/hacker-laws/pulls) açmanız yeterli. Eğer yeni bir dil eklemek istiyorsanız, [GitLocalize](https://gitlocalize.com/)'a giriş yapın ve bir hesap oluşturun, daha sonra o dile yetki istemek için ana repo'da bir [issue](https://github.com/dwmkerr/hacker-laws/issues) açın. En kısa zamanda size yetki verilecektir. Çeviri bitince yukarıdaki tabloya da gerekli eklemeyi yapıp pull request açarsanız çok yardımcı olursunuz.
+Eğer var olan bir çeviriyi güncellemek istiyorsanız, bir [pull request](https://github.com/dwmkerr/hacker-laws/pulls) açmanız yeterli. Eğer yeni bir dil eklemek istiyorsanız, [GitLocalize](https://gitlocalize.com/)'a giriş yapın ve bir hesap oluşturun, daha sonra o dile yetki istemek için ana repo'da bir [issue](https://github.com/dwmkerr/hacker-laws/issues) açın. En kısa zamanda size yetki verilecektir. Çeviri bitince yukarıdaki tabloya da gerekli eklemeyi yapıp pull request açarsanız çok yardımcı olursunuz.
 
 ## İlgili Projeler
 
