@@ -779,7 +779,8 @@ Eğer var olan birçeviriyi güncellemek istiyorsanoz, bir [pull request](https:
 
 ## İlgili Projeler
 
-- [Tip of the Day](https://tips.darekkay.com/html/hacker-laws-en.html) - Hergün bir hacker yasası ya da prensibi
+- [Tip of the Day](https://tips.darekkay.com/html/hacker-laws-en.html) - Hergün bir hacker yasası ya da prensibi.
+- [Hacker Laws CLI](https://github.com/umutphp/hacker-laws-cli) - Terminalden yasaları listeleyin ve rastgele bir yasa görüntüleyin!
 
 ## Katkıda Bulunmak İçin
 
