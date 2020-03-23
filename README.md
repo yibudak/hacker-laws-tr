@@ -83,7 +83,7 @@ Tek tek başlayalım!
 
 Gerçek dünyadan örnekler:
 
-- Dört dijital sağlık sosyal ağlarına ilişkin 2014 yılında yapılan bir araştırma, topluluğun %1'inin gönderilerin %73'ünü oluşturduğunu, %9'unun ortalama %25'ini ve geri kalan %90'ının da ortalama %2'sini oluşturduğunu buldu ( [Referans](https://www.jmir.org/2014/2/e33/) ).
+- Dört dijital sağlık sosyal ağlarına ilişkin 2014 yılında yapılan bir araştırma, topluluğun %1'inin gönderilerin %73'ünü oluşturduğunu, %9'unun ortalama %25'ini ve geri kalan %90'ının da ortalama %2'sini oluşturduğunu buldu ([Referans](https://www.jmir.org/2014/2/e33/)).
 
 Ek kaynaklar:
 
@@ -116,7 +116,7 @@ Ek kaynaklar:
 
 [Wikipedia'da Kırık Camlar Teorisi](https://en.wikipedia.org/wiki/Broken_windows_theory)
 
-Kırık Camlar Teorisi, gözle görülebilir suç belirtilerinin (ya da ortamın  bakımsızlığının) daha ciddi suçlara (ya da ortamın daha da bozulmasına) yol açtığını göstermektedir.
+Kırık Camlar Teorisi, gözle görülebilir suç belirtilerinin (ya da ortamın bakımsızlığının) daha ciddi suçlara (ya da ortamın daha da bozulmasına) yol açtığını göstermektedir.
 
 Bu teori, yazılım geliştirmeye şu şekilde uygulanabilir; düşük kalite kodun (veya [Teknik Borcun](https://gitlocalize.com/repo/2513/tr/README.md#TODO)) varlığı kaliteyi geliştirme çabalarının göz ardı edilebileceği veya önemsenmeyeceği algısına yol açabileceği ve dolayısıyla düşük kalite koda sebep olabileceğidir. Bu etki zamanla kalitenin daha çok azalmasına neden olur.
 
@@ -185,13 +185,13 @@ Ek kaynaklar:
 
 [Wikipedia'da Gall Yasası](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
-> Çalışan karmaşık bir sistemin her zaman işe yarayan daha basit bir sistemden evrimleştiği kesinlikle söylenebilir. Başlangıçtan itibaren karmaşık tasarlanmış bir sistemin asla çalışmayacağı ve sonradan da düzeltilemeyeceği kesindir. Çalışsan daha basit bir sistem ile başlamanız gerekir.
+> Çalışan karmaşık bir sistemin her zaman işe yarayan daha basit bir sistemden evrimleştiği kesinlikle söylenebilir. Başlangıçtan itibaren karmaşık tasarlanmış bir sistemin asla çalışmayacağı ve sonradan da düzeltilemeyeceği kesindir. Çalışan daha basit bir sistem ile başlamanız gerekir.
 >
 > ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
 
 Gall Yasası der ki; çok karmaşık sistemleri *tasarlamaya* çalışmak her zaman başarısızlıkla sonuçlanır. Bu tür sistemlerin ilk denemede başarılı olmaları çok nadir görülür ama genellikle basit sistemlerden evrilirler.
 
-En klasik örnek günümüzdeki internettir.  Şu an çok karmaşık bir sistemdir.  Aslında başlangıçta sadece akademik kurumlar arası içerik paylaşımı olarak tanımlanmıştı. Bu tanımı karşılamada çok başarılı oldu ve zamanla gelişerek bugünkü karmaşık halini aldı.
+En klasik örnek günümüzdeki internettir. Şu an çok karmaşık bir sistemdir. Aslında başlangıçta sadece akademik kurumlar arası içerik paylaşımı olarak tanımlanmıştı. Bu tanımı karşılamada çok başarılı oldu ve zamanla gelişerek bugünkü karmaşık halini aldı.
 
 Ek kaynaklar:
 
@@ -211,7 +211,7 @@ Ayrıca şu şekilde de ifade edilir:
 > 
 > Marilyn Strathern
 
-Bu yasa, ölçüme dayalı optimizasyonların, ölçüm sonucunun kendisinin anlamsızlaşmasına yol açabileceğini belirtmektedir. Bir prosese kör bir şekilde uygulanan aşırı seçici tedbirler ([KPI'ler](https://en.wikipedia.org/wiki/Performance_indicator)) çarpık bir etkiye neden olur. İnsanlar, eylemlerinin bütünsel sonuçlarına dikkat etmek yerine belirli metrikleri tatmin etmek için sistemle "oynayarak" yerel olarak optimize etme eğilimindedir.
+Bu yasa, ölçüme dayalı optimizasyonların, ölçüm sonucunun kendisinin anlamsızlaşmasına yol açabileceğini belirtmektedir. Bir prosese kör bir şekilde uygulanan aşırı seçici tedbirler ([TPG'ler](https://tr.wikipedia.org/wiki/Performans_g%C3%B6stergesi)) çarpık bir etkiye neden olur. İnsanlar, eylemlerinin bütünsel sonuçlarına dikkat etmek yerine belirli metrikleri tatmin etmek için sistemle "oynayarak" yerel olarak optimize etme eğilimindedir.
 
 Gerçek dünyadan örnekler:
 - "Assert" olmadan yazılan testler, ölçümün amacının iyi test edilmiş bir yazılım oluşturmak olmasına rağmen sadece kod kapsamı beklentisini karşılar.
@@ -337,7 +337,7 @@ Ek kaynaklar;
 
 İsmini [Edward A. Murphy, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.)'dan alan *Murphy Yasası* der ki eğer bir işin kötü gitme ihtimali varsa mutlaka kötü gider.
 
-Bu programcılar arasında çok kullanılan bir atasözüdür. Geliştirme yaparken, test ederken ya da canlı sistemlerde çoğunlukla hep beklenmedik sorunlar olur. Bu durum  (İngiltere'de yaygın kullanılan) *Sod Yasası* ile de ilişkilendirilebilir:
+Bu programcılar arasında çok kullanılan bir atasözüdür. Geliştirme yaparken, test ederken ya da canlı sistemlerde çoğunlukla hep beklenmedik sorunlar olur. Bu durum (İngiltere'de yaygın kullanılan) *Sod Yasası* ile de ilişkilendirilebilir:
 
 > Eğer bir işin kötü gitme ihtimali varsa, olabilecek en kötü zamanda kötüye gidecektir.
 
@@ -541,7 +541,7 @@ Ek kaynaklar:
 
 Pareto Prensibi der ki; çıktıların önemli bir çoğunluğu girdilerin çok azı tarafından oluşturulur:
 
-- Bir yazılımın 80%'i harcanan zamanın %20'sinde yazılır (bir başka deyişle, kodun en zor %20'lik bölümü haracanan zamanın %80'inde yazılır)
+- Bir yazılımın 80%'i harcanan zamanın %20'sinde yazılır (bir başka deyişle, kodun en zor %20'lik bölümü harcanan zamanın %80'inde yazılır)
 - Harcanan eforun %20'si sonucun %80'ini oluşturur
 - Yapılan işin %20'si gelirin %80'ini oluşturur
 - Koddaki hataların %20'si sistem sorunlarının %80'ini oluşturur
@@ -582,7 +582,7 @@ Genellikle sunucu uygulamaları geliştirirken uygulanabilir. Bu prensip der ki;
 
 Bu prensibin amacı dayanıklı sistemlere geliştirmektir ve bu sistemler kötü yapılandırılmış girdileri bile anlayabildikleri durumda işleyebilmeliler. Bunun güvenlik açısından kötü amaçlı ve yeterince kontrol edilmemiş girdileri kabul etmek anlamına gelebileceği için riskli olduğu düşünülebilir. Tabiki bu riskin de göz önünde bulundurulması gerekir.
 
-Uygun olmayan girdilere zaman içinde izin verilmesi, uygulayıcıların  yeni özellikler oluştururken bu serbestliğe güvenmesini sağlayacağından en sonunda protokollerin evrimleşme yeteneğini zayıflatabilir.
+Uygun olmayan girdilere zaman içinde izin verilmesi, uygulayıcıların yeni özellikler oluştururken bu serbestliğe güvenmesini sağlayacağından en sonunda protokollerin evrimleşme yeteneğini zayıflatabilir.
 
 Ek kaynaklar:
 
@@ -730,7 +730,7 @@ Ek kaynaklar:
 
 Bu *Aşırı Programlama* (XP) ilkesi, geliştiricilerin yalnızca acil gereksinimler için gerekli olan işlevleri yerine getirmeleri gerektiğini ve daha sonra ihtiyaç duyulabilecek işlevleri uygulayarak geleceği tahmin etme girişimlerinden kaçınmalarını önerir.
 
-Bu ilkeye bağlı kalmak, kod tabanındaki kullanılmayan kod miktarının ve hiçbir değer getirmeyen işlevlerde haracanan zamanın ve çabanın azalmasını sağlayacaktır.
+Bu ilkeye bağlı kalmak, kod tabanındaki kullanılmayan kod miktarının ve hiçbir değer getirmeyen işlevlerde harcanan zamanın ve çabanın azalmasını sağlayacaktır.
 
 Ek kaynaklar:
 
@@ -769,7 +769,7 @@ Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabi
 - Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson - Extreme Programming kavramının temel prensiplerini içerir.
 - The Mythical Man Month - Frederick P. Brooks Jr. - Yazılım mühendisliği klasiği sayılabilir. Brooks Yasası bu kitabın ana temasıdır.
 - Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter. - Sınıflandırması zor bir kitap. [Hofstadter Yasası](#hofstadter-yasası) bu kitaptan alıntıdır.
-- [Dilbert Prensibi - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - Amerikadaki kurumsal hayata mizahi bir yaklaşım,  [Dilbert Prensibi'nin](#dilbert-prensibi) sahibinden.
+- [Dilbert Prensibi - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - Amerikadaki kurumsal hayata mizahi bir yaklaşım, [Dilbert Prensibi'nin](#dilbert-prensibi) sahibinden.
 - [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Daha büyük organizasyonlar ve insan yönetimi zorluklarına mizahi bakış, [Peter Prinsibi'nin](#peter-prensibi) kaynağı.
 
 ## Çeviriler
