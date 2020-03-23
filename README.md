@@ -79,7 +79,7 @@ Tek tek başlayalım!
 
 [Wikipedia'da 1% Kuralı](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
 
-> 90-9-1 prensibi der ki, bir internet topluluğunda (örneğin bir wiki) üyelerin %90'ı sadece içeriği okur, %9'u içeriği düzenleme ya da düzeltme yapar ve %1'i ise yeni içerik ekler.
+> 90-9-1 prensibi der ki, bir internet topluluğunda (örneğin bir wiki topluluğu) üyelerin %90'ı sadece içeriği okur, %9'u içeriği düzenleme ya da düzeltme yapar ve %1'i ise yeni içerik ekler.
 
 Gerçek dünyadan örnekler:
 
