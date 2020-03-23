@@ -79,7 +79,7 @@ Tek tek başlayalım!
 
 [Wikipedia'da 1% Kuralı](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
 
-> 90-9-1 prensibi der ki, bir internet topluluğunda (örneğin bir wiki topluluğu) üyelerin %90'ı sadece içeriği okur, %9'u içeriği düzenleme ya da düzeltme yapar ve %1'i ise yeni içerik ekler.
+> 90-9-1 prensibi der ki; bir internet topluluğunda (örneğin bir wiki topluluğu) üyelerin %90'ı sadece içeriği okur, %9'u içeriği düzenleme ya da düzeltme yapar ve %1'i ise yeni içerik ekler.
 
 Gerçek dünyadan örnekler:
 
@@ -189,7 +189,7 @@ Ek kaynaklar:
 >
 > ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
 
-Gall Yasası der ki, çok karmaşık sistemleri *tasarlamaya* çalışmak her zaman başarısızlıkla sonuçlanır. Bu tür sistemlerin ilk denemede başarılı olmaları çok nadir görülür ama genellikle basit sistemlerden evrilirler.
+Gall Yasası der ki; çok karmaşık sistemleri *tasarlamaya* çalışmak her zaman başarısızlıkla sonuçlanır. Bu tür sistemlerin ilk denemede başarılı olmaları çok nadir görülür ama genellikle basit sistemlerden evrilirler.
 
 En klasik örnek günümüzdeki internettir.  Şu an çok karmaşık bir sistemdir.  Aslında başlangıçta sadece akademik kurumlar arası içerik paylaşımı olarak tanımlanmıştı. Bu tanımı karşılamada çok başarılı oldu ve zamanla gelişerek bugünkü karmaşık halini aldı.
 
@@ -429,7 +429,7 @@ Ek kaynaklar;
 
 [Wikipedia'da Karmaşıklığın Korunması Yasası](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
 
-Bu yasa der ki, her sistemde kesinlikle ayıklanamayacak bir miktarda karmaşıklık vardır.
+Bu yasa der ki; her sistemde kesinlikle ayıklanamayacak bir miktarda karmaşıklık vardır.
 
 Bir sistem ve yazılımdaki karmaşıklıkların bazıları dikkatsizlik veya yanlışlıktan ortaya çıkar. Bu kötü kurgulanmış yapının, herhangi bir dikkatsizliğin, ya da problemin kötü modellenmesinin sonucu olabilir. Bu tarz karmaşıklıklar giderilebilir ve sistemden ayıklanabilir. Bunun yanında, bazı karmaşıklıklar sistemin gerçekleridir yani sistemin çözmeye çalıştığı problemin doğası gereği ortaya çıkarlar. Bu tarz karmaşıklıklar sistem içinde farklı yerlere taşınabilirler ama sistemden ayıklanmazlar.
 
@@ -539,7 +539,7 @@ Ek kaynaklar:
 
 > Hayattaki çoğu şey eşit dağılmaz.
 
-Pareto Prensibi der ki, çıktıların önemli bir çoğunluğu girdilerin çok azı tarafından oluşturulur:
+Pareto Prensibi der ki; çıktıların önemli bir çoğunluğu girdilerin çok azı tarafından oluşturulur:
 
 - Bir yazılımın 80%'i harcanan zamanın %20'sinde yazılır (bir başka deyişle, kodun en zor %20'lik bölümü haracanan zamanın %80'inde yazılır)
 - Harcanan eforun %20'si sonucun %80'ini oluşturur
