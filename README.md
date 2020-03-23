@@ -12,6 +12,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
 
 * [Giriş](#giriş)
 * [Yasalar](#yasalar)
+    * [90–9–1 Prensibi (1% Kuralı)](#9091-prensibi-1-kuralı)
     * [Amdahl Yasası](#amdahl-yasası)
     * [Kırık Camlar Teorisi](#kırık-camlar-teorisi)
     * [Brooks Yasası](#brooks-yasası)
@@ -73,6 +74,20 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
 ## Yasalar
 
 Tek tek başlayalım!
+
+### 90–9–1 Prensibi (1% Kuralı)
+
+[Wikipedia'da 1% Kuralı](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
+
+> 90-9-1 prensibi der ki, bir internet topluluğunda (örneğin bir wiki) üyelerin %90'ı sadece içeriği okur, %9'u içeriği düzenleme ya da düzeltme yapar ve %1'i ise yeni içerik ekler.
+
+Gerçek dünyadan örnekler:
+
+- Dört dijital sağlık sosyal ağlarına ilişkin 2014 yılında yapılan bir araştırma, topluluğun %1'inin gönderilerin %73'ünü oluşturduğunu, %9'unun ortalama %25'ini ve geri kalan %90'ının da ortalama %2'sini oluşturduğunu buldu ( [Referans](https://www.jmir.org/2014/2/e33/) ).
+
+Ek kaynaklar:
+
+- [Pareto prensibi](#pareto-prensibi)
 
 ### Amdahl Yasası
 
