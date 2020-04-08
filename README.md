@@ -36,6 +36,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Putt Yasası](#putt-yasası)
     * [Reed Yasası](#reed-yasası)
     * [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#karmaşıklığın-korunması-yasası-tesler-yasası)
+    * [Demeter Yasası](#demeter-yasası)
     * [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
     * [Önemsizlik Yasası](#önemsizlik-yasası)
     * [Unix Felsefesi](#unix-felsefesi)
@@ -434,6 +435,18 @@ Bu yasa der ki; her sistemde kesinlikle ayıklanamayacak bir miktarda karmaşık
 Bir sistem ve yazılımdaki karmaşıklıkların bazıları dikkatsizlik veya yanlışlıktan ortaya çıkar. Bu kötü kurgulanmış yapının, herhangi bir dikkatsizliğin, ya da problemin kötü modellenmesinin sonucu olabilir. Bu tarz karmaşıklıklar giderilebilir ve sistemden ayıklanabilir. Bunun yanında, bazı karmaşıklıklar sistemin gerçekleridir yani sistemin çözmeye çalıştığı problemin doğası gereği ortaya çıkarlar. Bu tarz karmaşıklıklar sistem içinde farklı yerlere taşınabilirler ama sistemden ayıklanmazlar.
 
 O yasanın farklı bir yansıması olarak şöyle düşünülebilir, eğer bir karmaşıklık esastan geliyorsa ve sistem sadeleştirilerek bile ayıklanamıyorsa, daha karmaşık bir şekilde davranması beklenen *kullanıcının tarafına taşınabilir*.
+
+### Demeter Yasası
+
+[Wikipedia'da Demeter Yasası](https://en.wikipedia.org/wiki/Law_of_Demeter)
+
+> Asla yabancılarla konuşma.
+
+"En Az Bilgi İlkesi" olarak da bilinen Demeter Yasası, yazılım tasarımı için, özellikle nesne tabanlı dillerle ilgili bir ilkedir.
+
+Bir yazılım biriminin sadece en yakın işbirlikçileriyle konuşması gerektiğini belirtir. `B` nesnesine bir referansı olan bir `A` nesnesi yöntemlerini çağırabilir, ancak `B` `C` nesnesine bir referansı varsa, `A` `C` yöntemlerini direk çağırmamalıdır. Yani, eğer `C` bir `doThing()` yöntemine sahipse, `A` doğrudan çağırmamalıdır; `B.getC().DoThis()`.
+
+Bu ilkeyi izlemek, değişikliklerin kapsamını sınırlayarak gelecekte değiştirmelerin daha kolay ve daha güvenli olmasını sağlar.
 
 ### Sızdıran Soyutlamalar Yasası
 
