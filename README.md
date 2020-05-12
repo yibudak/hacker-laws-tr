@@ -2,7 +2,7 @@
 
 Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 
-[Çeviriler](#çeviriler): [🇧🇷](https://github.com/dwmkerr/hacker-laws/blob/master/translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇩🇪](https://github.com/dwmkerr/hacker-laws/blob/master/translations/de.md) [🇫🇷](https://github.com/dwmkerr/hacker-laws/blob/master/translations/fr.md) [🇬🇷](https://github.com/dwmkerr/hacker-laws/blob/master/translations/el.md) [🇮🇹](https://github.com/csparpa/hacker-laws-it) [🇱🇻](https://github.com/dwmkerr/hacker-laws/blob/master/translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](https://github.com/dwmkerr/hacker-laws/blob/master/translations/es-ES.md) [🇹🇷](https://github.com/umutphp/hacker-laws-tr) [🇯🇵](https://github.com/dwmkerr/hacker-laws/blob/master/translations/jp.md)
+[Çeviriler](#çeviriler): [🇮🇩](https://github.com/dwmkerr/hacker-laws/blob/master//translations/pt-BR.md) [🇧🇷](https://github.com/dwmkerr/hacker-laws/blob/master/translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇩🇪](https://github.com/dwmkerr/hacker-laws/blob/master/translations/de.md) [🇫🇷](https://github.com/dwmkerr/hacker-laws/blob/master/translations/fr.md) [🇬🇷](https://github.com/dwmkerr/hacker-laws/blob/master/translations/el.md) [🇮🇹](https://github.com/csparpa/hacker-laws-it) [🇱🇻](https://github.com/dwmkerr/hacker-laws/blob/master/translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](https://github.com/dwmkerr/hacker-laws/blob/master/translations/es-ES.md) [🇹🇷](https://github.com/umutphp/hacker-laws-tr) [🇯🇵](https://github.com/dwmkerr/hacker-laws/blob/master/translations/jp.md)
 
 Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.com/sponsors/dwmkerr) olabilirsiniz ya da [çeviri yapanlara](#translations) sponsor olabilirsiniz.
 
@@ -530,6 +530,16 @@ Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory) tarafından ol
 ## Prensipler
 
 Prensiplerin genellikle tasarıma ilişkin rehberlerdir.
+
+### Ölü Deniz Etkisi
+
+[Bruce F. Webster'e göre Ölü Deniz Etkisi](http://brucefwebster.com/2008/04/11/the-wetware-crisis-the-dead-sea-effect/)
+
+> "... [E]n yetenekli ve verimli BT mühendisleri şirketleri terketmeye en yakın olanlardır, [kalıcı olma taraftarı olanlar] ise tortuya (daha az yetenekli ve verimsiz) benzetilebilir"
+> *Bruce F. Webster*
+"Ölü Deniz Etkisi" bir organizasyonda mühendislerin becerilerinin/yeteneklerinin/verimliliklerinin  sıklıkla o organizasyonda harcadıkları zamanla ters orantılı olduğunu söyler.
+
+Genellikle, yüksek vasıflı mühendisler başka yerlerde iş bulması kolay kolay olan ve bunu ilk yapan kişilerdir. Eskimiş veya zayıf becerilere sahip mühendisler, başka bir yerde iş bulmak zor olduğu için şirkette kalma eğilimindedir. Bu, özellikle şirketteki zamanları boyunca artan ücret artışları elde ettikleri takdirde de geçerlidir, çünkü başka bir yerde eşdeğer ücret almaları zor olabilir.
 
 ### Dilbert Prensibi
 
