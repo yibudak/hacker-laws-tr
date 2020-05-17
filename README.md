@@ -540,7 +540,7 @@ Prensiplerin genellikle tasarıma ilişkin rehberlerdir.
 > *Bruce F. Webster*
 "Ölü Deniz Etkisi" bir organizasyonda mühendislerin becerilerinin/yeteneklerinin/verimliliklerinin  sıklıkla o organizasyonda harcadıkları zamanla ters orantılı olduğunu söyler.
 
-Genellikle, yüksek vasıflı mühendisler başka yerlerde iş bulması kolay kolay olan ve bunu ilk yapan kişilerdir. Eskimiş veya zayıf becerilere sahip mühendisler, başka bir yerde iş bulmak zor olduğu için şirkette kalma eğilimindedir. Bu, özellikle şirketteki zamanları boyunca artan ücret artışları elde ettikleri takdirde de geçerlidir, çünkü başka bir yerde eşdeğer ücret almaları zor olabilir.
+Genellikle, yüksek vasıflı mühendisler başka yerlerde iş bulması kolay olan ve bunu ilk yapan kişilerdir. Eskimiş veya zayıf becerilere sahip mühendisler, başka bir yerde iş bulmak zor olduğu için şirkette kalma eğilimindedir. Bu, özellikle şirketteki zamanları boyunca artan ücret artışları elde ettikleri takdirde de geçerlidir, çünkü başka bir yerde eşdeğer ücret almaları zor olabilir.
 
 ### Dilbert Prensibi
 
