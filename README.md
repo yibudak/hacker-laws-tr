@@ -16,7 +16,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Amdahl Yasası](#amdahl-yasası)
     * [Kırık Camlar Teorisi](#kırık-camlar-teorisi)
     * [Brooks Yasası](#brooks-yasası)
-    * [CAP Teorisi (Brewer Teorisi)](#cap-teroisi-brewer-teorisi)
+    * [CAP Teorisi (Brewer Teorisi)](#cap-teorisi-brewer-teorisi)
     * [Conway Yasası](#conway-yasası)
     * [Cunningham Yasası](#cunningham-yasası)
     * [Dunbar Sayısı](#dunbar-sayısı)
