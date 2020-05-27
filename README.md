@@ -16,6 +16,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Amdahl Yasası](#amdahl-yasası)
     * [Kırık Camlar Teorisi](#kırık-camlar-teorisi)
     * [Brooks Yasası](#brooks-yasası)
+    * [CAP Teorisi (Brewer Teorisi)](#cap-teroisi-brewer-teorisi)
     * [Conway Yasası](#conway-yasası)
     * [Cunningham Yasası](#cunningham-yasası)
     * [Dunbar Sayısı](#dunbar-sayısı)
@@ -148,6 +149,26 @@ Ek kaynaklar:
 
 - [Death March](#todo)
 - [Reading List: The Mythical Man Month](#ek-kaynaklar)
+
+### CAP Teorisi (Brewer Teorisi)
+
+CAP Teoremi (Eric Brewer tarafından tanımlanmıştır) dağıtılmış bir veri deposu için aşağıdaki üç garantiden sadece ikisinin (en fazla) sağlanabileceğini belirtmektedir:
+
+- Tutarlılık: verileri okurken, her istek verinin *en son* halini alır veya bir hata döndürülür
+- Erişilebilirlik: veri okurken, her istek verinin *en son*hali olduğunu garanti etmeden *hata içermeyen bir yanıt* alır
+- Parçalara Ayrılma Toleransı: Düğümler arasında belli bir sayıda ağ isteği başarısız olduğunda, sistem beklendiği gibi çalışmaya devam eder
+
+Tartışmanın özü şöyledir. Bir ağ paylaşımının olmayacağını garanti etmek imkansızdır (bkz. [Dağıtık Sistemlerin Yanılgıları ](#da%C4%9F%C4%B1t%C4%B1k-sistemlerin-yan%C4%B1lg%C4%B1lar%C4%B1)). Bu nedenle bir paylaşımlı yapı söz konusu olduğunda, işlemi iptal edebilir (tutarlılığı artırabilir ve kullanılabilirliği azaltabiliriz) veya devam edebiliriz (kullanılabilirliği artırabilir, tutarlılığı azaltabilir).
+
+Teorinin ismi, garanti edilmeye çalışılan kavramların ilk harflerinden (Consistency, Availability, Partition Tolerance) oluşturulmuştur. Bunun [*ACID*](#TODO) ile alakalı *olmayan* farklı bir tanımı olduğunu bilmenin çok önemli olduğunu unutmayın. Daha güncel olarak, ağın paylaşımlı *olmadığı* yapılarda (sistem beklendiği çalışmaya devam ederken) gecikmeye ve tutarlılığa bazı kısıtlamalar getiren [PACELC](#TODO) teoremi geliştirilmiştir.
+
+Çoğu modern veritabanı platformu, veritabanı kullanıcılarına yüksek düzeyde kullanılabilirlik ('kirli okuma' içerebilir) veya yüksek düzeyde tutarlık (örneğin 'yeterli çoğunlukla onaylanmış yazma') arasında seçim yapma seçeneği sunarak bu teoremi örtük olarak kabul eder.
+
+Ek kaynaklar:
+
+- [ACID](#TODO)
+- [Dağıtık Sistemlerin Yanılgıları](#da%C4%9F%C4%B1t%C4%B1k-sistemlerin-yan%C4%B1lg%C4%B1lar%C4%B1)
+- [PACELC](#TODO)
 
 ### Conway Yasası
 
