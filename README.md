@@ -164,6 +164,10 @@ Teorinin ismi, garanti edilmeye çalışılan kavramların ilk harflerinden (Con
 
 Çoğu modern veritabanı platformu, veritabanı kullanıcılarına yüksek düzeyde kullanılabilirlik ('kirli okuma' içerebilir) veya yüksek düzeyde tutarlık (örneğin 'yeterli çoğunlukla onaylanmış yazma') arasında seçim yapma seçeneği sunarak bu teoremi örtük olarak kabul eder.
 
+Gerçek dünyadan örnekler:
+
+- [Google Cloud Spanner ve CAP Teorisi](https://cloud.google.com/blog/products/gcp/inside-cloud-spanner-and-the-cap-theorem) - İlk olarak CAP garantilerinin *hepsine* sahip gibi görünen, ancak kaputun altında bir CP sistemi olan Cloud Spanner'ın nasıl çalıştığının ayrıntıları anlatılıyor.
+
 Ek kaynaklar:
 
 - [ACID](#TODO)
