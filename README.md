@@ -20,6 +20,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Conway Yasası](#conway-yasası)
     * [Cunningham Yasası](#cunningham-yasası)
     * [Dunbar Sayısı](#dunbar-sayısı)
+    * [Fitt Yasası](#fitt-yasası)
     * [Gall Yasası](#gall-yasası)
     * [Goodhart Yasası](#goodhart-yasası)
     * [Hanlon'un Usturası](#hanlonun-usturası)
@@ -207,6 +208,22 @@ Kişiler arası insani ilişkilerde olduğu gibi, insanlarla kod arasındaki ili
 Ek kaynaklar:
 
 - [Conway Yasası](#conway-yasası)
+
+### Fitt Yasası
+
+[Wikipedia'da Fitt Yasası](https://en.wikipedia.org/wiki/Fitts%27s_law)
+
+Fitts yasası, bir hedef alana gitmek için gereken sürenin hesaplanmasında, hedefe olan mesafenin hedefin genişliğine bölünmesinin bir işlevi olduğunu öngörür.
+
+<img width="300px" alt="Diagram: Fitts Law" src="./images/Fitts_Law.svg" />
+
+Bu yasanın sonuçları, UX veya UI tasarlanırken etkileşimli öğelerin mümkün olduğunca büyük olması ve kullanıcıların dikkat alanı ile etkileşimli öğe arasındaki mesafenin mümkün olduğunca küçük olması gerektiğini ortaya çıkarır. Bunun tasarım üzerinde sonuçları vardır, örneğin birbirleriyle yakın kullanılan işlevlerin gruplanması gibi.
+
+Ayrıca, ekranın köşeleri için temel kullanıcı arayüzü öğelerinin yerleştirilebileceği 'sihirli köşeler' (bir kullanıcının farelerini kolayca vurabileceği ya da süpürebileceği) kavramını resmileştiriyor. Windows Başlat düğmesi sihirli bir köşede, seçmeyi kolaylaştırıyor ve ilginç bir kontrast olarak, MacOS'un 'pencereyi kapat' düğmesi sihirli bir köşede *değil*, yanlışlıkla tıklanmayı zorlaştırıyor.
+
+Ek kaynaklar:
+
+- [İnsan motor sisteminin hareket genliğini kontrol etme veri kapasitesi.](https://www.semanticscholar.org/paper/The-information-capacity-of-the-human-motor-system-Fitts/634c9fde5f1c411e4487658ac738dcf18d98ea8d)
 
 ### Gall Yasası
 
