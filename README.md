@@ -281,6 +281,7 @@ Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin
 [Wikipedia'da Hick Yasası](https://en.wikipedia.org/wiki/Hick%27s_law)
 
 > Karar verme süresi, seçebileceğiniz seçeneklerin sayısı ile logaritmik orantılı olarak büyür.
+>
 > William Edmund Hick and Ray Hyman
 
 Aşağıdaki denklemde, `T` karar verme zamanıdır, `n` seçenek sayısıdır ve `b` verilerin analizi ile belirlenen bir sabittir.
