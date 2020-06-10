@@ -24,6 +24,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Gall Yasası](#gall-yasası)
     * [Goodhart Yasası](#goodhart-yasası)
     * [Hanlon'un Usturası](#hanlonun-usturası)
+    * [Hick Yasası (Hick-Hyman Yasası)](#hick-yasası-hick-hyman-yasası)
     * [Hofstadter Yasası](#hofstadter-yasası)
     * [Hutber Yasası](#hutber-yasası)
     * [Hype Döngüsü ve Amara Yasası](#hype-döngüsü-ve-amara-yasası)
@@ -274,6 +275,29 @@ Ek kaynaklar:
 > Robert J. Hanlon
 
 Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin sonucu olmadığını savunmaktadır. Aksine, olumsuz sonuç daha büyük olasılıkla bu eylemlerin ve/veya etkinin tam olarak anlaşılamamasına bağlıdır.
+
+### Hick Yasası (Hick-Hyman Yasası)
+
+[Wikipedia'da Hick Yasası](https://en.wikipedia.org/wiki/Hick%27s_law)
+
+> Karar verme süresi, seçebileceğiniz seçeneklerin sayısı ile logaritmik orantılı olarak büyür.
+> William Edmund Hick and Ray Hyman
+
+Aşağıdaki denklemde, `T` karar verme zamanıdır, `n` seçenek sayısıdır ve `b` verilerin analizi ile belirlenen bir sabittir.
+
+![Hicks law](./images/hicks_law.svg)
+
+*(Diagramın Kaynağı: Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Hick%27s_law)*
+
+Bu yasa yalnızca seçeneklerin sayısı *sıralandığında* (örneğin alfabetik olarak) geçerlidir. Bu, temel iki logaritmada ima edilir - bu, karar vericinin aslında bir *ikili arama* gerçekleştirdiğini ima eder. Seçenekler iyi sıralanmamışsa, deneyler geçen sürenin doğrusal olduğunu gösterir.
+
+Bunun UI tasarımında önemli bir etkisi vardır; kullanıcıların seçenekleri kolayca arayabilmelerini sağlamak daha hızlı karar almayı sağlar.
+
+Hick Yasasında IQ ile reaksiyon süresi arasında [Bilgi İşleme Hızı: Gelişimsel Değişim ve İstihbarat Bağlantıları](https://www.sciencedirect.com/science/article/pii/S0022440599000369) makalesinde bahsedildiği gibi bir korelasyon da gösterilmiştir.
+
+Ek kaynaklar:
+
+- [Fitts Yasası](#fitts-yasası)
 
 ### Hofstadter Yasası
 
