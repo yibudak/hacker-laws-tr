@@ -30,6 +30,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Hype Döngüsü ve Amara Yasası](#hype-döngüsü-ve-amara-yasası)
     * [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrum-yasası-arabirimlerin-örtülü-hukuku)
     * [Kernighan Yasası](#kernighan-yasası)
+    * [Linus Yasası](#linus-yasası)
     * [Metcalfe Yasası](#metcalfe-yasası)
     * [Moore Yasası](#moore-yasası)
     * [Murphy Yasası / Sod  Yasası](#murphy-yasası--sod-yasası)
@@ -376,6 +377,24 @@ Ek kaynaklar:
 - [KISS Prensibi](#kiss-prensibi)
 - [Unix Felsefesi](##unix-felsefesi)
 - [Occam'ın Usturası](#occamın-usturası)
+
+### Linus Yasası
+
+[Wikipedia'da Linus Yasası](https://en.wikipedia.org/wiki/Linus%27s_law)
+
+> Ne kadar çok farklı göz bakarsa, hataların bulunması o kadar kolaylaşır.
+>
+> Eric S. Raymond
+
+Bu yasa basitçe der ki; bir problemi ne kadar çok kişi görürse, bu kişiler arasında daha önce bu problemle veya benzeriyle karşılaşmış ve çözmüş kişilerin bulunma olasılığının artacaktır.
+
+Başlangıçta açık kaynak geliştirme modellerinin projeler için değerini tanımlamada kullanılmış olsa da, her türlü yazılım projesi için de kabul edilebilir. Ayrıca genel süreçlere de genişletilebilir - daha fazla kod incelemesi, daha fazla statik analiz ve çok disiplinli test süreçleri sorunları daha görünür kılacak ve tanımlanmasını kolaylaştıracaktır.
+
+Daha resmi bir ifade şöyle olabilir;
+
+> Olabildiğince çok sayıda beta testçisi ve ortak geliştirici ortamı sağlandığında, hemen hemen her sorun hızlı bir şekilde karakterize edilecek ve daha önce benzer bir sorunla karşılaşmış biri tarafından çözülecektir.
+
+Bu yasa Eric S. Raymond'un "[Katedral ve Çarşı](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)" kitabında [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds)'a ithaf olunmuştur.
 
 ### Metcalfe Yasası
 
