@@ -48,7 +48,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Wadler Yasası](#wadler-yasası)
     * [Wheaton Yasası](#wheaton-yasası)
 * [Prensipler](#prensipler)
-    * [Chesterson'ın Çiti](#chesterson-çiti)
+    * [Chesterson Çiti](#chesterson-çiti)
     * [Ölü Deniz Etkisi](#ölü-deniz-etkisi)
     * [Dilbert Prensibi](#dilbert-prensibi)
     * [Pareto Prensibi (80/20 Kuralı)](#pareto-prensibi-8020-kuralı)
