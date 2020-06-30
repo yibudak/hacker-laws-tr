@@ -48,6 +48,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Wadler Yasası](#wadler-yasası)
     * [Wheaton Yasası](#wheaton-yasası)
 * [Prensipler](#prensipler)
+    * [Chesterson'ın Çiti](#chesterson-çiti)
     * [Ölü Deniz Etkisi](#ölü-deniz-etkisi)
     * [Dilbert Prensibi](#dilbert-prensibi)
     * [Pareto Prensibi (80/20 Kuralı)](#pareto-prensibi-8020-kuralı)
@@ -617,6 +618,16 @@ Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory) tarafından ol
 ## Prensipler
 
 Prensiplerin genellikle tasarıma ilişkin rehberlerdir.
+
+### Chesterson Çiti
+
+[Wikipedia'da Chesterson Çiti](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence)
+
+> Mevcut durumun ardındaki gerekçe anlaşılıncaya kadar reform yapılmamalıdır.
+
+Bu prensibin adı G.K Chesterson'ın yazdığı bir hikayeden geliyor. Bir adam yolun ortasından geçen bir çitle karşılaşır. Belediye başkanına bu işe yaramaz çitin yolunu kestiğinden şikayet eder ve kaldırılmasını ister. Belediye başkanı çitin neden orada olduğunu sorar. Adam bilmediğini söylediğinde, belediye başkanı, "Eğer amacını bilmiyorsan, kesinlikle onu kaldırmana izin vermeyeceğim. Git sebebini öğren ve sonra kaldırılmasına izin verebilirim belki o zaman."
+
+Bu prensip, yazılım mühendisliğinde teknik borç kaldırılırken dikkate alınmalıdır. Bir programın her satırı başlangıçta bir sebepten ötürü birisi tarafından yazılmıştır. İlk etapta kodun neden yazıldığını anlamaya çalışmalısınız. Sadece bunu öğrendikten sonra, kodu çıkarma veya yeniden düzenleme konusunda kendinizden emin olabilirsiniz.
 
 ### Ölü Deniz Etkisi
 
