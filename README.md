@@ -94,7 +94,7 @@ Gerçek dünyadan örnekler:
 
 Ek kaynaklar:
 
-- [Pareto prensibi](#pareto-prensibi)
+- [Pareto prensibi](#pareto-prensibi-8020-kuralı)
 
 ### Amdahl Yasası
 
