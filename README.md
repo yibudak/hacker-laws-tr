@@ -4,7 +4,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 
 [Çeviriler](#çeviriler): [🇮🇩](https://github.com/dwmkerr/hacker-laws/blob/master//translations/pt-BR.md) [🇧🇷](https://github.com/dwmkerr/hacker-laws/blob/master/translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇩🇪](https://github.com/dwmkerr/hacker-laws/blob/master/translations/de.md) [🇫🇷](https://github.com/dwmkerr/hacker-laws/blob/master/translations/fr.md) [🇬🇷](https://github.com/dwmkerr/hacker-laws/blob/master/translations/el.md) [🇮🇹](https://github.com/csparpa/hacker-laws-it) [🇱🇻](https://github.com/dwmkerr/hacker-laws/blob/master/translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](https://github.com/dwmkerr/hacker-laws/blob/master/translations/es-ES.md) [🇹🇷](https://github.com/umutphp/hacker-laws-tr) [🇯🇵](https://github.com/dwmkerr/hacker-laws/blob/master/translations/jp.md)
 
-Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.com/sponsors/dwmkerr) olabilirsiniz ya da [çeviri yapanlara](#translations) sponsor olabilirsiniz.
+Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.com/sponsors/dwmkerr) olabilirsiniz ya da [çeviri yapanlara](#translations) sponsor olabilirsiniz. Ayrıca proje hakkında daha fazla bilgi edinmek için [Changelog - Hacker'lara Yasasalar] (https://changelog.com/podcast/403) adresindeki bu podcast'e göz atın!
 
 ---
 
@@ -65,6 +65,8 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [YAGNI](#yagni)
     * [Dağıtık Sistemlerin Yanılgıları](#dağıtık-sistemlerin-yanılgıları)
 * [Ek Kaynaklar](#ek-kaynaklar)
+* [Çevrimiçi Kaynaklar](#çevrimiçi-kaynaklar)
+* [Podcast](#podcast)
 * [Çeviriler](#çeviriler)
 * [İlgili Projeler](#i̇lgili-projeler)
 * [Katkıda Bulunmak İçin](#katkıda-bulunmak-i̇çin)
@@ -893,6 +895,18 @@ Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabi
 - [Dilbert Prensibi - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - Amerikadaki kurumsal hayata mizahi bir yaklaşım, [Dilbert Prensibi'nin](#dilbert-prensibi) sahibinden.
 - [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Daha büyük organizasyonlar ve insan yönetimi zorluklarına mizahi bakış, [Peter Prinsibi'nin](#peter-prensibi) kaynağı.
 - [Structure and Interpretation of Computer Programs - Harold Abelson, Gerald Jay Sussman, Julie Sussman](https://www.goodreads.com/book/show/43713) - Eğer MIT veya Cmabridge üniversitelerinde bilgisayar bilimleri veya elektrik mühendisliği öğrencisiyseniz, bu kitap programlamaya giriş kitabınızdır. İnsanın hayatını değiştiren bir kitap olarak anılır.
+
+## Çevrimiçi Kaynaklar
+
+Bazı yararlı kaynaklar ve makaleler.
+
+- [CB Insights: Teknolojide Başarıyı Artıran 8 Yasa: Amazon 2 Pizza Kuralı, 80/20 Prensibi, ve Dahası](https://www.cbinsights.com/research/report/tech-laws-success-failure) - teknolojide oldukça etkili olan bazı yasaların ilginç bir şekilde yazılması.
+
+## Podcast
+
+Hacker Laws, [The Changelog](https://changelog.com/podcast/403)'a konuk oldu, Podcast bölümünü aşağıdaki bağlantıdan dinleyebilirsiniz:
+
+<a href="https://changelog.com/podcast/403" target="_blank"><img src="./images/changelog-podcast.png" width="800px" alt="Changelog Podcast Image" /></a>
 
 ## Çeviriler
 
