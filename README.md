@@ -45,7 +45,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Önemsizlik Yasası](#önemsizlik-yasası)
     * [Unix Felsefesi](#unix-felsefesi)
     * [Spotify Modeli](#spotify-modeli)
-    * [İki Pizza Kuralı](#i̇ki-pizza-kuralı)
+    * [İki Pizza Kuralı](#iki-pizza-kuralı)
     * [Wadler Yasası](#wadler-yasası)
     * [Wheaton Yasası](#wheaton-yasası)
 * [Prensipler](#prensipler)
