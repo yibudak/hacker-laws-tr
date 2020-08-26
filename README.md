@@ -45,6 +45,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Önemsizlik Yasası](#önemsizlik-yasası)
     * [Unix Felsefesi](#unix-felsefesi)
     * [Spotify Modeli](#spotify-modeli)
+    * [İki Pizza Kuralı](#iki-pizza-kuralı)
     * [Wadler Yasası](#wadler-yasası)
     * [Wheaton Yasası](#wheaton-yasası)
 * [Prensipler](#prensipler)
@@ -587,6 +588,18 @@ Modern yaklaşımlardan biri olan 'Mikro-service Mimarisi' de bu felsefenin uygu
 Spotify Modeli Spotify'daki uygulamasından dolayı popüler olmuş ekip ve organizasyon yapıları için yeni bir yaklaşımdır. Model basitçe ekiplerin teknolojilere göre değil de özellikler etrafında organize edilmesidir.
 
 Spotify Modeli kabileler (Tribes), birlikler (Guilds) ve kısımlar (Chapter) gibi organizasyon yapısında kullanılacak öğeleri de yaygın hale getirdi.
+
+### İki Pizza Kuralı
+
+> Eğer bir ekibi iki pizza ile doyuramıyorsanız, o ekip büyük bir ekiptir.
+>
+> (Jeff Bezos)
+
+Bu kural, şirketin büyüklüğünden bağımsız olarak, ekiplerin iki pizza ile beslenebilecek kadar küçük olması gerektiğini önermektedir. Jeff Bezos ve Amazon'a atfedilen bu kural, büyük ekiplerin doğası gereği verimsiz olduğunu öne sürüyor. Bu, takım boyutu doğrusal olarak büyüdükçe, insanlar arasındaki bağlantıların katlanarak artmasıyla desteklenmektedir; dolayısıyla koordinasyon ve iletişimin maliyeti de katlanarak artar. Koordinasyon maliyetleri yüksek olarak değerlendirilirse, daha küçük ekipler tercih edilmelidir.
+
+İnsanlar arasındaki bağlantıların sayısını `n(n-1)/2` şeklinde tanımlayabiliriz. Burada n insan sayısıdır.
+
+<img width="200px" alt="Complete graph; Links between people" src="./images/complete_graph.png" />
 
 ### Wadler Yasası
 
