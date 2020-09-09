@@ -53,6 +53,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Ölü Deniz Etkisi](#ölü-deniz-etkisi)
     * [Dilbert Prensibi](#dilbert-prensibi)
     * [Pareto Prensibi (80/20 Kuralı)](#pareto-prensibi-8020-kuralı)
+    * [Shirky Prensibi](#shirky-prensibi)
     * [Peter Prensibi](#peter-prensibi)
     * [Dayanıklılık Prensibi (Postel Yasası)](#dayanıklılık-prensibi-postel-yasası)
     * [SOLID](#solid)
@@ -649,7 +650,9 @@ Bu prensip, yazılım mühendisliğinde teknik borç kaldırılırken dikkate al
 [Bruce F. Webster'e göre Ölü Deniz Etkisi](http://brucefwebster.com/2008/04/11/the-wetware-crisis-the-dead-sea-effect/)
 
 > "... [E]n yetenekli ve verimli BT mühendisleri şirketleri terketmeye en yakın olanlardır, [kalıcı olma taraftarı olanlar] ise tortuya (daha az yetenekli ve verimsiz) benzetilebilir"
+> 
 > *Bruce F. Webster*
+
 "Ölü Deniz Etkisi" bir organizasyonda mühendislerin becerilerinin/yeteneklerinin/verimliliklerinin  sıklıkla o organizasyonda harcadıkları zamanla ters orantılı olduğunu söyler.
 
 Genellikle, yüksek vasıflı mühendisler başka yerlerde iş bulması kolay olan ve bunu ilk yapan kişilerdir. Eskimiş veya zayıf becerilere sahip mühendisler, başka bir yerde iş bulmak zor olduğu için şirkette kalma eğilimindedir. Bu, özellikle şirketteki zamanları boyunca artan ücret artışları elde ettikleri takdirde de geçerlidir, çünkü başka bir yerde eşdeğer ücret almaları zor olabilir.
@@ -690,6 +693,25 @@ Bu prensip aynı zamanda 80/20 Kuralı (The Law of the Vital Few and The Princip
 Gerçek dünyadan örnekler:
 
 - 2002'de Microsoft en çok rapor edilen hataların üstten %20'sini çözünce kullanıcıların yaşadığı sorunların %80'inin çözüldüğünü gözlemlemiş ([Referans](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
+
+### Shirky Prensibi
+
+[Shirky Prensibi'nin DEtaylı Açıklaması](https://kk.org/thetechnium/the-shirky-prin/)
+
+> Kurumlar, çözümü oldukları sorunun devam etmesini sağlamaya çalışırlar.
+>
+> Clay Shirky
+
+Shirky prensibi, karmaşık yapıların (bir şirketin, bir endüstrinin veya bir teknolojinin) çözdükleri soruna o kadar odaklandığını ve istemeden sorunun kendisini devam ettirebileceğini öne sürüyor. Bu, kasıtlı (bir çözümün sürekli geliştirilmesini haklı çıkaran yeni nüanslar bulmaya çalışan bir şirket) veya kasıtsız (sorunu tamamen çözen veya ortadan kaldıran bir çözümü kabul edememe veya inşa etme konusunda isteksizlik) olabilir.
+
+İlgili bazı sözler ve metinler:
+
+- Upton Sinclair'in ünlü sözü, "Bir insanı, maaşı anlamamasına bağlıyken, bir şeyi anlamasını sağlamak zordur!"
+- Clay Christensen's The Innovator's Dilemma
+
+Ek kaynaklar:
+
+- [Pareto Prensibi](#pareto-prensibi)
 
 ### Peter Prensibi
 
