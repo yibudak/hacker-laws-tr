@@ -49,6 +49,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Wadler Yasası](#wadler-yasası)
     * [Wheaton Yasası](#wheaton-yasası)
 * [Prensipler](#prensipler)
+    * [Tüm Modeller Yanlıştır (George Box Yasası)](#tüm-modeller-yanlıştır-george-box-yasası)
     * [Chesterson Çiti](#chesterson-çiti)
     * [Ölü Deniz Etkisi](#ölü-deniz-etkisi)
     * [Dilbert Prensibi](#dilbert-prensibi)
