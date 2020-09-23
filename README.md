@@ -650,7 +650,7 @@ Bu prensip, tüm sistem modellerinin kusurlu olduğunu, ancak çok fazla kusurlu
 
 Ek kaynaklar:
 
-[Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
+- [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
 
 ### Chesterson Çiti
 
