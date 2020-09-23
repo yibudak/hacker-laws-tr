@@ -635,6 +635,22 @@ Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory) tarafından ol
 
 Prensiplerin genellikle tasarıma ilişkin rehberlerdir.
 
+### Tüm Modeller Yanlıştır (George Box Yasası)
+
+[Tüm Modeller Yanlıştır](https://en.wikipedia.org/wiki/All_models_are_wrong)
+
+> Tüm modeller yanlıştır, ancak bazıları kullanışlıdır.
+>
+> George Box
+
+Bu prensip, tüm sistem modellerinin kusurlu olduğunu, ancak çok fazla kusurlu olmadıkları sürece yararlı olabileceklerini önermektedir. Bu presibin kökleri istatistiğe dayanmaktadır ancak bilimsel ve yazılım modelleri için de geçerlidir.
+
+Çoğu yazılımın temel gereksinimi, bir tür sistemi modellemektir. Modellenen sistemin bir bilgisayar ağı, kütüphane, sosyal bağlantıların grafiği veya herhangi bir sistem olup olmadığına bakılmaksızın, tasarımcının modellemek için uygun bir ayrıntı düzeyine karar vermesi gerekecektir. Aşırı detay, çok fazla karmaşıklığa yol açabilir, çok az detay ise modelin işlevsel olmasını engelleyebilir.
+
+Ek kaynaklar:
+
+[Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
+
 ### Chesterson Çiti
 
 [Wikipedia'da Chesterson Çiti](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence)
