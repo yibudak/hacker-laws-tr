@@ -984,6 +984,7 @@ Eğer var olan bir çeviriyi güncellemek istiyorsanız, bir [pull request](http
 
 - [Tip of the Day](https://tips.darekkay.com/html/hacker-laws-en.html) - Hergün bir hacker yasası ya da prensibi.
 - [Hacker Laws CLI](https://github.com/umutphp/hacker-laws-cli) - Terminalden yasaları listeleyin ve rastgele bir yasa görüntüleyin!
+- [Hacker Laws Action](https://github.com/marketplace/actions/hacker-laws-action) - Projenize katkı yapan kişiye sürpriz hediye olsun diye, kişinin açtığı PR isteğine rastgele bir yasa ya da prensibi yorum olarak girer.
 
 ## Katkıda Bulunmak İçin
 
