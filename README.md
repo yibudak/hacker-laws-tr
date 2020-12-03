@@ -20,6 +20,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Conway Yasası](#conway-yasası)
     * [Cunningham Yasası](#cunningham-yasası)
     * [Dunbar Sayısı](#dunbar-sayısı)
+    * [Dunning-Kruger Etkisi](#dunningkruger-etkisi)
     * [Fitt Yasası](#fitt-yasası)
     * [Gall Yasası](#gall-yasası)
     * [Goodhart Yasası](#goodhart-yasası)
@@ -216,6 +217,24 @@ Kişiler arası insani ilişkilerde olduğu gibi, insanlarla kod arasındaki ili
 Ek kaynaklar:
 
 - [Conway Yasası](#conway-yasası)
+
+### Dunning-Kruger Etkisi
+
+[Wikipedia'da Dunning-Kruger Etkisi](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
+
+> Eğer bir konuda yetersizseniz, yetersizseniz olduğunuzu bilemezsiniz... Doğru bir cevap üretmek için ihtiyacınız olan yetenekler, doğru cevabın ne olduğunu anlamanız için tam olarak ihtiyacınız olan yeteneklerdir.
+>
+> ([David Dunning](https://en.wikipedia.org/wiki/David_Dunning))
+
+Dunning-Kruger etkisi, David Dunning ve Justin Kruger tarafından 1999'da yapılan bir psikolojik çalışma ve makalede açıklanan teorik bir bilişsel önyargıdır. Çalışma, bir alanda düşük beceri seviyesine sahip kişilerin, o alandaki yeteneklerini muhtemelen abarttığını öne sürüyor. Bu önyargının önerilen nedeni, bir kişinin o alanda çalışabilme kapasitesi hakkında bilinçli bir fikir verebilmesi için o alanın karmaşıklığının yeterince "farkında" olması gerekliliğidir.
+
+Dunning-Kruger etkisi bazen, "Bir kişi bir alanı ne kadar az anlarsa, o alandaki sorunları kolayca çözebileceklerine o kadar çok inanır ve o alanı _basit_ olarak görme olasılıkları daha yüksektir". Bu genel kabul edilebilecek etki, teknolojide de oldukça önemlidir. Teknik olmayan ekip üyeleri veya daha az deneyimli ekip üyeleri gibi bir alana daha az aşina olan kişilerin, bu alandaki bir sorunu çözmek için gereken çabayı küçümseme olasılığının daha yüksek olduğunu gösterir.
+
+Kişi bir alandaki bilgisi ve deneyimi arttıkça, başka bir etkiyle de karşılaşabilir. Bu etki, o alanda çok deneyimli hale geldiklerinden, başkalarının yeteneklerini gözünde büyütme veya kendi yeteneklerini küçümseme eğiliminde olmalarıdır. Her durumda bu etkiler, bilişsel önyargılardır. Herhangi bir önyargıda olduğu gibi, bu ön yargının mevcut olabileceğine dair bir kabullenme, gerçekleşmesinden kaçınmaya yardımcı olmak için genellikle yeterli olacaktır. Bir önyargı farkındalığı olduğunda, bu önyargıları ortadan kaldırmak için sürece daha fazla girdi ve görüş dahil edilebilir. Buna çok yakın başka bir önyargı [hayali üstünlük](https://en.wikipedia.org/wiki/Illusory_superiority) önyargısıdır.
+
+Gerçekten dünyadan örnekler:
+
+* [Apple vs. FBI: Why This Anti-Terror Hawk Switched Sides](https://fortune.com/2016/03/10/apple-fbi-lindsay-graham/) - 2016'da Senatör Lindsey Graham, Apple'ın cihazların şifrelenmesinde bir 'arka kapı' yaratması konusundaki tutumunu değiştirdi. Başlangıçta Graham, Apple'ın potansiyel terörist komplolarını araştırmak için gerekli görülen bir 'arka kapı' oluşturma talebine meydan okumasını eleştirmişti. Bununla birlikte Graham (kendi itirafına göre), alanın teknik karmaşıklığı hakkında daha fazla şey öğrendikçe, bunu olduğundan çok daha basit varsaydığını ve böyle bir arka kapının ciddi olumsuz sonuçları öğrendiğinde fark etti. Bu potansiyel olarak Dunning-Kruger etkisinin bir örneği olarak düşünülebilir. Bir siber güvenlik uzmanı (alana hakim olduğundan) büyük olasılıkla böyle bir arka kapının nasıl kullanılabileceğini hemen anlayacaktır. Meslekten olmayan kişi telefon güvenliğinin fiziksel güvenlikle benzer olduğunu varsayabilir. Kanun yaptırımı ile  bir 'ana anahtara' sahip olma uygulamasının mümkün olabilir diye düşünebilir. Ancak bu benzetme, siber güvenlikte modern şifrelemeyi tanımlamak için yeterli değildir.
 
 ### Fitt Yasası
 
