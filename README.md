@@ -20,7 +20,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Conway Yasası](#conway-yasası)
     * [Cunningham Yasası](#cunningham-yasası)
     * [Dunbar Sayısı](#dunbar-sayısı)
-    * [Dunning-Kruger Etkisi](#dunningkruger-etkisi)
+    * [Dunning-Kruger Etkisi](#dunning-kruger-etkisi)
     * [Fitt Yasası](#fitt-yasası)
     * [Gall Yasası](#gall-yasası)
     * [Goodhart Yasası](#goodhart-yasası)
