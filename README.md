@@ -222,7 +222,7 @@ Ek kaynaklar:
 
 [Wikipedia'da Dunning-Kruger Etkisi](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
 
-> Eğer bir konuda yetersizseniz, yetersiz olduğunuzu bilemezsiniz... Doğru bir cevap üretmek için ihtiyacınız olan yetenekler, doğru cevabın ne olduğunu anlamanız için tam olarak ihtiyacınız olan yeteneklerdir.
+> Eğer bir konuda yetersizseniz, yetersiz olduğunuzu bilemezsiniz...Doğru bir cevap için ihtiyacınız olan yetenekler, doğru cevabın ne olduğunu anlamanız için ihtiyacınız olan yeteneklerdir.
 >
 > ([David Dunning](https://en.wikipedia.org/wiki/David_Dunning))
 
