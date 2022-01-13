@@ -43,7 +43,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#karmaşıklığın-korunması-yasası-tesler-yasası)
     * [Demeter Yasası](#demeter-yasası)
     * [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
-    * [Eldeki Alet/Enstrüman Yasası](#eldeki-aletentrüman-yasası)
+    * [Eldeki Alet/Enstrüman Yasası](#eldeki-aletenstrüman-yasası)
     * [Önemsizlik Yasası](#önemsizlik-yasası)
     * [Unix Felsefesi](#unix-felsefesi)
     * [Spotify Modeli](#spotify-modeli)
