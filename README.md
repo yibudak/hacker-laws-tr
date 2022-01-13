@@ -43,6 +43,7 @@ Bu projeyi sevdiniz mi? Sevdiyseniz projenin sahibine [sponsor](https://github.c
     * [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#karmaşıklığın-korunması-yasası-tesler-yasası)
     * [Demeter Yasası](#demeter-yasası)
     * [Sızdıran Soyutlamalar Yasası](#sızdıran-soyutlamalar-yasası)
+    * [Eldeki Alet/Enstrüman Yasası](#eldeki-aletentrüman-yasası)
     * [Önemsizlik Yasası](#önemsizlik-yasası)
     * [Unix Felsefesi](#unix-felsefesi)
     * [Spotify Modeli](#spotify-modeli)
@@ -583,6 +584,25 @@ Ek kaynaklar:
 Gerçek dünyadan örnekler:
 
 - [Photoshop'taki yavaş açılma problemi](https://forums.adobe.com/thread/376152): Photoshop bir zamanlar çok yavaş açılırdı, hatta bazen açılması dakikalar sürerdi. Sorunun sebebi program her başlangıçta ön tanımlı yazıcı ile ilgili belli bilgileri çekmeye çalışması olarak gözüküyordu. Eğer yazıcı bir ağ yazıcısıysa açılma daha da uzun sürüyordu. Ağ yazıcılarının yerel yazıcıları gibi *soyutlanması* kullanıcılara bu kötü deneyimi yaşatmış oldu.
+
+### Eldeki Alet/Enstrüman Yasası
+
+[Eldeki Alet/Enstrüman Yasası](https://en.wikipedia.org/wiki/Law_of_the_instrument)
+
+> Ben buna alet yasası diyorum ve şu şekilde açıklayabilirim: Küçük bir çocuğa bir çekiç verin, karşılaştığı her şeyin dövülmesi gerektiğini düşünecektir.
+>
+> _Abraham Kaplan_
+
+> Eğer sahip olduğunuz tek alet çekiç ise, size her şey çivi gibi gelmeye başlayacaktır.
+>
+> _Abraham Maslow_
+
+Bu yasa, yazılım dünyasında insanların mümkün olan en iyi araçtan ziyade aşina oldukları araçları kullanma eğiliminde olduklarını öne sürüyor. Tanıdık bir araca bu aşırı bağımlılık, 'altın çekiç' olarak adlandırılan kötü bir yöntemdir (anti-pattern).
+
+Ek kaynaklar:
+
+- [Avoiding the law of the instrument](https://josemdev.com/avoiding-the-law-of-the-instrument/)
+- [Anti-Pattern - The Golden Hammer](https://archive.org/details/antipatternsrefa0000unse/page/111/mode/2up)
 
 ### Önemsizlik Yasası
 
